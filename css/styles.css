@@ -914,3 +914,6 @@ h1 em {
 .catalog-record h2 { font-size: 22px; }
 .catalog-record dt { font-weight: 700; margin-top: 12px; }
 .catalog-record dd { margin-left: 0; }
+.source-details { margin: 16px 0; overflow-wrap: anywhere; }
+.source-details summary { cursor: pointer; font-weight: 700; }
+.source-details li { margin: 8px 0; }

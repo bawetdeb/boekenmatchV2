@@ -54,27 +54,19 @@ boekkenmerken zijn `null` en staan in `missingFields`; er zijn geen ISBN's,
 samenvattingen, interesses, beschikbaarheid of andere boekgegevens verzonnen.
 De oorspronkelijke bronwaarden blijven ook bij lege velden bewaard.
 
-De app laadt deze basisdatabase nu via `bookRepository.getBooks({ includeUnreviewed:
-true })`. Op het startscherm opent “Bekijk de boekendatabase” een doorzoekbare
-catalogus met titel, auteur, catalogusniveau, bronrij en ontbrekende informatie.
-Er zijn zoek- en niveaufilters en een knop om meer resultaten te tonen.
+De app laadt zowel de oorspronkelijke Excelimport als `data/enriched-catalog.json`
+via `bookRepository.getBooks({ includeUnreviewed: true })`. Alle 1.529 regels zijn
+online onderzocht in 31 batches: 1.435 gedeeltelijk verrijkt, 94 zonder bruikbare
+aanvulling. In de gecombineerde app kunnen 1.109 Excelboeken bij een passend
+profiel meedoen. Onbekende dimensies blijven onbekend; nieuwe broninschattingen
+geven geen matchpercentage. Bronverwijzingen en onderbouwing staan in de app.
 
-Alle 1.529 bronregels blijven behouden. Alleen unieke overeenkomsten op volledige
-titel en auteur worden gekoppeld (auteurwoorden mogen in achternaam-eerstnotatie
-staan). Er wordt niet op ongeveer gelijke titels gekoppeld en C/D wordt niet
-omgezet naar een schoolniveau. Van de bronregels zijn er 24 aan bestaande
-Aura-boeken gekoppeld. Nog 2 regels hebben een overeenkomst met bestaande
-redactionele leeskenmerken uit `data/books.js`; die boeken kunnen nu ook worden
-aanbevolen. Hun beschikbaarheid, locatie en editie blijven onbekend. De modal
-vermeldt expliciet dat leeskenmerken redactioneel zijn en niet uit Excel komen.
+Zie [ENRICHMENT.md](ENRICHMENT.md) voor methoden, beperkingen en de steekproef.
+`node scripts/catalog_report.cjs` reproduceert tellingen en vijf testprofielen.
+Voer de netwerkverrijking niet bij iedere app-start uit: de opgeslagen JSON is
+voldoende voor ontwikkeling en GitHub Pages. Na een bewuste bronupdate moet het
+rapport opnieuw worden gegenereerd en de bestaande tests opnieuw worden gedraaid.
 
-De gecombineerde database heeft 1.550 records: 45 bestaande Aura-boeken en 1.505
-extra Excelregels. De overige 1.503 Excelregels zijn doorzoekbaar maar worden
-niet gescoord, omdat matchkenmerken ontbreken. De oorspronkelijke JSON-bron blijft
-ongewijzigd; verrijking gebeurt bij het laden, met brongegevens in `excelSources`
-en bij redactionele koppelingen `metadataSource`. Originele ontbrekende velden
-blijven zichtbaar. Er worden geen nieuwe boekgegevens gegenereerd.
-
-Gevalideerd na aansluiting: 28 JavaScript-tests, 9 Python-tests en de volledige
-browsertest, inclusief zoeken, paginering, ontbrekende niveaus en responsiviteit
-van de catalogus. Live verrijking via externe diensten is niet uitgevoerd.
+Gevalideerd na verrijking: 31 JavaScript-tests, 18 Python-tests en de volledige
+browsertest, inclusief zoeken, paginering, onbekende niveaus, bronvermelding,
+feedback, nieuwe boeken zonder percentage en drie schermbreedtes.

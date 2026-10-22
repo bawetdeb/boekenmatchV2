@@ -30,13 +30,15 @@ Open de app via je lokale webserver in een gewone ontwikkelomgeving. In de cloud
 
 ### Excelcatalogus in BoekenMatchV2
 
-Op het startscherm kun je nu de boekendatabase openen en alle 1.529 Excelregels
-doorzoeken op titel, auteur en catalogusniveau. De oorspronkelijke waarden en
-ontbrekende gegevens blijven zichtbaar. Er zijn 24 koppelingen met bestaande
-Aura-records en 2 aanvullende koppelingen met bestaande redactionele leeskenmerken.
-Deze twee extra boeken kunnen worden aanbevolen, met onbekende beschikbaarheid.
-De andere 1.503 regels wachten op matchgegevens; er zijn geen gegevens verzonnen.
-Zie [ENVIRONMENT.md](ENVIRONMENT.md) voor bronnen, beperkingen en importinstructies.
+Alle 1.529 Excelregels zijn online onderzocht. Er zijn 1.435 gedeeltelijk verrijkte
+regels en 94 regels zonder bruikbare aanvulling. In de gecombineerde app kunnen
+1.109 Excelboeken bij een passend profiel worden aanbevolen. Bij gedeeltelijke
+gegevens toont de app inhoudelijke aanwijzingen zonder matchpercentage; leesniveau,
+intensiteit, editie en beschikbaarheid blijven onbekend waar ze niet bevestigd zijn.
+Bronnen, datums en onderbouwing zijn zichtbaar bij de boeken. De oorspronkelijke
+Excelgegevens blijven behouden. Zie [ENRICHMENT.md](ENRICHMENT.md) voor tellingen,
+bronbeperkingen, steekproef, matching en onderhoud; [ENVIRONMENT.md](ENVIRONMENT.md)
+bevat de startinstructies.
 
 ### Projectbestanden
 
@@ -79,7 +81,7 @@ Volgorde: expliciete cover, ISBN-cover, Open Library-zoekresultaat, Google Books
 
 Alleen cover-URL's worden in localStorage bewaard. Antwoorden blijven in geheugen; feedback (boek-ID met +1/−1) blijft in sessionStorage en verdwijnt bij het sluiten van de browsersessie. Geen persoonsgegevens of analytics worden opgeslagen. Coverproviders ontvangen alleen titel/auteur of ISBN, nooit het leesprofiel.
 
-In deze cloudomgeving geven live verzoeken naar Open Library en Google Books momenteel een proxy-403. De lokale fallback is echt in Chromium getest; succes van de externe coverdiensten is met gecontroleerde testantwoorden getest, niet met live diensten. Benodigde netwerkdomeinen: `openlibrary.org`, `covers.openlibrary.org`, `www.googleapis.com`, `books.google.com`, `books.googleusercontent.com`.
+Bij een eerdere validatie gaven deze diensten een proxy-403. Open Library is tijdens de huidige verrijking wel bereikbaar; Google Books gaf daarbij HTTP 429. De lokale fallback is echt in Chromium getest; succes van de externe coverdiensten is met gecontroleerde testantwoorden getest, niet met live diensten. Benodigde netwerkdomeinen: `openlibrary.org`, `covers.openlibrary.org`, `www.googleapis.com`, `books.google.com`, `books.googleusercontent.com`.
 
 ## Tests
 

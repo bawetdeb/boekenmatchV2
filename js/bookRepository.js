@@ -11,6 +11,16 @@ window.bookRepository = {
         new Set(catalog.records.map((b) => b.id)).size !== catalog.records.length ||
         catalog.records.some((b) => !b.id || !b.source || typeof b.title !== "string" || typeof b.author !== "string"))
       throw new Error("Ongeldige Excelcatalogus");
+    const enrichedResponse = await fetch("data/enriched-catalog.json");
+    if (!enrichedResponse.ok) throw new Error("De verrijkte catalogus kon niet worden geladen");
+    const snapshot = await enrichedResponse.json();
+    if (snapshot.schemaVersion !== 1 || snapshot.sourceSha256 !== catalog.sourceSha256 ||
+        !Array.isArray(snapshot.records) || snapshot.recordCount !== snapshot.records.length ||
+        new Set(snapshot.records.map((r) => r.id)).size !== snapshot.records.length)
+      throw new Error("Ongeldige verrijkte catalogus");
+    const sourceIds = new Set(catalog.records.map((r) => r.id));
+    if (snapshot.records.some((r) => !sourceIds.has(r.id))) throw new Error("Onbekend Excelrecord in verrijking");
+    const online = new Map(snapshot.records.map((r) => [r.id, r]));
     // Only exact title and full author matches (allowing surname-first notation).
     // No fuzzy matching: similar titles and different editions remain separate.
     const normalize = (s) => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
@@ -30,12 +40,27 @@ window.bookRepository = {
     const enriched = new Map();
     let linked = 0, enrichedRows = 0;
     for (const source of catalog.records) {
+      const evidence = online.get(source.id);
       const matches = candidates.get(key(source)) || [];
       if (matches.length === 1) {
         const book = byId.get(matches[0].id);
         book.excelSources.push(structuredClone(source));
+        if (evidence) book.enrichment = structuredClone(evidence);
         linked++;
       } else {
+        if (evidence?.recommendationReady && evidence.sources?.length &&
+            evidence.facts?.summary?.value && evidence.assessments) {
+          books.push({ ...structuredClone(source),
+            interests: evidence.assessments.interests.map((r) => r.value),
+            storyTags: evidence.assessments.storyTags.map((r) => r.value),
+            themes: {}, summary: evidence.facts.summary.value,
+            language: evidence.facts.language?.value ?? null,
+            catalogSource: "excel", metadataStatus: "inferred-from-sources",
+            matchMode: "evidence", enrichment: structuredClone(evidence),
+            recommendationReady: true, excelSources: [structuredClone(source)] });
+          enrichedRows++;
+          continue;
+        }
         const known = editorial.get(key(source)) || [];
         if (known.length === 1) {
           // Reuse existing editorial descriptions, never infer them from C/D.
@@ -50,6 +75,7 @@ window.bookRepository = {
               catalogSource: "excel", metadataStatus: "editorial",
               metadataSource: { file: "data/books.js", id: known[0].id },
               recommendationReady: true, excelSources: [structuredClone(source)] };
+            if (evidence) book.enrichment = structuredClone(evidence);
             books.push(book);
             enriched.set(k, book);
           }
@@ -58,7 +84,8 @@ window.bookRepository = {
         }
         // Keep unknown values intact; these records can be searched, not scored.
         books.push({ ...structuredClone(source), recommendationReady: false,
-          catalogSource: "excel", excelSources: [structuredClone(source)] });
+          catalogSource: "excel", enrichment: evidence ? structuredClone(evidence) : null,
+          excelSources: [structuredClone(source)] });
       }
     }
     this.status.excelCount = catalog.records.length;
@@ -66,6 +93,8 @@ window.bookRepository = {
     this.status.enrichedExcelCount = enrichedRows;
     this.status.pendingExcelCount = catalog.records.length - linked - enrichedRows;
     this.status.verifiedCount = verified.length;
+    this.status.onlineMatchedCount = snapshot.records.filter((r) => r.sources?.length).length;
+    this.status.onlineReadyCount = snapshot.records.filter((r) => r.recommendationReady).length;
     return books;
   },
   async getVerifiedBooks() {

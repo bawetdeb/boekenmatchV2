@@ -1,0 +1,3891 @@
+{
+  "schemaVersion": 1,
+  "ruleVersion": "evidence-tags-v5",
+  "sourceSha256": "1eee2053d104ac6e9362732e5e17f3b3893fb2186306ad58b0eb3dac79f0b167",
+  "records": [
+    {
+      "id": "excel-Sheet-0702",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:11.209300+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De stam van de jongeren Feun en Varn is op zoek naar een nieuwe woonplek. Varn vindt, tegen de zin van de sjamaan, een nieuwe stamgrond. De sjamaan zint vervolgens op wraak",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Feun+%3B+en+de+vloek+van+de+sjamaan",
+          "checkedAt": "2026-10-22T09:39:11.209082+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Feun+%3B+en+de+vloek+van+de+sjamaan",
+          "checkedAt": "2026-10-22T09:39:11.209082+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Feun+%3B+en+de+vloek+van+de+sjamaan",
+            "evidence": "Historische roman. De stam van de jongeren Feun en Varn is op zoek naar een nieuwe",
+            "checkedAt": "2026-10-22T09:39:11.209082+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Feun+%3B+en+de+vloek+van+de+sjamaan",
+          "checkedAt": "2026-10-22T09:39:11.209082+00:00",
+          "matchedTitle": "Feun ; en de vloek van de sjamaan",
+          "matchedAuthor": "Kustermans, Paul",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5d0332a45bd449929116aaa1aba011b9c55fe5e46fd279163740126eb8fea734"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0703",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:11.424153+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Gebaseerd op: Dag lieve, lieve Marit. - 2005. - (4ever) en: Knokken voor Cas. - 2006. - (4ever). Cas is verliefd op Marit. Wanneer Marit een hersenbloeding krijgt, staat zijn leven op zijn kop. En dan is er ook nog…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+          "checkedAt": "2026-10-22T09:39:11.424017+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Schoolverhaal",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+          "checkedAt": "2026-10-22T09:39:11.424017+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+            "evidence": " Knokken voor Cas. - 2006. - (4ever). Cas is verliefd op Marit. Wanneer Marit een hersenbloeding krijgt, staat zijn le",
+            "checkedAt": "2026-10-22T09:39:11.424017+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+            "evidence": "Schoolverhaal. Gebaseerd op: Dag lieve, lieve Marit. - 2005. - (4ever) en: Kno",
+            "checkedAt": "2026-10-22T09:39:11.424017+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+            "evidence": " Knokken voor Cas. - 2006. - (4ever). Cas is verliefd op Marit. Wanneer Marit een hersenbloeding krijgt, staat zijn le",
+            "checkedAt": "2026-10-22T09:39:11.424017+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+            "evidence": "Schoolverhaal. Gebaseerd op: Dag lieve, lieve Marit. - 2005. - (4ever) en: Kno",
+            "checkedAt": "2026-10-22T09:39:11.424017+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+had+je+zo+lief",
+          "checkedAt": "2026-10-22T09:39:11.424017+00:00",
+          "matchedTitle": "Ik had je zo lief",
+          "matchedAuthor": "Kuyper, Hans",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3f2c1b923e1b45a58912665cab769536c8587da6d4d9907f6244152ea21568cc"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0704",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:11.419065+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Douwe bemoeit zich met de bestrijding van geesten in het opvanghuis waar Linda woont, maar daardoor gaat alles in zijn leven fout. Vanaf ca. 12 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlucht%2C+Douwe%21",
+          "checkedAt": "2026-10-22T09:39:11.418933+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Schoolverhaal",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlucht%2C+Douwe%21",
+          "checkedAt": "2026-10-22T09:39:11.418933+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlucht%2C+Douwe%21",
+          "checkedAt": "2026-10-22T09:39:11.418933+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlucht%2C+Douwe%21",
+            "evidence": "Schoolverhaal. Douwe bemoeit zich met de bestrijding van geesten in het opvang",
+            "checkedAt": "2026-10-22T09:39:11.418933+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlucht%2C+Douwe%21",
+            "evidence": "Schoolverhaal. Douwe bemoeit zich met de bestrijding van geesten in het opvang",
+            "checkedAt": "2026-10-22T09:39:11.418933+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlucht%2C+Douwe%21",
+          "checkedAt": "2026-10-22T09:39:11.418933+00:00",
+          "matchedTitle": "Vlucht, Douwe!",
+          "matchedAuthor": "Kuyper, Hans",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "fd9634c9befa6dac86be90ee86aa98bbee94b4aa0ea157c11eda946bdf7e0ec1"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0705",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:12.640910+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Sallie Mo (13) mag drie maanden niet meer lezen van Dokter Bloem. Daarom gaat ze een dagboek bijhouden over haar verovering van Dylan, op wie ze verliefd is. Maar alles loopt in de vakantie zo uit de hand, dat ze het…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bizar",
+          "checkedAt": "2026-10-22T09:39:12.640650+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bizar",
+            "evidence": "en over haar verovering van Dylan, op wie ze verliefd is. Maar alles loopt in de vakantie zo uit de hand, dat ze het n",
+            "checkedAt": "2026-10-22T09:39:12.640650+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bizar",
+            "evidence": "en over haar verovering van Dylan, op wie ze verliefd is. Maar alles loopt in de vakantie zo uit de hand, dat ze het n",
+            "checkedAt": "2026-10-22T09:39:12.640650+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bizar",
+          "checkedAt": "2026-10-22T09:39:12.640650+00:00",
+          "matchedTitle": "Bizar",
+          "matchedAuthor": "Kuyper, Sjoerd",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "35564cb84ff573ec592aed00abdf0c186b74ba072f102b2e9d465eb6d1b5d71a"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0706",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:13.382187+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bizar+%3A+dyslexie+uitgave",
+          "checkedAt": "2026-10-22T09:39:13.382003+00:00",
+          "matchedTitle": "Bizar : dyslexie uitgave",
+          "matchedAuthor": "Kuyper, Sjoerd",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0707",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:13.065447+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Moos (14), zijn opa Leon, hun vrienden de professor en de burgemeester beleven allerlei avonturen op zee en in het hoog op een berg gelegen land dat als enige na de vloed nog boven water ligt. Vanaf ca. 13 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=grote+vloed",
+          "checkedAt": "2026-10-22T09:39:13.065303+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=grote+vloed",
+          "checkedAt": "2026-10-22T09:39:13.065303+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=grote+vloed",
+          "checkedAt": "2026-10-22T09:39:13.065303+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=grote+vloed",
+          "checkedAt": "2026-10-22T09:39:13.065303+00:00",
+          "matchedTitle": "De grote vloed",
+          "matchedAuthor": "Kuyper, Sjoerd",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "974b0e713c26b75d7a8a2e0785465504c296d562601c76f702979d803704e487"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0708",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:14.004915+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De 13-jarige Kos woont in een hotel aan zee dat hij opeens samen met zijn drie zussen moet proberen te runnen. Want niet alleen zijn moeder is overleden, maar tot overmaat van ramp heeft zijn vader een hartaanval…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+          "checkedAt": "2026-10-22T09:39:14.003884+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Voetbal",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+          "checkedAt": "2026-10-22T09:39:14.003884+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "voetbal",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+            "evidence": "Voetbal. De 13-jarige Kos woont in een hotel aan zee dat hij opeens same",
+            "checkedAt": "2026-10-22T09:39:14.003884+00:00"
+          },
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+            "evidence": "j is de onbeholpen Kos ook nog eens hopeloos verliefd op Isabel. Als blijkt dat vader schulden heeft die snel moeten w",
+            "checkedAt": "2026-10-22T09:39:14.003884+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+            "evidence": "j is de onbeholpen Kos ook nog eens hopeloos verliefd op Isabel. Als blijkt dat vader schulden heeft die snel moeten w",
+            "checkedAt": "2026-10-22T09:39:14.003884+00:00"
+          },
+          {
+            "value": "sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+            "evidence": "Voetbal. De 13-jarige Kos woont in een hotel aan zee dat hij opeens same",
+            "checkedAt": "2026-10-22T09:39:14.003884+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hotel+de+grote+L.",
+          "checkedAt": "2026-10-22T09:39:14.003884+00:00",
+          "matchedTitle": "Hotel de grote L.",
+          "matchedAuthor": "Kuyper, Sjoerd",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "6e8cc4c4e2b6a6c10a1de5dbe152f8c13b1f4f87622aad9dace1968a0c39f8c1"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0709",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:14.981198+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Een meisje van Chinese afkomst, dat met haar traditionele vader en haar zusje in Chinatown in New York woont, ontdekt toevallig haar talent als danseres.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dans+met+mij",
+          "checkedAt": "2026-10-22T09:39:14.980935+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dans+met+mij",
+          "checkedAt": "2026-10-22T09:39:14.980935+00:00",
+          "matchedTitle": "Dans met mij",
+          "matchedAuthor": "Kwok, Jean",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "6a151234496028fbcbb36297a0c1280deb21a22fad930a285194dba99cd4e62c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0710",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:15.309385+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Na de zelfmoord van haar hartsvriendin zit een 16-jarig meisje vol woede, verdriet en schuldgevoelens. Het dagboek dat Ingrid voor haar heeft achtergelaten, maakt het er in eerste instantie niet gemakkelijker op.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hou+vast",
+          "checkedAt": "2026-10-22T09:39:15.309143+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dood en verdriet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hou+vast",
+          "checkedAt": "2026-10-22T09:39:15.309143+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "emotioneel",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hou+vast",
+            "evidence": "Dood en verdriet. Na de zelfmoord van haar hartsvriendin zit een 16-jarig meisje ",
+            "checkedAt": "2026-10-22T09:39:15.309143+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hou+vast",
+          "checkedAt": "2026-10-22T09:39:15.309143+00:00",
+          "matchedTitle": "Hou vast",
+          "matchedAuthor": "LaCour, Nina",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e42855d5526957380ecd774bec0b379665c867d9a153d844a93331e52e3accd0"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0711",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:16.063708+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Aubrey (11, ik-figuur) oveleeft een zwaar auto-ongeluk. Haar oma ontfermt zich over haar en neemt haar mee. Aarzelend bouwt Aubrey bij haar oma een nieuw leven op. Een nieuwe school, een nieuw vriendinnetje, een…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+          "checkedAt": "2026-10-22T09:39:16.062916+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dood en verdriet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+          "checkedAt": "2026-10-22T09:39:16.062916+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+            "evidence": ", de liefdevolle aandacht van de buren en de familie verzachten de pijn, al kan Aubrey niet over haar ervaringen prat",
+            "checkedAt": "2026-10-22T09:39:16.062916+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+            "evidence": " bij haar oma een nieuw leven op. Een nieuwe school, een nieuw vriendinnetje, een schoolpsychologe, de liefdevolle a",
+            "checkedAt": "2026-10-22T09:39:16.062916+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+            "evidence": " bij haar oma een nieuw leven op. Een nieuwe school, een nieuw vriendinnetje, een schoolpsychologe, de liefdevolle a",
+            "checkedAt": "2026-10-22T09:39:16.062916+00:00"
+          },
+          {
+            "value": "emotioneel",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+            "evidence": "Dood en verdriet. Aubrey (11, ik-figuur) oveleeft een zwaar auto-ongeluk. Haar om",
+            "checkedAt": "2026-10-22T09:39:16.062916+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Liefs+van+Aubrey",
+          "checkedAt": "2026-10-22T09:39:16.062916+00:00",
+          "matchedTitle": "Liefs van Aubrey",
+          "matchedAuthor": "LaFleur, Suzanne ; Jorna, A. [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "b533938c799ba9f73b61a21bf315579df3cf610f74a72d968a2d914764d977e8"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0712",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:17.114128+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Marijn en Talitha mogen meehelpen de plaats van een scheepswrak uit de 17e eeuw te lokaliseren in de Caribische Zee. Door een overval van piraten belanden ze op een onbewoond eiland.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schat+van+de+boekaniers",
+          "checkedAt": "2026-10-22T09:39:17.113845+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schat+van+de+boekaniers",
+          "checkedAt": "2026-10-22T09:39:17.113845+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schat+van+de+boekaniers",
+          "checkedAt": "2026-10-22T09:39:17.113845+00:00",
+          "matchedTitle": "De schat van de boekaniers",
+          "matchedAuthor": "Lagrou, Patrick",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "1e36a48a33a367eabe409f449d58242c3fe1558d2da6f93b288a98228639270c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0713",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:16.136793+00:00",
+          "outcome": "no-confirmed-match"
+        },
+        {
+          "provider": "Open Library",
+          "checkedAt": "2026-10-22T09:48:10.349969+00:00",
+          "outcome": "no-confirmed-match"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": null,
+      "sources": [],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0714",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:17.948227+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Vervolg op: Het pistool. Jan heeft een pistool gestolen van een Canadese soldaat. Daarmee is de NSB'er neergeschoten die verantwoordelijk was voor de dwangarbeid van zijn vader in Duitsland. Inmiddels is de oorlog is…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Er+mag+zoveel+niet",
+          "checkedAt": "2026-10-22T09:39:17.948000+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Oorlogsroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Er+mag+zoveel+niet",
+          "checkedAt": "2026-10-22T09:39:17.948000+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Er+mag+zoveel+niet",
+            "evidence": "Oorlogsroman. Jan heeft een pistool gestolen van een Canadese soldaat. Daarme",
+            "checkedAt": "2026-10-22T09:39:17.948000+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Er+mag+zoveel+niet",
+            "evidence": "Oorlogsroman. Jan heeft een pistool gestolen van een Canadese soldaat. Daarme",
+            "checkedAt": "2026-10-22T09:39:17.948000+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Er+mag+zoveel+niet",
+          "checkedAt": "2026-10-22T09:39:17.948000+00:00",
+          "matchedTitle": "Er mag zoveel niet",
+          "matchedAuthor": "Lazoe, Ria",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5100d277a6d1f94acd7c2962c7a79761ed9e2c0717d76ee3e9d6bfbc7796bf3f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0715",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:18.675446+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Jan steelt vlak na het einde van de Tweede Wereldoorlog een pistool om wraak te nemen op de verraders in zijn dorp die zijn vader hebben uitgeleverd aan de Duitsers.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=pistool",
+          "checkedAt": "2026-10-22T09:39:18.675218+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Oorlogsroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=pistool",
+          "checkedAt": "2026-10-22T09:39:18.675218+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=pistool",
+            "evidence": "Oorlogsroman. Jan steelt vlak na het einde van de Tweede Wereldoorlog een pis",
+            "checkedAt": "2026-10-22T09:39:18.675218+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=pistool",
+            "evidence": "gsroman. Jan steelt vlak na het einde van de Tweede Wereldoorlog een pistool om wraak te nemen op de verraders in zijn dorp die z",
+            "checkedAt": "2026-10-22T09:39:18.675218+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=pistool",
+            "evidence": "Oorlogsroman. Jan steelt vlak na het einde van de Tweede Wereldoorlog een pis",
+            "checkedAt": "2026-10-22T09:39:18.675218+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=pistool",
+          "checkedAt": "2026-10-22T09:39:18.675218+00:00",
+          "matchedTitle": "Het pistool",
+          "matchedAuthor": "Lazoe, Ria",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "56ba720ad907f2c27e003d6dbc83dc7c5d02a15775992eb52aa96e458717c62f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0716",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:19.309553+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De beste vriendin van Emma (ca. 14) heeft een vriendje en Emma is nu niet meer zo belangrijk in het leven van haar vriendin. Dat vindt ze jammer en ze doet haar best om bij de vriendenkring te blijven horen. Als…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zeg+dan+nee",
+          "checkedAt": "2026-10-22T09:39:19.309406+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Vriendschap",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zeg+dan+nee",
+          "checkedAt": "2026-10-22T09:39:19.309406+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zeg+dan+nee",
+            "evidence": "Vriendschap. De beste vriendin van Emma (ca. 14) heeft een vriendje en Emma ",
+            "checkedAt": "2026-10-22T09:39:19.309406+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zeg+dan+nee",
+            "evidence": "Vriendschap. De beste vriendin van Emma (ca. 14) heeft een vriendje en Emma ",
+            "checkedAt": "2026-10-22T09:39:19.309406+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zeg+dan+nee",
+          "checkedAt": "2026-10-22T09:39:19.309406+00:00",
+          "matchedTitle": "Zeg dan nee",
+          "matchedAuthor": "Lazoe, Ria",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "1e59841c73c46cf7fd6892fdd559f4cc716c4f33246c0e513078a8f3df6d7868"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0717",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:19.913293+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Een 17-jarig meisje vaart in de 17e eeuw vermomd als man met de VOC naar Batavia, waar de wrede gouverneur Jan Pieterszoon Coen op haar pad komt.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=meisje+loos",
+          "checkedAt": "2026-10-22T09:39:19.913048+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=meisje+loos",
+          "checkedAt": "2026-10-22T09:39:19.913048+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=meisje+loos",
+            "evidence": "Historische roman. Een 17-jarig meisje vaart in de 17e eeuw vermomd als man met de",
+            "checkedAt": "2026-10-22T09:39:19.913048+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=meisje+loos",
+          "checkedAt": "2026-10-22T09:39:19.913048+00:00",
+          "matchedTitle": "Een meisje loos",
+          "matchedAuthor": "Lee, Ton van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "0b12c8c7e1947e67b10829445ac8f1a7963b4876db11f6782f2c88f027aba5dd"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0718",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:20.519321+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "We leven mee met de 15-jarige Charlotte (ik-figuur) die uit wrok naar het zuiden lift, op zoek naar een verre vriend. Ze wacht op resultaten en besluit haar belevenissen van de weken ervoor op te schrijven. Verder…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Midzomernachtzee",
+          "checkedAt": "2026-10-22T09:39:20.519122+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Midzomernachtzee",
+          "checkedAt": "2026-10-22T09:39:20.519122+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Midzomernachtzee",
+            "evidence": " vreemde auto's en de lezer leeft mee met de spanning en het gevaar dat altijd en overal op de loer ligt.",
+            "checkedAt": "2026-10-22T09:39:20.519122+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Midzomernachtzee",
+          "checkedAt": "2026-10-22T09:39:20.519122+00:00",
+          "matchedTitle": "Midzomernachtzee",
+          "matchedAuthor": "Leeuw, Jan de",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "de7dedd329aba07828b861429bf0e6a1de631b60bfd4e8c9edbac44b71d03f14"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0719",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:21.174893+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het verhaal speelt in de jaren zeventig in Casablanca, waar Zima (ik-figuur) met haar familie woont in een arme wijk. Ze is dan 8 jaar en vertelt over het dagelijks leven in deze wijk, waar armoede overheerst, het…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+          "checkedAt": "2026-10-22T09:39:21.174700+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Afrika",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+          "checkedAt": "2026-10-22T09:39:21.174700+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+            "evidence": "n Casablanca, waar Zima (ik-figuur) met haar familie woont in een arme wijk. Ze is dan 8 jaar en vertelt over het dag",
+            "checkedAt": "2026-10-22T09:39:21.174700+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+            "evidence": " ook een grote solidariteit is. Als haar nog schoolgaande broer wordt opgepakt wegens activiteiten tegen de staat en jaren",
+            "checkedAt": "2026-10-22T09:39:21.174700+00:00"
+          },
+          {
+            "value": "politiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+            "evidence": "ens activiteiten tegen de staat en jaren als politiek gevangene wordt opgesloten, draait het leven van het hele gezin ",
+            "checkedAt": "2026-10-22T09:39:21.174700+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+            "evidence": " ook een grote solidariteit is. Als haar nog schoolgaande broer wordt opgepakt wegens activiteiten tegen de staat en jaren",
+            "checkedAt": "2026-10-22T09:39:21.174700+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Bezoekjaren",
+          "checkedAt": "2026-10-22T09:39:21.174700+00:00",
+          "matchedTitle": "Bezoekjaren",
+          "matchedAuthor": "Leeuwen, Joke van; Blain, Malika",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "530d090fb0b3f94e75a4457b16d60cd00ce377e33b76c2e790c7d390fae6167d"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0720",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:21.755591+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De ik-figuur uit deze jeugdroman krijgt een hoop ellende voor haar kiezen. In korte hoofdstukken die goed de vaart in het verhaal houden, vertelt de hoofdpersoon over haar vader die depressief is en door zijn zware…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zielsveel",
+          "checkedAt": "2026-10-22T09:39:21.755394+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Familie en gezin",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zielsveel",
+          "checkedAt": "2026-10-22T09:39:21.755394+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zielsveel",
+            "evidence": "Familie en gezin. De ik-figuur uit deze jeugdroman krijgt een hoop ellen",
+            "checkedAt": "2026-10-22T09:39:21.755394+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zielsveel",
+          "checkedAt": "2026-10-22T09:39:21.755394+00:00",
+          "matchedTitle": "Zielsveel",
+          "matchedAuthor": "Legendre, Marc",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "db6f026c54b4bc0d23a83b4b5139c460acef1ec95783a8f11f85ac00de30ea13"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0721",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:22.186346+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Twee hoogzwangere vrouwen komen door de Jodenvervolging in kamp Theresienstadt terecht. Leentje is een doorzetter en praktisch ingesteld, Caroline is gevoelig en angstig. In hun vergelijkbare situatie vinden ze steun…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ellis+en+Elisabeth",
+          "checkedAt": "2026-10-22T09:39:22.186211+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tweede Wereldoorlog",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ellis+en+Elisabeth",
+          "checkedAt": "2026-10-22T09:39:22.186211+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ellis+en+Elisabeth",
+            "evidence": "Tweede Wereldoorlog. Twee hoogzwangere vrouwen komen door de Jodenvervolging in kamp",
+            "checkedAt": "2026-10-22T09:39:22.186211+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ellis+en+Elisabeth",
+            "evidence": "Tweede Wereldoorlog. Twee hoogzwangere vrouwen komen door de Jodenvervolging in kamp",
+            "checkedAt": "2026-10-22T09:39:22.186211+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ellis+en+Elisabeth",
+            "evidence": "Tweede Wereldoorlog. Twee hoogzwangere vrouwen komen door de Jodenvervolging in kamp",
+            "checkedAt": "2026-10-22T09:39:22.186211+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ellis+en+Elisabeth",
+          "checkedAt": "2026-10-22T09:39:22.186211+00:00",
+          "matchedTitle": "Ellis en Elisabeth",
+          "matchedAuthor": "Lesgever, Lex",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e0d2f250e724bbc352044598885c6073ca1440384459067ba25e0ab4eeb3cb0f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0722",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:22.929962+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Amsterdam, januari 1942. De 15-jarige Hanna is een tegendraadse puber. Als ze haar vriendin Anneke tegenkomt, dagen ze elkaar uit wie de grootste durfal is. Hanna belandt op het politiebureau en wordt na drie…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+          "checkedAt": "2026-10-22T09:39:22.929820+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tweede Wereldoorlog",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+          "checkedAt": "2026-10-22T09:39:22.929820+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+            "evidence": "Tweede Wereldoorlog. Amsterdam, januari 1942. De 15-jarige Hanna is een tegendraadse",
+            "checkedAt": "2026-10-22T09:39:22.929820+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+            "evidence": "Tweede Wereldoorlog. Amsterdam, januari 1942. De 15-jarige Hanna is een tegendraadse",
+            "checkedAt": "2026-10-22T09:39:22.929820+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+            "evidence": "Tweede Wereldoorlog. Amsterdam, januari 1942. De 15-jarige Hanna is een tegendraadse",
+            "checkedAt": "2026-10-22T09:39:22.929820+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+          "checkedAt": "2026-10-22T09:39:22.929820+00:00",
+          "matchedTitle": "Hanna's reis",
+          "matchedAuthor": "Letterie, Martine",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "fb044e0bbe3455b6d9fa3a1f2455b6f8b44e8d47865fb5fdb240936653c9d241"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0723",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:23.441278+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Lily en haar familie vertrekken noodgedwongen uit Indië, dat voortaan Indonesië heet. Ze zijn niet meer welkom in het land waar Lily is opgegroeid. In Nederland is het koud – en heel anders dan alles wat Lily…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nooit+meer+thuis",
+          "checkedAt": "2026-10-22T09:39:23.441116+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Indonesië",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nooit+meer+thuis",
+          "checkedAt": "2026-10-22T09:39:23.441116+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nooit+meer+thuis",
+          "checkedAt": "2026-10-22T09:39:23.441116+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nooit+meer+thuis",
+            "evidence": "Indonesië. Lily en haar familie vertrekken noodgedwongen uit Indië, dat voortaan Indonesië heet.",
+            "checkedAt": "2026-10-22T09:39:23.441116+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nooit+meer+thuis",
+          "checkedAt": "2026-10-22T09:39:23.441116+00:00",
+          "matchedTitle": "Nooit meer thuis",
+          "matchedAuthor": "Letterie, Martine",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "347cbe7b36ca6f0d1cf847c8d8887d706750b08aa312bb1b66ce69f03f46db47"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0724",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:23.879456+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De Duitse vrienden Jacob (12) en David ontvluchten in 1938 Duitsland na de Kristallnacht en komen in vluchtelingenkamp Westerbork terecht. Daar werken ze onder andere voor de vader van Mieke die daar als boekhouder…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Scherven+in+de+nacht",
+          "checkedAt": "2026-10-22T09:39:23.879320+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tweede Wereldoorlog",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Scherven+in+de+nacht",
+          "checkedAt": "2026-10-22T09:39:23.879320+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Scherven+in+de+nacht",
+            "evidence": "Tweede Wereldoorlog. De Duitse vrienden Jacob (12) en David ontvluchten in 1938 Duit",
+            "checkedAt": "2026-10-22T09:39:23.879320+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Scherven+in+de+nacht",
+            "evidence": "Tweede Wereldoorlog. De Duitse vrienden Jacob (12) en David ontvluchten in 1938 Duit",
+            "checkedAt": "2026-10-22T09:39:23.879320+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Scherven+in+de+nacht",
+            "evidence": "Tweede Wereldoorlog. De Duitse vrienden Jacob (12) en David ontvluchten in 1938 Duit",
+            "checkedAt": "2026-10-22T09:39:23.879320+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Scherven+in+de+nacht",
+          "checkedAt": "2026-10-22T09:39:23.879320+00:00",
+          "matchedTitle": "Scherven in de nacht",
+          "matchedAuthor": "Letterie, Martine",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3100ef82028ad23c75e8f99c65c3714c97641b63b648768a5ee6dd9aa817f9c8"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0725",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:24.729214+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+blijven+bij+elkaar+%3A",
+          "checkedAt": "2026-10-22T09:39:24.729065+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+blijven+bij+elkaar+%3A",
+          "checkedAt": "2026-10-22T09:39:24.729065+00:00",
+          "matchedTitle": "Wij blijven bij elkaar :",
+          "matchedAuthor": "Letterie, Martine",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0726",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:25.241235+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Tamar, dochter van een van koning Davids bijvrouwen, wordt door haar halfbroer verkracht; verkleed als herdersjongen ontvlucht zehaar schande om bij haar echte broer bescherming te zoeken.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tamar%2C+schaduw+van+schande",
+          "checkedAt": "2026-10-22T09:39:25.241094+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Cultuurverschillen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tamar%2C+schaduw+van+schande",
+          "checkedAt": "2026-10-22T09:39:25.241094+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tamar%2C+schaduw+van+schande",
+          "checkedAt": "2026-10-22T09:39:25.241094+00:00",
+          "matchedTitle": "Tamar, schaduw van schande",
+          "matchedAuthor": "Levy, Tsafrira",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e852b9119921bc62fa01a4e0634719c8dcbbfa0a66bb1790f38e1481eba8f975"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0727",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:25.788269+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Callum (ik-figuur) het meisje Iona op het land van zijn vader aantreft, besluit zij hem haar geheim te onthullen: er schuilen zeldzame visarenden op het land. Uit hun gedeelde liefde voor de natuur bloeit een…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+          "checkedAt": "2026-10-22T09:39:25.788129+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dieren en vriendschap met dieren",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+          "checkedAt": "2026-10-22T09:39:25.788129+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+            "evidence": "Dieren en vriendschap met dieren. Als Callum (ik-figuur) het meisje Iona op het land v",
+            "checkedAt": "2026-10-22T09:39:25.788129+00:00"
+          },
+          {
+            "value": "dieren",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+            "evidence": "Dieren en vriendschap met dieren. Als Callum (ik-figuur) het meisje Ion",
+            "checkedAt": "2026-10-22T09:39:25.788129+00:00"
+          },
+          {
+            "value": "natuur",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+            "evidence": "op het land. Uit hun gedeelde liefde voor de natuur bloeit een hechte vriendschap tussen Callum en Iona op. Als de v",
+            "checkedAt": "2026-10-22T09:39:25.788129+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+            "evidence": "Dieren en vriendschap met dieren. Als Callum (ik-figuur) het meisje Iona op het land v",
+            "checkedAt": "2026-10-22T09:39:25.788129+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kulanjango+%3A+mijn+vogelvriend",
+          "checkedAt": "2026-10-22T09:39:25.788129+00:00",
+          "matchedTitle": "Kulanjango : mijn vogelvriend",
+          "matchedAuthor": "Lewis, Gill",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "ed16a2fa8afe6e7ad4ccbaee02a4d7a7dcb2f1cbc5d60cafded0e8469fd57266"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0728",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:26.382865+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Wanneer een meisje met haar vader en een steenvreter in Venetië is, wordt hij beschuldigd van diefstal en opgesloten. Er rest Lena niets anders dan de ware dader op te sporen. Vanaf ca. 12 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dief+met+duizend+gezichten",
+          "checkedAt": "2026-10-22T09:39:26.382589+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dief+met+duizend+gezichten",
+          "checkedAt": "2026-10-22T09:39:26.382589+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dief+met+duizend+gezichten",
+            "evidence": "Thriller. Wanneer een meisje met haar vader en een steenvreter in Venetië",
+            "checkedAt": "2026-10-22T09:39:26.382589+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dief+met+duizend+gezichten",
+          "checkedAt": "2026-10-22T09:39:26.382589+00:00",
+          "matchedTitle": "De dief met duizend gezichten",
+          "matchedAuthor": "Lierde, Bart van",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5872363afb544a417c17e8f786997dc7d1dd64e753bc7dcc25afdd0a484503f2"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0729",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:26.895384+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In een rustige straat liggen naast elkaar twee slagerijen: Slagerij Vandersmissen en Slagerij Idrissi. Al jarenlang is er een vete tussen de twee slagersfamilies. Als de buurkinderen Rowad en Julia 15 jaar zijn,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voor+altijd+%3A+Romeo+%26+Julia%3A+een+vleselijk+liefdesverhaal",
+          "checkedAt": "2026-10-22T09:39:26.895232+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Romantische verhalen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voor+altijd+%3A+Romeo+%26+Julia%3A+een+vleselijk+liefdesverhaal",
+          "checkedAt": "2026-10-22T09:39:26.895232+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voor+altijd+%3A+Romeo+%26+Julia%3A+een+vleselijk+liefdesverhaal",
+            "evidence": "Romantische verhalen. In een rustige straat liggen naast elkaar twee slageri",
+            "checkedAt": "2026-10-22T09:39:26.895232+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voor+altijd+%3A+Romeo+%26+Julia%3A+een+vleselijk+liefdesverhaal",
+            "evidence": "Romantische verhalen. In een rustige straat liggen naast elkaar twee slageri",
+            "checkedAt": "2026-10-22T09:39:26.895232+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voor+altijd+%3A+Romeo+%26+Julia%3A+een+vleselijk+liefdesverhaal",
+          "checkedAt": "2026-10-22T09:39:26.895232+00:00",
+          "matchedTitle": "Voor altijd : Romeo & Julia: een vleselijk liefdesverhaal",
+          "matchedAuthor": "Lievens, Pepijn",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "4e7f09b8de2cc8daa23a6084f7eebc0084c5fdc1debeb92746e0e96ad3676869"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0730",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:27.393902+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Een veldkok die leeft voor de oorlog, leert een jongen kennen die zijn benen verloren heeft, waardoor de oorlog hem steeds meer gaat tegenstaan.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hoe+Tortot+zijn+vissenhart+verloor",
+          "checkedAt": "2026-10-22T09:39:27.393761+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Oorlogsroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hoe+Tortot+zijn+vissenhart+verloor",
+          "checkedAt": "2026-10-22T09:39:27.393761+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hoe+Tortot+zijn+vissenhart+verloor",
+            "evidence": "Oorlogsroman. Een veldkok die leeft voor de oorlog, leert een jongen kennen d",
+            "checkedAt": "2026-10-22T09:39:27.393761+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hoe+Tortot+zijn+vissenhart+verloor",
+            "evidence": "Oorlogsroman. Een veldkok die leeft voor de oorlog, leert een jongen kennen d",
+            "checkedAt": "2026-10-22T09:39:27.393761+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hoe+Tortot+zijn+vissenhart+verloor",
+          "checkedAt": "2026-10-22T09:39:27.393761+00:00",
+          "matchedTitle": "Hoe Tortot zijn vissenhart verloor",
+          "matchedAuthor": "Lindelauf, Benny",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "04a195a888e82f77430f71e6ad0a13aa8ef0a8324fc8e1cb9507fd71ebfa73b6"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0731",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:27.954097+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Na de dood van haar moeder en een onprettige eerste seksuele ervaring krijgt een tienermeisje psychische problemen. - Na de dood van haar moeder voelt Stella zich heel eenzaam. En als ze dan ook nog een onprettige…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=zuigzoen",
+          "checkedAt": "2026-10-22T09:39:27.953963+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dood en verdriet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=zuigzoen",
+          "checkedAt": "2026-10-22T09:39:27.953963+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "emotioneel",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=zuigzoen",
+            "evidence": "Dood en verdriet. Na de dood van haar moeder en een onprettige eerste seksuele er",
+            "checkedAt": "2026-10-22T09:39:27.953963+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=zuigzoen",
+          "checkedAt": "2026-10-22T09:39:27.953963+00:00",
+          "matchedTitle": "De zuigzoen",
+          "matchedAuthor": "Lindell, Unni",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "f53031a35bd17699e8f4d519ef773120fc5eca7f237b4d69d49e79d9762be88d"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0732",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:28.530845+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Ondanks haar bipolaire stoornis leidt Mel (16, ik-figuur) een schijnbaar gewoon leven. Maar als ze verliefd wordt en een pakket van een voormalige vriendin ontvangt, komen er barstjes in haar gecontroleerde leven.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+mooiste+herinnering+eindigt+hier",
+          "checkedAt": "2026-10-22T09:39:28.530681+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Psychologische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+mooiste+herinnering+eindigt+hier",
+          "checkedAt": "2026-10-22T09:39:28.530681+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+mooiste+herinnering+eindigt+hier",
+            "evidence": "ur) een schijnbaar gewoon leven. Maar als ze verliefd wordt en een pakket van een voormalige vriendin ontvangt, komen ",
+            "checkedAt": "2026-10-22T09:39:28.530681+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+mooiste+herinnering+eindigt+hier",
+            "evidence": "ur) een schijnbaar gewoon leven. Maar als ze verliefd wordt en een pakket van een voormalige vriendin ontvangt, komen ",
+            "checkedAt": "2026-10-22T09:39:28.530681+00:00"
+          },
+          {
+            "value": "psychologie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+mooiste+herinnering+eindigt+hier",
+            "evidence": "Psychologische roman. Ondanks haar bipolaire stoornis leidt Mel (16, ik-figuur)",
+            "checkedAt": "2026-10-22T09:39:28.530681+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+mooiste+herinnering+eindigt+hier",
+          "checkedAt": "2026-10-22T09:39:28.530681+00:00",
+          "matchedTitle": "Mijn mooiste herinnering eindigt hier",
+          "matchedAuthor": "Lindstrom, Eric",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "18a3a8c0a219bbd17a94a998dfe8604687dc3eb4a3c5db5f3ddec6327d345567"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0733",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:28.787603+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Parker (16) is blind en haar beide ouders zijn overleden. Met hulp en steun van haar vrienden probeert Parker haar droom waar te maken. Vanaf ca. 15 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wat+jij+niet+ziet",
+          "checkedAt": "2026-10-22T09:39:28.787391+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wat+jij+niet+ziet",
+          "checkedAt": "2026-10-22T09:39:28.787391+00:00",
+          "matchedTitle": "Wat jij niet ziet",
+          "matchedAuthor": "Lindstrom, Eric",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "019751c506a663656a059ba5a7933d5473ee25246323e00727e8f70bdcaa6faa"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0734",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:29.806542+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Vertaling van: Five feet apart. - USA : Simon & Schuster Books for Young Readers, 2018 Stella (ik-figuur) heeft taaislijmziekte en brengt veel tijd door in het ziekenhuis. Om in aanmerking te komen voor een…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vijf+stappen+van+jou",
+          "checkedAt": "2026-10-22T09:39:29.806395+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Romantische verhalen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vijf+stappen+van+jou",
+          "checkedAt": "2026-10-22T09:39:29.806395+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vijf+stappen+van+jou",
+          "checkedAt": "2026-10-22T09:39:29.806395+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vijf+stappen+van+jou",
+            "evidence": "Romantische verhalen. - USA : Simon & Schuster Books for Young Readers, 2018",
+            "checkedAt": "2026-10-22T09:39:29.806395+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vijf+stappen+van+jou",
+            "evidence": "Romantische verhalen. - USA : Simon & Schuster Books for Young Readers, 2018",
+            "checkedAt": "2026-10-22T09:39:29.806395+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vijf+stappen+van+jou",
+          "checkedAt": "2026-10-22T09:39:29.806395+00:00",
+          "matchedTitle": "Vijf stappen van jou",
+          "matchedAuthor": "Lippincott, Rachael",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "bc71ce2e35cb3a74694f066d0b9d7288c09581bc991a69f9c3fa41529690f0c9"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0735",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:30.599504+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Fallon (17, ik-figuur) was prinses van de Cantii-stam die werd aangevallen door Julius Ceasar. Ze wordt gevangengenomen door een slavenhandelaar en komt terecht op een school voor gladiatoren in het Rome van Julius…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Onverschrokken",
+          "checkedAt": "2026-10-22T09:39:30.599366+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Onverschrokken",
+          "checkedAt": "2026-10-22T09:39:30.599366+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Onverschrokken",
+            "evidence": "r een slavenhandelaar en komt terecht op een school voor gladiatoren in het Rome van Julius Caesar.",
+            "checkedAt": "2026-10-22T09:39:30.599366+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Onverschrokken",
+            "evidence": "Historische roman. Fallon (17, ik-figuur) was prinses van de Cantii-stam die werd ",
+            "checkedAt": "2026-10-22T09:39:30.599366+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Onverschrokken",
+            "evidence": "r een slavenhandelaar en komt terecht op een school voor gladiatoren in het Rome van Julius Caesar.",
+            "checkedAt": "2026-10-22T09:39:30.599366+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Onverschrokken",
+          "checkedAt": "2026-10-22T09:39:30.599366+00:00",
+          "matchedTitle": "Onverschrokken",
+          "matchedAuthor": "Livingston, Lesley",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "fdf164a09d6f997ec7112d00eaca4e7ffade813d63daee8c48c7049587a411e0"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0736",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:29.431454+00:00",
+          "outcome": "no-confirmed-match"
+        },
+        {
+          "provider": "Open Library",
+          "checkedAt": "2026-10-22T09:48:11.536387+00:00",
+          "outcome": "no-confirmed-match"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": null,
+      "sources": [],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0737",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:31.290854+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Cadence 15 jaar is krijgt ze op het privé-eiland van haar familie een ongeluk. Het enige wat ze zich herinnert, is haar verliefdheid en flarden van gebeurtenissen. Maar niemand wil haar vertellen wat er echt is…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+          "checkedAt": "2026-10-22T09:39:31.290681+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Psychologische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+          "checkedAt": "2026-10-22T09:39:31.290681+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+            "evidence": "uk. Het enige wat ze zich herinnert, is haar verliefdheid en flarden van gebeurtenissen. Maar niemand wil haar vertellen w",
+            "checkedAt": "2026-10-22T09:39:31.290681+00:00"
+          },
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+            "evidence": "ar is krijgt ze op het privé-eiland van haar familie een ongeluk. Het enige wat ze zich herinnert, is haar verliefdhe",
+            "checkedAt": "2026-10-22T09:39:31.290681+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+            "evidence": "uk. Het enige wat ze zich herinnert, is haar verliefdheid en flarden van gebeurtenissen. Maar niemand wil haar vertellen w",
+            "checkedAt": "2026-10-22T09:39:31.290681+00:00"
+          },
+          {
+            "value": "psychologie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+            "evidence": "Psychologische roman. Als Cadence 15 jaar is krijgt ze op het privé-eiland van ",
+            "checkedAt": "2026-10-22T09:39:31.290681+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wij+leugenaars",
+          "checkedAt": "2026-10-22T09:39:31.290681+00:00",
+          "matchedTitle": "Wij leugenaars",
+          "matchedAuthor": "Lockhart, E. ; Ven, Sandra v.d. [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "46d285e9795f6985b0585ccc6f9bfb2b95b75fb74b669f65830e913e5cb484bd"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0738",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:31.779161+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Een 18-jarig meisje probeert op drastische manieren het verlies van de rest van haar gezin bij een vliegtuigongeluk te verwerken.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Muleum",
+          "checkedAt": "2026-10-22T09:39:31.779018+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dood en verdriet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Muleum",
+          "checkedAt": "2026-10-22T09:39:31.779018+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "emotioneel",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Muleum",
+            "evidence": "Dood en verdriet. Een 18-jarig meisje probeert op drastische manieren het verlies",
+            "checkedAt": "2026-10-22T09:39:31.779018+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Muleum",
+          "checkedAt": "2026-10-22T09:39:31.779018+00:00",
+          "matchedTitle": "Muleum",
+          "matchedAuthor": "Loe, Erlend",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "8b06f0c207b858663f6d528295c9b6f8709b0b2fefdc99c8c6c0198e37388fea"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0739",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:32.208636+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De broers Dylan (15) en Griff (13) verliezen hun ouders bij een auto-ongeluk. Ze verhuizen van New York naar Wales om bij een oom en tante te gaan wonen. Ze moeten een manier zien te vinden om met dit enorme,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verre+plek+vlakbij",
+          "checkedAt": "2026-10-22T09:39:32.208519+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verre+plek+vlakbij",
+          "checkedAt": "2026-10-22T09:39:32.208519+00:00",
+          "matchedTitle": "Een verre plek vlakbij",
+          "matchedAuthor": "Long, Hayley",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "63f03af337b723f54278d8156aa4f0cd789840a42b1b29e8754ac8fb6649edff"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0740",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:33.219249+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het Sintimeisje Perla trekt met haar familie door Duitsland. Vanwege de oorlog, vluchten zij naar Nederland. Daar wordt Perla's zusje geboren. Maar ook in Nederland zijn ze niet veilig. Vanaf ca. 12 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+zusje",
+          "checkedAt": "2026-10-22T09:39:33.219078+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Oorlogsroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+zusje",
+          "checkedAt": "2026-10-22T09:39:33.219078+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+zusje",
+            "evidence": "sroman. Het Sintimeisje Perla trekt met haar familie door Duitsland. Vanwege de oorlog, vluchten zij naar Nederland. ",
+            "checkedAt": "2026-10-22T09:39:33.219078+00:00"
+          },
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+zusje",
+            "evidence": "Oorlogsroman. Het Sintimeisje Perla trekt met haar familie door Duitsland. Va",
+            "checkedAt": "2026-10-22T09:39:33.219078+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+zusje",
+            "evidence": "Oorlogsroman. Het Sintimeisje Perla trekt met haar familie door Duitsland. Va",
+            "checkedAt": "2026-10-22T09:39:33.219078+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+zusje",
+          "checkedAt": "2026-10-22T09:39:33.219078+00:00",
+          "matchedTitle": "Mijn zusje",
+          "matchedAuthor": "Loon, Inez van",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e6a4ba928716876bf4a28310957154a4ba601112fa2906b5718768180e0686f2"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0741",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:33.497799+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het Chinese meisje Mei woont op het platteland in China vlak na 1900. In deze tijd mogen vrouwen niet werken en worden hun voeten afgebonden. Maar Mei droomt ervan om pottenbakster te worden. Aan het begin van de 21e…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Twee+meisjes+en+het+geluk",
+          "checkedAt": "2026-10-22T09:39:33.497525+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Azie",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Twee+meisjes+en+het+geluk",
+          "checkedAt": "2026-10-22T09:39:33.497525+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Twee+meisjes+en+het+geluk",
+          "checkedAt": "2026-10-22T09:39:33.497525+00:00",
+          "matchedTitle": "Twee meisjes en het geluk",
+          "matchedAuthor": "Loon, Inez van",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "1834d7650ed4b5c56f7ec99759163b0b754ecd3604f18a10fabc7285bb33e532"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0742",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:34.185009+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Kiezel, een paranormaal begaafde jongen, moet vanuit een beschermde omgeving naar de stad vluchten en raakt aan drugs verslaafd.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gezicht+in+de+mist",
+          "checkedAt": "2026-10-22T09:39:34.184837+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Bovennatuurlijke verschijnselen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gezicht+in+de+mist",
+          "checkedAt": "2026-10-22T09:39:34.184837+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gezicht+in+de+mist",
+          "checkedAt": "2026-10-22T09:39:34.184837+00:00",
+          "matchedTitle": "Gezicht in de mist",
+          "matchedAuthor": "Loon, Paul van",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "55b84325b87785a23caa778708aa8280531ec3b5811950b174600c74b5a365c4"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0743",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:35.322561+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De zeven jongeren van de planeet Loriën die op aarde leven, moeten hun vijand Setrákus Ra, van de planeet Mogador, overwinnen. De meiden, die Nummer Zes, Zeven en Tien heten, gaan naar India om Nummer Acht te zoeken.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Opkomst+van+negen",
+          "checkedAt": "2026-10-22T09:39:35.322451+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Opkomst+van+negen",
+          "checkedAt": "2026-10-22T09:39:35.322451+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Opkomst+van+negen",
+          "checkedAt": "2026-10-22T09:39:35.322451+00:00",
+          "matchedTitle": "De Opkomst van negen",
+          "matchedAuthor": "Lore, Pittacus",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "a7b8eac5e5bd77118377cead375b647f977b9d411330b6529d0038322585d7cd"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0744",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:35.067836+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "John Smith (15) is een alien van de planeet Loriën. John is een van de negen Loriërs met Erfgaven die gevlucht zijn naar de Aarde, omdat andere aliens, de Mogadoren, al het leven op Loriën hebben weggevaagd. Drie van…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+ben+Nummer+Vier",
+          "checkedAt": "2026-10-22T09:39:35.067648+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+ben+Nummer+Vier",
+          "checkedAt": "2026-10-22T09:39:35.067648+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+ben+Nummer+Vier",
+          "checkedAt": "2026-10-22T09:39:35.067648+00:00",
+          "matchedTitle": "Ik ben Nummer Vier",
+          "matchedAuthor": "Lore, Pittacus ; Meer, Joost van der Meer [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "9b0063764cf00ae0a0b6f47dfe01945008b15f723e6958a762339cacb5d8c620"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0745",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:35.841873+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Day (15) is de meest gezochte crimineel van de Republiek (het voormalige westen van de Verenigde Staten). Hij is afgewezen voor de Proef en tracht te overleven op straat. Als hij medicijnen voor zijn broertje steelt,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Legend",
+          "checkedAt": "2026-10-22T09:39:35.841634+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Legend",
+          "checkedAt": "2026-10-22T09:39:35.841634+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Legend",
+            "evidence": "ience fiction. Day (15) is de meest gezochte crimineel van de Republiek (het voormalige westen van de Verenigde Staten)",
+            "checkedAt": "2026-10-22T09:39:35.841634+00:00"
+          },
+          {
+            "value": "survival",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Legend",
+            "evidence": " Hij is afgewezen voor de Proef en tracht te overleven op straat. Als hij medicijnen voor zijn broertje steelt, gooit hij ",
+            "checkedAt": "2026-10-22T09:39:35.841634+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Legend",
+            "evidence": "ience fiction. Day (15) is de meest gezochte crimineel van de Republiek (het voormalige westen van de Verenigde Staten)",
+            "checkedAt": "2026-10-22T09:39:35.841634+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Legend",
+          "checkedAt": "2026-10-22T09:39:35.841634+00:00",
+          "matchedTitle": "Legend",
+          "matchedAuthor": "Lu, Marie",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "aa1248dd4fed36ddd3867ceadc5ad4a85666a667cd437b88efcd4f8802a28850"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0746",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:36.718903+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "subjects": {
+          "value": "Computers en internet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Warcross",
+          "checkedAt": "2026-10-22T09:39:36.718671+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "computers",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Warcross",
+            "evidence": "Computers en internet.",
+            "checkedAt": "2026-10-22T09:39:36.718671+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "technologie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Warcross",
+            "evidence": "Computers en internet.",
+            "checkedAt": "2026-10-22T09:39:36.718671+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Warcross",
+          "checkedAt": "2026-10-22T09:39:36.718671+00:00",
+          "matchedTitle": "Warcross",
+          "matchedAuthor": "Lu, Marie",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0747",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:36.876783+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- 1e druk: 2014. Als nieuwe kampioen van een koning die ze veracht en wantrouwt, ziet Celaene zich voor nieuwe uitdagingen geplaatst. Wie is er te vertrouwen en wat heeft ze zelf te verbergen? Vanaf ca. 15 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=donkere+kroon",
+          "checkedAt": "2026-10-22T09:39:36.876538+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=donkere+kroon",
+          "checkedAt": "2026-10-22T09:39:36.876538+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=donkere+kroon",
+          "checkedAt": "2026-10-22T09:39:36.876538+00:00",
+          "matchedTitle": "De donkere kroon",
+          "matchedAuthor": "Maas, Sarah J.",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "cf45919d0351d3a7d9a048dcb590b8708736ff15ee3f4df2e94eebd2e6690e7c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0748",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:37.639491+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- Vervolg op: De glazen troon en: De donkere kroon. - 1e druk: 2016. De jonge huurmoordenaar Celaena vraagt de onsterfelijke koningin om hulp tegen de koning van Adarlan. Maar alles heeft een prijs, ook haar nieuwe…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Erfgenaam+van+vuur",
+          "checkedAt": "2026-10-22T09:39:37.639337+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Erfgenaam+van+vuur",
+          "checkedAt": "2026-10-22T09:39:37.639337+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Erfgenaam+van+vuur",
+          "checkedAt": "2026-10-22T09:39:37.639337+00:00",
+          "matchedTitle": "Erfgenaam van vuur",
+          "matchedAuthor": "Maas, Sarah J.",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "9835e23e499acf225367a721e5b1ed78a894f6ba8ba33c662602b8bac29fe6cf"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0749",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:38.494007+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- 1e druk: 2014. De stoere sluipmoordenares Celeana (18) wordt uitgenodigd om deel te nemen aan een toernooi om de nieuwe kampioen van de koning te worden. Maar dan sterven de andere deelnemers een voor een op…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=glazen+troon",
+          "checkedAt": "2026-10-22T09:39:38.493851+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=glazen+troon",
+          "checkedAt": "2026-10-22T09:39:38.493851+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=glazen+troon",
+          "checkedAt": "2026-10-22T09:39:38.493851+00:00",
+          "matchedTitle": "De glazen troon",
+          "matchedAuthor": "Maas, Sarah J.",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e426019fa4a17d276647cbcf332e39fd7ae2ff64511f66c86efa54cdf54ddb8e"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0750",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:38.666137+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Feyre (19) wordt gevangengenomen door een vijandig magisch ras. Ze probeert te ontsnappen, maar raakt steeds meer verstrikt in het leven bij de vijand.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+doorns+en+rozen",
+          "checkedAt": "2026-10-22T09:39:38.665977+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+doorns+en+rozen",
+          "checkedAt": "2026-10-22T09:39:38.665977+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "magie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+doorns+en+rozen",
+            "evidence": "(19) wordt gevangengenomen door een vijandig magisch ras. Ze probeert te ontsnappen, maar raakt steeds meer verstrikt",
+            "checkedAt": "2026-10-22T09:39:38.665977+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+doorns+en+rozen",
+          "checkedAt": "2026-10-22T09:39:38.665977+00:00",
+          "matchedTitle": "Hof van doorns en rozen",
+          "matchedAuthor": "Maas, Sarah J.",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e27709164347e88771e0d2989efc5480c27b6c1266e044cece4449474d1125f0"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0751",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:39:39.174516+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Feyre en Rhys zijn nog steeds bezig met de wederopbouw van het Nachthof en de veranderde wereld daarbuiten. Terwijl Feyers hart langzaam geneest, ontdekt ze dat de wonden van haar dierbaren dieper zijn dan ze dacht.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+ijs+en+sterren",
+          "checkedAt": "2026-10-22T09:39:39.174369+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Fantasy",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+ijs+en+sterren",
+          "checkedAt": "2026-10-22T09:39:39.174369+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Cataloguscategorie Fantasy niet als specifiek fantasygenre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hof+van+ijs+en+sterren",
+          "checkedAt": "2026-10-22T09:39:39.174369+00:00",
+          "matchedTitle": "Hof van ijs en sterren",
+          "matchedAuthor": "Maas, Sarah J.",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "842fcf711a3784a9f711fc793eb451135183ea8c77756404aebeef64644e8cca"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    }
+  ]
+}

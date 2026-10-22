@@ -3,7 +3,8 @@ const assert = require('node:assert/strict');
 const vm = require('node:vm');
 const fs = require('node:fs');
 function context(catalog = JSON.parse(fs.readFileSync('data/library-catalog.json', 'utf8'))) {
-  const c = { structuredClone, URL, fetch: async () => ({ ok: true, json: async () => structuredClone(catalog) }) };
+  const online = JSON.parse(fs.readFileSync('data/enriched-catalog.json', 'utf8'));
+  const c = { structuredClone, URL, fetch: async (url) => ({ ok: true, json: async () => structuredClone(url.includes('enriched-catalog') ? online : catalog) }) };
   c.window = c;
   vm.createContext(c);
   for (const file of ['data/books.js', 'data/aura-catalog.js', 'js/bookRepository.js', 'js/diversification.js', 'js/matchingEngine.js'])
@@ -25,6 +26,11 @@ test('live database preserves every Excel row and original unknowns', async () =
       assert.equal(b.summary, null);
       assert.equal(b.levels, null);
       assert.equal(c.matchingEngine.eligible(b, { level: 'basis' }), false);
+    } else if (b.matchMode === 'evidence') {
+      assert.ok(b.enrichment.sources.length);
+      assert.equal(b.summary, b.enrichment.facts.summary.value);
+      assert.equal(b.levels, null);
+      assert.deepEqual(Object.keys(b.themes), []);
     } else {
       const original = c.BOOKS.find((x) => x.id === b.metadataSource.id);
       assert.equal(b.summary, original.summary);
@@ -54,7 +60,8 @@ test('similar titles, different authors and ambiguous matches are never merged',
     { id: 'one', title: known.title, author: 'Een andere auteur', source: {}, available: null },
     { id: 'two', title: known.title + ' vervolg', author: known.author, source: {}, available: null },
   ];
-  c.fetch = async () => ({ ok: true, json: async () => ({ source: 'excel', recordCount: 2, records }) });
+  c.fetch = async (url) => ({ ok: true, json: async () => url.includes('enriched-catalog') ?
+    { schemaVersion: 1, recordCount: 0, records: [] } : { source: 'excel', recordCount: 2, records } });
   const books = await c.bookRepository.getBooks({ includeUnreviewed: true });
   assert.equal(c.bookRepository.status.linkedExcelCount, 0);
   assert.equal(books.length, original.length + 2);

@@ -1,5 +1,12 @@
 window.diversification = {
   similarity(a, b) {
+    if (a.matchMode === "evidence" || b.matchMode === "evidence") {
+      const tags = (book) => new Set([...(book.interests || []), ...(book.storyTags || []),
+        ...Object.entries(book.themes || {}).filter(([, v]) => v >= 3).map(([k]) => k)]);
+      const left = tags(a), right = tags(b);
+      const union = new Set([...left, ...right]);
+      return union.size ? [...left].filter((tag) => right.has(tag)).length / union.size : 0;
+    }
     const keys = [
       ...new Set([...Object.keys(a.themes), ...Object.keys(b.themes)]),
     ];

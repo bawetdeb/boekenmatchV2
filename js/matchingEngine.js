@@ -14,6 +14,15 @@ window.matchingEngine = {
     if (b.recommendationReady === false) return false;
     const levels = ["basis", "kader", "gt"],
       target = levels.indexOf(p.level);
+    if (b.matchMode === "evidence") {
+      return target >= 0 && b.available !== false &&
+        (!b.levels || b.levels.some((l) => levels.includes(l) && Math.abs(levels.indexOf(l) - target) <= 1)) &&
+        !(p.avoidTopics || []).length &&
+        (!p.language || b.language === p.language) &&
+        !options.requireAura &&
+        ((p.interests || []).some((i) => b.interests.includes(i)) ||
+         (p.storyPreferences || []).some((t) => b.storyTags.includes(t)));
+    }
     return (
       b.available !== false &&
       target >= 0 &&
@@ -52,6 +61,7 @@ window.matchingEngine = {
     return this.clamp((b.themes[key] ?? 0) / 5);
   },
   evaluate(b, p, feedback = {}) {
+    if (b.matchMode === "evidence") return this.evaluateEvidence(b, p, feedback);
     const interests = p.interests || [],
       selected = p.storyPreferences || [],
       intensities = Object.entries(p.themes || {});
@@ -169,6 +179,13 @@ window.matchingEngine = {
     return this.evaluate(b, p, feedback).matchScore;
   },
   reasons(b, p) {
+    if (b.matchMode === "evidence") {
+      const interests = (p.interests || []).filter((i) => b.interests.includes(i));
+      const stories = (p.storyPreferences || []).filter((t) => b.storyTags.includes(t));
+      return [interests.length ? "Bronbeschrijving sluit aan bij " + interests.slice(0, 2).join(" en ") : null,
+        stories.length ? "Aanwijzingen voor " + stories.slice(0, 2).join(" en ") : null,
+        "Inschatting op basis van bronbeschrijving; leesniveau onbekend"].filter(Boolean).slice(0, 3);
+    }
     const r = [],
       hit = (p.interests || []).filter((i) => b.interests.includes(i));
     if (hit.length) r.push("Past bij " + hit.slice(0, 2).join(" en "));
@@ -190,6 +207,28 @@ window.matchingEngine = {
     if (p.maxPages != null && b.pages <= p.maxPages)
       r.push("Binnen jouw gewenste boeklengte");
     return r.slice(0, 3);
+  },
+  evaluateEvidence(b, p, feedback = {}) {
+    const hits = (p.interests || []).filter((i) => b.interests.includes(i));
+    const stories = (p.storyPreferences || []).filter((t) => b.storyTags.includes(t));
+    // A bounded ranking heuristic, never a displayed percentage. Unknown
+    // dimensions remain null; an unmentioned theme does not mean intensity zero.
+    const support = hits.reduce((sum, i) => sum + (i === p.primaryInterest ? 2 : 1), 0);
+    let penalty = 0;
+    for (const [theme, value] of Object.entries(p.themes || {}))
+      if (value === 0 && b.storyTags.includes(theme)) penalty += 8;
+    let adjustment = 0;
+    for (const [id, value] of Object.entries(feedback)) {
+      const source = this.books?.find((x) => x.id === id);
+      if (source && [1, -1].includes(value)) adjustment += value * 8 * diversification.similarity(b, source);
+    }
+    adjustment = this.clamp(adjustment, -15, 15);
+    return { matchScore: Math.round(this.clamp(40 + Math.min(30, support * 10) + Math.min(30, stories.length * 10) - penalty + adjustment, 0, 85)),
+      scoreKind: "evidence-ranking", matchPercentage: null,
+      parts: { level: null, interests: hits.length ? "positive-evidence" : null,
+        themes: stories.length ? "positive-evidence" : null, readingStyle: null, length: null, mood: null },
+      evidence: { interests: hits, storyTags: stories }, penalty,
+      feedbackAdjustment: adjustment, unknownDimensions: ["level", "readingStyle", "length", "mood"] };
   },
   recommend(books, p, limit = 5, options = {}) {
     this.books = books;

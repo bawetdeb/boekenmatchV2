@@ -1,0 +1,3948 @@
+{
+  "schemaVersion": 1,
+  "ruleVersion": "evidence-tags-v5",
+  "sourceSha256": "1eee2053d104ac6e9362732e5e17f3b3893fb2186306ad58b0eb3dac79f0b167",
+  "records": [
+    {
+      "id": "excel-Sheet-0352",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:49.573053+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Ronny woont met zijn zusje en zijn ouders, die een hotel exploiteren, in Amsterdam. Als in mei 1940 de oorlog uitbreekt, verandert er erg veel in het leven van de zesjarige Ronny. In de loop van de oorlog verdwijnen…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verlaten+hotel%3A+De+wereld+van+een+Amsterdamse+jongen+in+1940+-+1945",
+          "checkedAt": "2026-10-22T09:35:49.572918+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tweede Wereldoorlog",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verlaten+hotel%3A+De+wereld+van+een+Amsterdamse+jongen+in+1940+-+1945",
+          "checkedAt": "2026-10-22T09:35:49.572918+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verlaten+hotel%3A+De+wereld+van+een+Amsterdamse+jongen+in+1940+-+1945",
+            "evidence": "Tweede Wereldoorlog. Ronny woont met zijn zusje en zijn ouders, die een hotel exploi",
+            "checkedAt": "2026-10-22T09:35:49.572918+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verlaten+hotel%3A+De+wereld+van+een+Amsterdamse+jongen+in+1940+-+1945",
+            "evidence": "Tweede Wereldoorlog. Ronny woont met zijn zusje en zijn ouders, die een hotel exploi",
+            "checkedAt": "2026-10-22T09:35:49.572918+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verlaten+hotel%3A+De+wereld+van+een+Amsterdamse+jongen+in+1940+-+1945",
+            "evidence": "Tweede Wereldoorlog. Ronny woont met zijn zusje en zijn ouders, die een hotel exploi",
+            "checkedAt": "2026-10-22T09:35:49.572918+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verlaten+hotel%3A+De+wereld+van+een+Amsterdamse+jongen+in+1940+-+1945",
+          "checkedAt": "2026-10-22T09:35:49.572918+00:00",
+          "matchedTitle": "Het verlaten hotel: De wereld van een Amsterdamse jongen in 1940 - 1945",
+          "matchedAuthor": "Elias, Mirjam",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "c6da8aea5c37aabb68a333b98982bcd9c5e7dea2eec57c2fe20a86d6e34e0230"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0353",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:49.238638+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De tegenstellingen tussen de Mexicaanse Alejandro (Alex) en de blanke Brittany hadden niet groter kunnen zijn in dit moderne, in het hedendaagse Chicago gesitueerde West Side Story of Romeo en Julia verhaal. De een…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Perfect+chemistry",
+          "checkedAt": "2026-10-22T09:35:49.238456+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Cultuurverschillen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Perfect+chemistry",
+          "checkedAt": "2026-10-22T09:35:49.238456+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Perfect+chemistry",
+          "checkedAt": "2026-10-22T09:35:49.238456+00:00",
+          "matchedTitle": "Perfect chemistry",
+          "matchedAuthor": "Elkeles, Simone; Broeder, Linda",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3efa563252c248af988b53becb34ba7343b89ee78266a13532f7a2029f810042"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0354",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:49.377855+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Dolores (ik-figuur) is een van de kinderen van een boerenpachtersgezin; het gezin woont in Biar in het 15e eeuwse Spanje. Dolores is geen gewoon meisje; zij is een dwerg. Zij is kleiner en onhandiger dan de anderen,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dolores",
+          "checkedAt": "2026-10-22T09:35:49.377678+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dolores",
+          "checkedAt": "2026-10-22T09:35:49.377678+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dolores",
+            "evidence": "Historische roman. Dolores (ik-figuur) is een van de kinderen van een boerenpachte",
+            "checkedAt": "2026-10-22T09:35:49.377678+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dolores",
+          "checkedAt": "2026-10-22T09:35:49.377678+00:00",
+          "matchedTitle": "Dolores",
+          "matchedAuthor": "Elpers, Noëlla",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "ec75e3dcd3e531523552671ccfc7c7f58db20ca5149e2616d6c12296df600dc0"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0355",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:50.813696+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Net nu Sophie (17) zich verheugt op een kerstvakantie zonder haar overdreven beschermende ouders, wordt ze gedumpt door haar vriendje! Haar opa, oma, ooms en tantes proberen haar te troosten en sturen haar op tien…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=10+blind+dates+%3A+hoe+je+geschifte+familie+je+%27helpt%27+je+gebroken+hart+te+lijmen...+AWKWARD%21",
+          "checkedAt": "2026-10-22T09:35:50.813545+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Romantische verhalen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=10+blind+dates+%3A+hoe+je+geschifte+familie+je+%27helpt%27+je+gebroken+hart+te+lijmen...+AWKWARD%21",
+          "checkedAt": "2026-10-22T09:35:50.813545+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=10+blind+dates+%3A+hoe+je+geschifte+familie+je+%27helpt%27+je+gebroken+hart+te+lijmen...+AWKWARD%21",
+            "evidence": "Romantische verhalen. Net nu Sophie (17) zich verheugt op een kerstvakantie ",
+            "checkedAt": "2026-10-22T09:35:50.813545+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=10+blind+dates+%3A+hoe+je+geschifte+familie+je+%27helpt%27+je+gebroken+hart+te+lijmen...+AWKWARD%21",
+            "evidence": "Romantische verhalen. Net nu Sophie (17) zich verheugt op een kerstvakantie ",
+            "checkedAt": "2026-10-22T09:35:50.813545+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=10+blind+dates+%3A+hoe+je+geschifte+familie+je+%27helpt%27+je+gebroken+hart+te+lijmen...+AWKWARD%21",
+          "checkedAt": "2026-10-22T09:35:50.813545+00:00",
+          "matchedTitle": "10 blind dates : hoe je geschifte familie je 'helpt' je gebroken hart te lijmen... AWKWARD!",
+          "matchedAuthor": "Elston, Ashley",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "4489b95b7170a24709c33518742955bade69e055f6201bc526d4d4553a140dcf"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0356",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:51.014910+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Een Amerikaans meisje (17), dat met haar familie in een getuigenbeschermingsprogramma zit, krijgt geen antwoorden op haar vragen over de reden hiervoor en gaat zelf op onderzoek uit.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+het+verdwijnen+%3A+1+meisje%2C+6+steden%2C+6+identiteiten",
+          "checkedAt": "2026-10-22T09:35:51.014659+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+het+verdwijnen+%3A+1+meisje%2C+6+steden%2C+6+identiteiten",
+          "checkedAt": "2026-10-22T09:35:51.014659+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+het+verdwijnen+%3A+1+meisje%2C+6+steden%2C+6+identiteiten",
+            "evidence": "er. Een Amerikaans meisje (17), dat met haar familie in een getuigenbeschermingsprogramma zit, krijgt geen antwoorden",
+            "checkedAt": "2026-10-22T09:35:51.014659+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+het+verdwijnen+%3A+1+meisje%2C+6+steden%2C+6+identiteiten",
+            "evidence": "Thriller. Een Amerikaans meisje (17), dat met haar familie in een getuige",
+            "checkedAt": "2026-10-22T09:35:51.014659+00:00"
+          },
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+het+verdwijnen+%3A+1+meisje%2C+6+steden%2C+6+identiteiten",
+            "evidence": "r vragen over de reden hiervoor en gaat zelf op onderzoek uit.",
+            "checkedAt": "2026-10-22T09:35:51.014659+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+het+verdwijnen+%3A+1+meisje%2C+6+steden%2C+6+identiteiten",
+          "checkedAt": "2026-10-22T09:35:51.014659+00:00",
+          "matchedTitle": "De regels van het verdwijnen : 1 meisje, 6 steden, 6 identiteiten",
+          "matchedAuthor": "Elston, Ashley",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "933c252c50416e43e9d623c5ee7e91e3ca7a6c98ee4d593a11c3c7c95b9f099c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0357",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:51.220771+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Sander naar Dijkzicht verhuist hoort hij al snel dat hun nieuwe woning in de Tweede Wereldoorlog getuige is geweest van dramatische gebeurtenissen. Stukje bij beetje komt hij erachter wat zich precies heeft…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schimmen+uit+het+verleden",
+          "checkedAt": "2026-10-22T09:35:51.220589+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tweede Wereldoorlog",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schimmen+uit+het+verleden",
+          "checkedAt": "2026-10-22T09:35:51.220589+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schimmen+uit+het+verleden",
+            "evidence": "Tweede Wereldoorlog. Als Sander naar Dijkzicht verhuist hoort hij al snel dat hun ni",
+            "checkedAt": "2026-10-22T09:35:51.220589+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schimmen+uit+het+verleden",
+            "evidence": "Tweede Wereldoorlog. Als Sander naar Dijkzicht verhuist hoort hij al snel dat hun ni",
+            "checkedAt": "2026-10-22T09:35:51.220589+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schimmen+uit+het+verleden",
+            "evidence": "Tweede Wereldoorlog. Als Sander naar Dijkzicht verhuist hoort hij al snel dat hun ni",
+            "checkedAt": "2026-10-22T09:35:51.220589+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schimmen+uit+het+verleden",
+          "checkedAt": "2026-10-22T09:35:51.220589+00:00",
+          "matchedTitle": "Schimmen uit het verleden",
+          "matchedAuthor": "Engelen, T",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "d7f3eb30dff77d4b081fb39122a1bc9ccfe44b871257d7ecdff968b0ac25f4a0"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0358",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:52.103497+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Samen met haar vader besluit Lisa haar moeder te helpen die wordtbedreigd bij haar onderzoek naar de geschiedenis van een textielfabriek.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Moordzaak",
+          "checkedAt": "2026-10-22T09:35:52.103354+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Moordzaak",
+          "checkedAt": "2026-10-22T09:35:52.103354+00:00",
+          "matchedTitle": "Moordzaak",
+          "matchedAuthor": "Engelen, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "0a5c45188c1054765c3ad9d02989e70b99e07bd0a7f0d771de1212b066cab462"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0359",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:52.783162+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Joost wordt al jaren gepest op school, maar als hij vriendschap sluit met een nieuw meisje in zijn klas, bindt hij de strijd aan met zijn treiteraars.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+          "checkedAt": "2026-10-22T09:35:52.783022+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Pesten",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+          "checkedAt": "2026-10-22T09:35:52.783022+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+            "evidence": "ordt al jaren gepest op school, maar als hij vriendschap sluit met een nieuw meisje in zijn klas, bindt hij de strijd aan",
+            "checkedAt": "2026-10-22T09:35:52.783022+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+            "evidence": "Pesten. Joost wordt al jaren gepest op school, maar als hij vriendschap sluit met een nieuw meisje in zijn kla",
+            "checkedAt": "2026-10-22T09:35:52.783022+00:00"
+          },
+          {
+            "value": "pesten",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+            "evidence": "Pesten. Joost wordt al jaren gepest op school, maar als hij vriendschap",
+            "checkedAt": "2026-10-22T09:35:52.783022+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+            "evidence": "Pesten. Joost wordt al jaren gepest op school, maar als hij vriendschap sluit met een nieuw meisje in zijn kla",
+            "checkedAt": "2026-10-22T09:35:52.783022+00:00"
+          },
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+            "evidence": "ordt al jaren gepest op school, maar als hij vriendschap sluit met een nieuw meisje in zijn klas, bindt hij de strijd aan",
+            "checkedAt": "2026-10-22T09:35:52.783022+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Schoolstrijd",
+          "checkedAt": "2026-10-22T09:35:52.783022+00:00",
+          "matchedTitle": "Schoolstrijd",
+          "matchedAuthor": "Engelen, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e0d45675d693a1fb2f4662668705aedc7fea91793f2f0bf03cab2f9c4a238356"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0360",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:52.551456+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Julie wil geen muurbloempje meer zijn en werkt met de mysterieuze Joamer haar bucket list af. De 15-jarige blinde Julie is haar saaie leventje zat. Het roer moet om. Ze krijgt die kans als haar ouders op vakantie…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Super",
+          "checkedAt": "2026-10-22T09:35:52.551194+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Gehandicapt",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Super",
+          "checkedAt": "2026-10-22T09:35:52.551194+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Super",
+            "evidence": "ik wil doen'-lijst. Julie bloeit op en wordt verliefd. Toch hangt er een mysterieuze waas rondom Jomar. Wie is hij? La",
+            "checkedAt": "2026-10-22T09:35:52.551194+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Super",
+            "evidence": "ik wil doen'-lijst. Julie bloeit op en wordt verliefd. Toch hangt er een mysterieuze waas rondom Jomar. Wie is hij? La",
+            "checkedAt": "2026-10-22T09:35:52.551194+00:00"
+          },
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Super",
+            "evidence": " geen muurbloempje meer zijn en werkt met de mysterieuze Joamer haar bucket list af. De 15-jarige blinde Julie is haar sa",
+            "checkedAt": "2026-10-22T09:35:52.551194+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Super",
+          "checkedAt": "2026-10-22T09:35:52.551194+00:00",
+          "matchedTitle": "Super",
+          "matchedAuthor": "Eriksen, Endre Lund",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5e6c00a1ac774fd4bf8f592f8e7d5017f920bc855ab828c2fcb4504405afd204"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0361",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:53.778628+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Na de dood van haar stiefbroer, maakt Joni samen met haar grootmoeder een reis door de woestijn van Algerije. Ze worden door hun gidsen ondergedompeld in de cultuur van de nomaden die er leven: de Toearegs.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=glazen+vogel",
+          "checkedAt": "2026-10-22T09:35:53.778357+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=glazen+vogel",
+          "checkedAt": "2026-10-22T09:35:53.778357+00:00",
+          "matchedTitle": "De glazen vogel",
+          "matchedAuthor": "Erkel, Gerda van",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "ff743e54a32df3d013489edf279b23e753fa0eb04180339556dc2c57fe360d55"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0362",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:54.270246+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Michael (14, ik-figuur) heeft geheime elektrische krachten. Samen met zijn vrienden weet hij te ontsnappen aan Hatch en zijn Elgen. Dat voert hen naar het werkterrein van de Elgen diep verborgen in de jungle van…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Michael+Vey+%3A+de+macht+van+de+Elgen",
+          "checkedAt": "2026-10-22T09:35:54.270099+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Michael+Vey+%3A+de+macht+van+de+Elgen",
+          "checkedAt": "2026-10-22T09:35:54.270099+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Michael+Vey+%3A+de+macht+van+de+Elgen",
+          "checkedAt": "2026-10-22T09:35:54.270099+00:00",
+          "matchedTitle": "Michael Vey : de macht van de Elgen",
+          "matchedAuthor": "Evans, Richard Paul",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "7c94fdfdaf4bfa358857a7c493ce0d5e6ce58dabf97ea1c12538d3a888d3cb72"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0363",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:54.425558+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het is niet eenvoudig om de brokstukken op te ruimen na de gebeurtenissen van het afgelopen jaar, maar de Graces zijn vastbesloten om dat wel te doen. Wolf is terug na een mysterieuze verdwijning en de familie is zo…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+          "checkedAt": "2026-10-22T09:35:54.425418+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Fantasy",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+          "checkedAt": "2026-10-22T09:35:54.425418+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+            "evidence": " beïnvloeden. En dan is er nog haar vroegere beste vriendin River. Een gevaarlijk meisje dat teruggekomen is in Summers leve",
+            "checkedAt": "2026-10-22T09:35:54.425418+00:00"
+          },
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+            "evidence": "s terug na een mysterieuze verdwijning en de familie is zo blij, dat ze zich niet eens lijken af te vragen waar hij i",
+            "checkedAt": "2026-10-22T09:35:54.425418+00:00"
+          },
+          {
+            "value": "dieren",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+            "evidence": "r een massa problemen. Stroomuitval. Vreemde dieren. Rottend eten. Nare dromen. Alleen Summer, de jongste Grace, kan",
+            "checkedAt": "2026-10-22T09:35:54.425418+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+            "evidence": "ten om dat wel te doen. Wolf is terug na een mysterieuze verdwijning en de familie is zo blij, dat ze zich niet eens lijk",
+            "checkedAt": "2026-10-22T09:35:54.425418+00:00"
+          },
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+            "evidence": " beïnvloeden. En dan is er nog haar vroegere beste vriendin River. Een gevaarlijk meisje dat teruggekomen is in Summers leve",
+            "checkedAt": "2026-10-22T09:35:54.425418+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Cataloguscategorie Fantasy niet als specifiek fantasygenre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vervloekingen",
+          "checkedAt": "2026-10-22T09:35:54.425418+00:00",
+          "matchedTitle": "Vervloekingen",
+          "matchedAuthor": "Eve, Laure",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "baf4eeebf8d7afdde19236d7afb0dc009e232392e998982a0a0bf6fb1776536c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0364",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:54.570564+00:00",
+          "outcome": "no-confirmed-match"
+        },
+        {
+          "provider": "Open Library",
+          "checkedAt": "2026-10-22T09:47:51.849480+00:00",
+          "outcome": "no-confirmed-match"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": null,
+      "sources": [],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0365",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:55.051337+00:00",
+          "outcome": "no-confirmed-match"
+        },
+        {
+          "provider": "Open Library",
+          "checkedAt": "2026-10-22T09:47:53.193406+00:00",
+          "outcome": "no-confirmed-match"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": null,
+      "sources": [],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0366",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:56.157848+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Milou heeft faalangst, maar behalve haar eigen familie, weet niemand dat. Haar grootste droom is om zangeres te worden. Aangespoord door haar vriendinnen geeft ze zich op voor de audities van Extreme Talent, maar…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+sterf+duizend+doden",
+          "checkedAt": "2026-10-22T09:35:56.157688+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Pubers",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+sterf+duizend+doden",
+          "checkedAt": "2026-10-22T09:35:56.157688+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "muziek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+sterf+duizend+doden",
+            "evidence": " weet niemand dat. Haar grootste droom is om zangeres te worden. Aangespoord door haar vriendinnen geeft ze zich op vo",
+            "checkedAt": "2026-10-22T09:35:56.157688+00:00"
+          },
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+sterf+duizend+doden",
+            "evidence": "lou heeft faalangst, maar behalve haar eigen familie, weet niemand dat. Haar grootste droom is om zangeres te worden.",
+            "checkedAt": "2026-10-22T09:35:56.157688+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ik+sterf+duizend+doden",
+          "checkedAt": "2026-10-22T09:35:56.157688+00:00",
+          "matchedTitle": "Ik sterf duizend doden",
+          "matchedAuthor": "Farkas, Victoria",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "27e71f0cad2eeb58b329d56cb8b35cd9e8acaa529f991eb9c3966ca22f63e5b5"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0367",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:56.329361+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Ivan (15, ik-figuur) heeft ADHD. Als hij voor school een boek moet schrijven heeft hij meteen een titel: Dat stomme boek . Hij besluit te schrijven over de zoektocht in Berlijn naar zijn plotseling verdwenen vader.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dat+stomme+boek",
+          "checkedAt": "2026-10-22T09:35:56.329220+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dat+stomme+boek",
+          "checkedAt": "2026-10-22T09:35:56.329220+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dat+stomme+boek",
+            "evidence": "van (15, ik-figuur) heeft ADHD. Als hij voor school een boek moet schrijven heeft hij meteen een titel: Dat stomme b",
+            "checkedAt": "2026-10-22T09:35:56.329220+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dat+stomme+boek",
+            "evidence": "van (15, ik-figuur) heeft ADHD. Als hij voor school een boek moet schrijven heeft hij meteen een titel: Dat stomme b",
+            "checkedAt": "2026-10-22T09:35:56.329220+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dat+stomme+boek",
+          "checkedAt": "2026-10-22T09:35:56.329220+00:00",
+          "matchedTitle": "Dat stomme boek",
+          "matchedAuthor": "Fisscher, Tiny",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "db71ef0aa8c6b419fb39ef3bb4a95ef1e17f2bd75ac703951479f31a34cb8cc0"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0368",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:56.674552+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Ranger's apprentice ; b. 6) - 1e dr. Nederlandse uitg.: 2009. Will zit midden in zijn eerste opdracht als Grijze Jager. Hij bereidt een aanval voor op kasteel Macindaw. Het kasteel is nu in handen van de neef van…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=beleg+van+Macindaw",
+          "checkedAt": "2026-10-22T09:35:56.674407+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=beleg+van+Macindaw",
+          "checkedAt": "2026-10-22T09:35:56.674407+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=beleg+van+Macindaw",
+          "checkedAt": "2026-10-22T09:35:56.674407+00:00",
+          "matchedTitle": "Het beleg van Macindaw",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "20a1ecaf87a55871384b90d7c017b163482dad3a014e2f64c2a1557ec957a575"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0369",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:57.807667+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Ranger's apprentice ; b. 2) Will is de leerling van Halt, een Grijze Jager. Als de boosaardige Morgarath het koninkrijk wil aanvallen, krijgen Will en zijn vrienden een moeilijke opdracht. Vanaf ca. 11 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=brandende+brug",
+          "checkedAt": "2026-10-22T09:35:57.807472+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=brandende+brug",
+          "checkedAt": "2026-10-22T09:35:57.807472+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=brandende+brug",
+          "checkedAt": "2026-10-22T09:35:57.807472+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=brandende+brug",
+          "checkedAt": "2026-10-22T09:35:57.807472+00:00",
+          "matchedTitle": "De brandende brug",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "955936530afcf160c31ebbe849f6e73910b5cffb8f4142af0bdc6f9ada131ff6"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0370",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:58.107041+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In Skandia worden jongens tot krijgers en zeelieden opgeleid in een \"Broederband\", een team waarin naast gevechtstechnieken alle vaardigheden leren die ze als bemanningslid van een schip nodig hebben.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Caldera",
+          "checkedAt": "2026-10-22T09:35:58.106901+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Caldera",
+          "checkedAt": "2026-10-22T09:35:58.106901+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Caldera",
+            "evidence": "Historische roman. In Skandia worden jongens tot krijgers en zeelieden opgeleid in",
+            "checkedAt": "2026-10-22T09:35:58.106901+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Caldera",
+          "checkedAt": "2026-10-22T09:35:58.106901+00:00",
+          "matchedTitle": "De Caldera",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "4301b66ff226b91e9cfab7ac229dd43e0c9d93d845a0405f4dd74fab17410efc"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0371",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:58.653273+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (The ranger's apprentice : the Royal Ranger). - Met 16 pagina's van het begin van boek 1 van de Broederband-serie. Maddie komt oog in oog te staan met de leider van De Clan van de Rode Vos. De Clan heeft het…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=clan+van+de+Rode+Vos",
+          "checkedAt": "2026-10-22T09:35:58.653131+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=clan+van+de+Rode+Vos",
+          "checkedAt": "2026-10-22T09:35:58.653131+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=clan+van+de+Rode+Vos",
+          "checkedAt": "2026-10-22T09:35:58.653131+00:00",
+          "matchedTitle": "De clan van de Rode Vos",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "cd508a8053b26b78dc4000d1d22763271996fd531f835cfba673eafb8fc92688"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0372",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:35:59.538466+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Will, Arnaut en prinses Evanlyn raken betrokken bij de strijd om Skandia. Ze helpen hun voormalige vijanden in de oorlog tegen de krijgzuchtige Temujai-strijders. Vierde deel uit de 'Grijze Jager'-serie*. Deze…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+          "checkedAt": "2026-10-22T09:35:59.538323+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+          "checkedAt": "2026-10-22T09:35:59.538323+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+            "evidence": "dia. Ze helpen hun voormalige vijanden in de oorlog tegen de krijgzuchtige Temujai-strijders. Vierde deel uit de 'Gr",
+            "checkedAt": "2026-10-22T09:35:59.538323+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+            "evidence": "Historische roman. Will, Arnaut en prinses Evanlyn raken betrokken bij de strijd o",
+            "checkedAt": "2026-10-22T09:35:59.538323+00:00"
+          },
+          {
+            "value": "fantasy",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+            "evidence": "erde deel uit de 'Grijze Jager'-serie*. Deze fantasy-reeks heeft over de hele wereld een schare enthousiaste fans. Oo",
+            "checkedAt": "2026-10-22T09:35:59.538323+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+            "evidence": "fans. Ook dit boek biedt de lezers weer veel spanning en actie, plus een grote veldslag als besluit.",
+            "checkedAt": "2026-10-22T09:35:59.538323+00:00"
+          },
+          {
+            "value": "fantasy",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+            "evidence": "erde deel uit de 'Grijze Jager'-serie*. Deze fantasy-reeks heeft over de hele wereld een schare enthousiaste fans. Oo",
+            "checkedAt": "2026-10-22T09:35:59.538323+00:00"
+          },
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+            "evidence": "dia. Ze helpen hun voormalige vijanden in de oorlog tegen de krijgzuchtige Temujai-strijders. Vierde deel uit de 'Gr",
+            "checkedAt": "2026-10-22T09:35:59.538323+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dragers+van+het+eikenblad",
+          "checkedAt": "2026-10-22T09:35:59.538323+00:00",
+          "matchedTitle": "De dragers van het eikenblad",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "13c693fee85662ceb3b37b9669e5b535f462880b3d496c2aea4191e173713b51"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0373",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:00.343137+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De strijd tegen de Clan van de Rode Vos gaat verder. Om haar vader en Gilan te helpen ontsnappen uit het oude fort op de heuvel, doet leerling-Jager Maddie er alles aan om de broederband De Reigers te vinden. Alleen…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=duel+bij+Araluen",
+          "checkedAt": "2026-10-22T09:36:00.342968+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=duel+bij+Araluen",
+          "checkedAt": "2026-10-22T09:36:00.342968+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=duel+bij+Araluen",
+          "checkedAt": "2026-10-22T09:36:00.342968+00:00",
+          "matchedTitle": "Het duel bij Araluen",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "f45ccbe91b4b395e9e48625d0751caf9181840282ddd7cb29c95168822bfaefc"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0374",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:00.435025+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Will, Halt en Arnaut hebben de sekte van Tennyson en zijn volgelingen in Clonmel opgerold, maar Tennyson is ontsnapt. Hij vlucht het land uit om elders nieuwe volgelingen te zoeken. Tijdens de achtervolging door…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Halt+in+gevaar",
+          "checkedAt": "2026-10-22T09:36:00.434881+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Halt+in+gevaar",
+          "checkedAt": "2026-10-22T09:36:00.434881+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Halt+in+gevaar",
+            "evidence": "Historische roman. Will, Halt en Arnaut hebben de sekte van Tennyson en zijn volge",
+            "checkedAt": "2026-10-22T09:36:00.434881+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "actie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Halt+in+gevaar",
+            "evidence": "ers nieuwe volgelingen te zoeken. Tijdens de achtervolging door Picta en Araluen stuiten Halt en Will op twee scherpschutte",
+            "checkedAt": "2026-10-22T09:36:00.434881+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Halt+in+gevaar",
+          "checkedAt": "2026-10-22T09:36:00.434881+00:00",
+          "matchedTitle": "Halt in gevaar",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "2e9bba0f9c5661a9470c233b571e9323678a6e5aaf520070037a9b4a868734d8"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0375",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:01.472597+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=hinderlaag+bij+Sorato",
+          "checkedAt": "2026-10-22T09:36:01.472446+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=hinderlaag+bij+Sorato",
+          "checkedAt": "2026-10-22T09:36:01.472446+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=hinderlaag+bij+Sorato",
+          "checkedAt": "2026-10-22T09:36:01.472446+00:00",
+          "matchedTitle": "De hinderlaag bij Sorato",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0376",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:02.018053+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Will and prinses Evanlyn zijn de gevangenen van de Skandische aanvoerder Erak. Omdat Will een leerling is van Halt, de Grijze Jager, wil die samen met Arnaut, Wills beste vriend, zijn pupil redden. Hierover raakt hij…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ijzige+land",
+          "checkedAt": "2026-10-22T09:36:02.017919+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ijzige+land",
+          "checkedAt": "2026-10-22T09:36:02.017919+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ijzige+land",
+            "evidence": "rijze Jager, wil die samen met Arnaut, Wills beste vriend, zijn pupil redden. Hierover raakt hij in conflict met koning Du",
+            "checkedAt": "2026-10-22T09:36:02.017919+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ijzige+land",
+            "evidence": "rijze Jager, wil die samen met Arnaut, Wills beste vriend, zijn pupil redden. Hierover raakt hij in conflict met koning Du",
+            "checkedAt": "2026-10-22T09:36:02.017919+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ijzige+land",
+          "checkedAt": "2026-10-22T09:36:02.017919+00:00",
+          "matchedTitle": "Het ijzige land",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "17269066897cb8c1d57aa5a39c781c0a2f8cf6bcff0619e2fedc1a758eca522c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0377",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:02.181041+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Hal en de rest van de broederband De Reigers gaan achter de meedogenloze piraat Zavac aan, die een belangrijke schat van hen heeft gestolen. Zavac besluit het stadje Limmat aan te vallen om zo beslag te leggen op de…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=indringers",
+          "checkedAt": "2026-10-22T09:36:02.180884+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=indringers",
+          "checkedAt": "2026-10-22T09:36:02.180884+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=indringers",
+            "evidence": "Historische roman. Hal en de rest van de broederband De Reigers gaan achter de mee",
+            "checkedAt": "2026-10-22T09:36:02.180884+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=indringers",
+          "checkedAt": "2026-10-22T09:36:02.180884+00:00",
+          "matchedTitle": "De indringers",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "11d16131d1edda4a6338615bbde18bc5a426c1fbaf3566fbe9bbfcdd6e173951"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0378",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:03.198982+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Brotherband ; b. 9) Piraten sluipen de haven van Hallasholm binnen en stelen de Wolfswind, het vlaggenschip van de Skandische vloot. De kleine maar vastberaden bemanning van de Reiger achtervolgt de piraten over…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+de+Wolfswind",
+          "checkedAt": "2026-10-22T09:36:03.198822+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+de+Wolfswind",
+          "checkedAt": "2026-10-22T09:36:03.198822+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+de+Wolfswind",
+          "checkedAt": "2026-10-22T09:36:03.198822+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+de+Wolfswind",
+          "checkedAt": "2026-10-22T09:36:03.198822+00:00",
+          "matchedTitle": "De jacht op de Wolfswind",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "8fb4d28a41cdfc72abf1b3de633c6cb5e1d4095e5196561d45ce62fdcf3b8b45"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0379",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:03.586111+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Vertaling van: The beast from another time : a ranger's apprentice story. - ©2017 Maddie, de prinses die door Will wordt opgeleid tot Grijze Jager, blijft achter als Will op missie is. Een boerenechtpaar komt om hulp…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+het+schaduwdier",
+          "checkedAt": "2026-10-22T09:36:03.585859+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+het+schaduwdier",
+          "checkedAt": "2026-10-22T09:36:03.585859+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+het+schaduwdier",
+          "checkedAt": "2026-10-22T09:36:03.585859+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jacht+op+het+schaduwdier",
+          "checkedAt": "2026-10-22T09:36:03.585859+00:00",
+          "matchedTitle": "De jacht op het schaduwdier",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "c5c4d7d13219f6e43ef84f34ba2411529d72494ef119781665f1c4e3cd8c244f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0380",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:03.539424+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In dit derde deel van Flanagans bestsellerserie ‘Broederband’*, vol ruige avonturen in een noordelijk gebied vol middeleeuwse elementen, achtervolgen Hal en zijn vrienden met hun zelfgemaakte boot Heron nog steeds de…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jagers",
+          "checkedAt": "2026-10-22T09:36:03.539254+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jagers",
+          "checkedAt": "2026-10-22T09:36:03.539254+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jagers",
+            "evidence": "Historische roman. In dit derde deel van Flanagans bestsellerserie ‘Broederband’*,",
+            "checkedAt": "2026-10-22T09:36:03.539254+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=jagers",
+          "checkedAt": "2026-10-22T09:36:03.539254+00:00",
+          "matchedTitle": "De jagers",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "82150804b81f74268b29caf9e46d588089486f09169d9626c40c7b70fa83a1c4"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0381",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:04.760831+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Ranger's apprentice ; b. 10) Als Arnaut niet terugkomt van zijn militaire missie in Nihon-Ja, besluiten Will en zijn vrienden zo snel mogelijk naar Nihon-Ja te varen op het schip van de Skandie͏̈r Gundar. Vanaf…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=keizer+van+Nihon-Ja",
+          "checkedAt": "2026-10-22T09:36:04.760640+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=keizer+van+Nihon-Ja",
+          "checkedAt": "2026-10-22T09:36:04.760640+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=keizer+van+Nihon-Ja",
+          "checkedAt": "2026-10-22T09:36:04.760640+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=keizer+van+Nihon-Ja",
+          "checkedAt": "2026-10-22T09:36:04.760640+00:00",
+          "matchedTitle": "De keizer van Nihon-Ja",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "f62dd7db63a5a29d7d25e9df67cab0578099777e660f02e12c2352ed7441cc08"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0382",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:05.377439+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Aan de westkust van Araluen zijn mensen van de sekte de Buitenstaanders gesignaleerd. Halt houdt een oogje in het zeil. Hierdoor mist hij de jaarlijkse bijeenkomst van de Grijze Jagers. Tijdens deze bijeenkomst doet…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koning+van+Clonmel",
+          "checkedAt": "2026-10-22T09:36:05.377289+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koning+van+Clonmel",
+          "checkedAt": "2026-10-22T09:36:05.377289+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koning+van+Clonmel",
+            "evidence": "Historische roman. Aan de westkust van Araluen zijn mensen van de sekte de Buitens",
+            "checkedAt": "2026-10-22T09:36:05.377289+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koning+van+Clonmel",
+          "checkedAt": "2026-10-22T09:36:05.377289+00:00",
+          "matchedTitle": "De koning van Clonmel",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "b976982d11f18f2edfbcbd5f048b1af08cfad921b59b27c16348df1174938c8e"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0383",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:05.406392+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Will, belangrijk lid van de Grijze Jagers, zit diep in de put na de moord op zijn geliefde Alyss. Niets lijkt hem uit zijn lethargie te kunnen halen, tot zijn vrienden besluiten dat hij een nieuwe opdracht moet…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koninklijke+leerling",
+          "checkedAt": "2026-10-22T09:36:05.406253+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koninklijke+leerling",
+          "checkedAt": "2026-10-22T09:36:05.406253+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koninklijke+leerling",
+            "evidence": "Historische roman. Will, belangrijk lid van de Grijze Jagers, zit diep in de put n",
+            "checkedAt": "2026-10-22T09:36:05.406253+00:00"
+          },
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koninklijke+leerling",
+            "evidence": "n de Grijze Jagers, zit diep in de put na de moord op zijn geliefde Alyss. Niets lijkt hem uit zijn lethargie te ku",
+            "checkedAt": "2026-10-22T09:36:05.406253+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koninklijke+leerling",
+            "evidence": "n de Grijze Jagers, zit diep in de put na de moord op zijn geliefde Alyss. Niets lijkt hem uit zijn lethargie te ku",
+            "checkedAt": "2026-10-22T09:36:05.406253+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=koninklijke+leerling",
+          "checkedAt": "2026-10-22T09:36:05.406253+00:00",
+          "matchedTitle": "De koninklijke leerling",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "34c2ca0e7e3a9902d197cad7f17cdeb7f9efafe3a883f267b268b132a43bd8d3"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0384",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:06.418352+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Erak, oberjarl van het noordelijke Skandia en vriend van Will, wordt tijdens een rooftocht langs de kust van Arrida ontvoerd. Will en zijn vrienden trekken naar het verre woestijnland om zijn losgeld te betalen. Dat…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Losgeld+voor+Erak",
+          "checkedAt": "2026-10-22T09:36:06.418221+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Losgeld+voor+Erak",
+          "checkedAt": "2026-10-22T09:36:06.418221+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Losgeld+voor+Erak",
+            "evidence": "Historische roman. Erak, oberjarl van het noordelijke Skandia en vriend van Will, ",
+            "checkedAt": "2026-10-22T09:36:06.418221+00:00"
+          },
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Losgeld+voor+Erak",
+            "evidence": "jdens een rooftocht langs de kust van Arrida ontvoerd. Will en zijn vrienden trekken naar het verre woestijnland om zi",
+            "checkedAt": "2026-10-22T09:36:06.418221+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Losgeld+voor+Erak",
+            "evidence": "jdens een rooftocht langs de kust van Arrida ontvoerd. Will en zijn vrienden trekken naar het verre woestijnland om zi",
+            "checkedAt": "2026-10-22T09:36:06.418221+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Losgeld+voor+Erak",
+          "checkedAt": "2026-10-22T09:36:06.418221+00:00",
+          "matchedTitle": "Losgeld voor Erak",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e21ce5e07732cb1bc2601ffbfb9db3a6b73c61753191dc05c3a5d18d805bbd98"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0385",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:06.986078+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Will is nu een echte Grijze Jager. Zijn eerste opdracht voert hem naar het afgelegen leengebied Macindaw, waar een tovenaar de plaatselijke bevolking terroriseert. Met dit boek begint hij een nieuw avontuur. Will is…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=magi%C3%ABr+van+Macindaw",
+          "checkedAt": "2026-10-22T09:36:06.985932+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=magi%C3%ABr+van+Macindaw",
+          "checkedAt": "2026-10-22T09:36:06.985932+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=magi%C3%ABr+van+Macindaw",
+            "evidence": "Historische roman. Will is nu een echte Grijze Jager. Zijn eerste opdracht voert h",
+            "checkedAt": "2026-10-22T09:36:06.985932+00:00"
+          },
+          {
+            "value": "magie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=magi%C3%ABr+van+Macindaw",
+            "evidence": " het afgelegen leengebied Macindaw, waar een tovenaar de plaatselijke bevolking terroriseert. Met dit boek begint hij ",
+            "checkedAt": "2026-10-22T09:36:06.985932+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=magi%C3%ABr+van+Macindaw",
+          "checkedAt": "2026-10-22T09:36:06.985932+00:00",
+          "matchedTitle": "De magiër van Macindaw",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "62b87f16e991b4ba5e74097eeb3f0e8c2d366c7704df89339f463221b721a540"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0386",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:06.792848+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Brotherband ; b. 1). - 1e druk Nederlandse uitgave: 2012 In Skandia worden jongens tot krijgers opgeleid in groepen, die tegen elkaar moeten strijden. Hal Mikkelson wordt de leider van een groep buitenbeentjes.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=outsiders",
+          "checkedAt": "2026-10-22T09:36:06.792589+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=outsiders",
+          "checkedAt": "2026-10-22T09:36:06.792589+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=outsiders",
+          "checkedAt": "2026-10-22T09:36:06.792589+00:00",
+          "matchedTitle": "De outsiders",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5d7f0e275f49c137df02dfd175d792ec146c99afcfd0e16cc20d6f8b9a6c0233"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0387",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:08.350833+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De 15-jarige weesjongen Will wordt in een middeleeuwse fantasyomgeving vol ridders, kastelen en monsters opgeleid tot een zogenaamde grijze jager: een spion van de koning, die nagenoeg onzichtbaar door het land trekt…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:08.350658+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:08.350658+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": " ridder, wat Will eerst jaloers maakt en hun vriendschap op de proef stelt. Zo ontstaat een – enigszins schematisch – ver",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          },
+          {
+            "value": "identiteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": "lwassen worden aan de hand van thema's zoals identiteit, oprechtheid en respect.",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          },
+          {
+            "value": "volwassen worden",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": "ns schematisch – verhaal over vriendschap en volwassen worden aan de hand van thema's zoals identiteit, oprechtheid en respect",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": "Historische roman. De 15-jarige weesjongen Will wordt in een middeleeuwse fantasyo",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          },
+          {
+            "value": "monsters",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": "wse fantasyomgeving vol ridders, kastelen en monsters opgeleid tot een zogenaamde grijze jager: een spion van de konin",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          },
+          {
+            "value": "paarden",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": "baar door het land trekt met pijl en boog en pony. Zijn vriend leert voor ridder, wat Will eerst jaloers maakt en ",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+            "evidence": " ridder, wat Will eerst jaloers maakt en hun vriendschap op de proef stelt. Zo ontstaat een – enigszins schematisch – ver",
+            "checkedAt": "2026-10-22T09:36:08.350658+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=ruines+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:08.350658+00:00",
+          "matchedTitle": "De ruines van Gorlan",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "47df3121551dde2629f3c32e99dea0dd8d80100c50e316c8a1640c7d7e93fe05"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0388",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:08.778888+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In dit deel staan Hal en zijn broederband de Reigers weer een moeilijke opdracht te wachten. Koning Duncan heeft van Araluen een dringende opdracht voor Hal en zijn broederband de Reigers. De moordaanslag op zijn…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+          "checkedAt": "2026-10-22T09:36:08.778711+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+          "checkedAt": "2026-10-22T09:36:08.778711+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+          "checkedAt": "2026-10-22T09:36:08.778711+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+            "evidence": "Historische roman. In dit deel staan Hal en zijn broederband de Reigers weer een m",
+            "checkedAt": "2026-10-22T09:36:08.778711+00:00"
+          },
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+            "evidence": " voor Hal en zijn broederband de Reigers. De moordaanslag op zijn dochter, prinses Cassandra, is weliswaar verijdeld, maar",
+            "checkedAt": "2026-10-22T09:36:08.778711+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+            "evidence": " voor Hal en zijn broederband de Reigers. De moordaanslag op zijn dochter, prinses Cassandra, is weliswaar verijdeld, maar",
+            "checkedAt": "2026-10-22T09:36:08.778711+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=schorpioenberg",
+          "checkedAt": "2026-10-22T09:36:08.778711+00:00",
+          "matchedTitle": "De schorpioenberg",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "602850d25fb4bf1961e72b2f212b50d3a852b17422fe124b29d43a988b924765"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0389",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:08.539908+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Ranger's apprentice : the early years ; book 2). - Oorspronkelijke uitgave: Random House Australia Halt, de Grijze jager, wordt door koning Duncan eropuit gestuurd om de plannen van de slechte Morgarath te…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slag+op+de+Heckingse+Heide",
+          "checkedAt": "2026-10-22T09:36:08.539761+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slag+op+de+Heckingse+Heide",
+          "checkedAt": "2026-10-22T09:36:08.539761+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slag+op+de+Heckingse+Heide",
+          "checkedAt": "2026-10-22T09:36:08.539761+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slag+op+de+Heckingse+Heide",
+          "checkedAt": "2026-10-22T09:36:08.539761+00:00",
+          "matchedTitle": "De slag op de Heckingse Heide",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "791c53b545af05b048fe26438530cea8ddd3b6dce1513a486711b135d89512b6"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0390",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:10.100169+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Brotherband ; b. 4). Als een oude vijand van Hal en zijn broederband twaalf Araluenen als slaven wil verkopen, gaan De Reigers op pad om hen te bevrijden. Bij deze bijna onmogelijke klus krijgen ze hulp van een…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slaven+van+Socorro",
+          "checkedAt": "2026-10-22T09:36:10.100011+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slaven+van+Socorro",
+          "checkedAt": "2026-10-22T09:36:10.100011+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slaven+van+Socorro",
+          "checkedAt": "2026-10-22T09:36:10.100011+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=slaven+van+Socorro",
+          "checkedAt": "2026-10-22T09:36:10.100011+00:00",
+          "matchedTitle": "De slaven van Socorro",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "52b79d97bb745c7be4c8faeee436d4371ce907bcef7873acf271233d677958f6"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0391",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:10.338009+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Brotherband ; b. 6). De Spookgezichten is het razend spannende zesde deel in de serie Broederband van Grijze Jager-schrijver John Flanagan. In dit deel spoelen de Reigers aan op een onbekend eiland, waar ze een…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=spookgezichten",
+          "checkedAt": "2026-10-22T09:36:10.337872+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=spookgezichten",
+          "checkedAt": "2026-10-22T09:36:10.337872+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=spookgezichten",
+          "checkedAt": "2026-10-22T09:36:10.337872+00:00",
+          "matchedTitle": "De spookgezichten",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "452e11bb5be8a152a6366a98f589a9c029136fd106af8582d39de2dccab9ec09"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0392",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:10.413501+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Brotherband ; bk. 8) Hal en zijn broederband, de bemanning van De Reiger, worden op missie gestuurd om Skandia tegen de Temujai te beschermen. Zullen deze oorlogszuchtige krijgers van de Oostelijke Steppen via de…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=terugkeer+van+de+Temujai",
+          "checkedAt": "2026-10-22T09:36:10.413365+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=terugkeer+van+de+Temujai",
+          "checkedAt": "2026-10-22T09:36:10.413365+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=terugkeer+van+de+Temujai",
+          "checkedAt": "2026-10-22T09:36:10.413365+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=terugkeer+van+de+Temujai",
+            "evidence": " tegen de Temujai te beschermen. Zullen deze oorlogszuchtige krijgers van de Oostelijke Steppen via de smalle bergpas komen o",
+            "checkedAt": "2026-10-22T09:36:10.413365+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=terugkeer+van+de+Temujai",
+            "evidence": " tegen de Temujai te beschermen. Zullen deze oorlogszuchtige krijgers van de Oostelijke Steppen via de smalle bergpas komen o",
+            "checkedAt": "2026-10-22T09:36:10.413365+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=terugkeer+van+de+Temujai",
+          "checkedAt": "2026-10-22T09:36:10.413365+00:00",
+          "matchedTitle": "De terugkeer van de Temujai",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "b0c3547519c410fea44759da1afcc07928adaa613425e6f91ea58f67f63efb39"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0393",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:11.911223+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (Brotherband ; b. 1). - 1e druk Nederlandse uitgave: 2012 In Skandia worden jongens tot krijgers opgeleid in groepen, die tegen elkaar moeten strijden. Hal Mikkelson wordt de leider van een groep buitenbeentjes.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=toernooi+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:11.911065+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Avonturenroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=toernooi+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:11.911065+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=toernooi+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:11.911065+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=toernooi+van+Gorlan",
+          "checkedAt": "2026-10-22T09:36:11.911065+00:00",
+          "matchedTitle": "Het toernooi van Gorlan",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5d7f0e275f49c137df02dfd175d792ec146c99afcfd0e16cc20d6f8b9a6c0233"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0394",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:11.986951+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Dit elfde deel van de succesvolle serie 'De grijze jager'* volgt niet chronologisch op het voorafgaande deel, maar biedt een tiental ' verloren verhalen ', die aansluiten bij gebeurtenissen uit de overige delen.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verloren+verhalen",
+          "checkedAt": "2026-10-22T09:36:11.986800+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verloren+verhalen",
+          "checkedAt": "2026-10-22T09:36:11.986800+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verloren+verhalen",
+            "evidence": "Historische roman. Dit elfde deel van de succesvolle serie 'De grijze jager'* volg",
+            "checkedAt": "2026-10-22T09:36:11.986800+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verloren+verhalen",
+          "checkedAt": "2026-10-22T09:36:11.986800+00:00",
+          "matchedTitle": "De verloren verhalen",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "1108087e9c36548f86b29eacf74ba63ebfc8a997c4d5d3f357b5f8fa7bea8596"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0395",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:12.200991+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (The ranger's apprentice : the Royal Ranger) Will en zijn koninklijke leerling Maddie worden op pad gestuurd om de prins van Gallica te redden uit de handen van de opstandige baron Lassigny. Ze besluiten als…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vermiste+prins",
+          "checkedAt": "2026-10-22T09:36:12.200849+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vermiste+prins",
+          "checkedAt": "2026-10-22T09:36:12.200849+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vermiste+prins",
+          "checkedAt": "2026-10-22T09:36:12.200849+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vermiste+prins",
+          "checkedAt": "2026-10-22T09:36:12.200849+00:00",
+          "matchedTitle": "De vermiste prins",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "8a208e87becdaffa6cf0e003b5c0873920894d3daca755b1a93fc3bf9894a50e"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0396",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:13.649323+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- (The ranger's apprentice : the Royal Ranger) Maddie en Will zitten gevangen in het kasteel van de sluwe baron Lassigny, die ook de prins die zij hadden willen bevrijden heeft ontvoerd. Kunnen ze ontsnappen, en hun…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vlucht+uit+Falaise",
+          "checkedAt": "2026-10-22T09:36:13.649168+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vlucht+uit+Falaise",
+          "checkedAt": "2026-10-22T09:36:13.649168+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vlucht+uit+Falaise",
+          "checkedAt": "2026-10-22T09:36:13.649168+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vlucht+uit+Falaise",
+            "evidence": " prins die zij hadden willen bevrijden heeft ontvoerd. Kunnen ze ontsnappen, en hun missie voltooien door de prins vei",
+            "checkedAt": "2026-10-22T09:36:13.649168+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vlucht+uit+Falaise",
+            "evidence": " prins die zij hadden willen bevrijden heeft ontvoerd. Kunnen ze ontsnappen, en hun missie voltooien door de prins vei",
+            "checkedAt": "2026-10-22T09:36:13.649168+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vlucht+uit+Falaise",
+          "checkedAt": "2026-10-22T09:36:13.649168+00:00",
+          "matchedTitle": "De vlucht uit Falaise",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "eb62ab76cebeab45efb8a44b0e3259361cf73ed958c701cef633a845ea6813ac"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0397",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:13.808800+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Vertaling van: Arazan's wolves. - (The ranger's apprentice : the Royal Ranger ; 6) Er komen onrustbarende berichten uit Celtica, en Grijze Jager Will en zijn leerling Maddie gaan op onderzoek uit. Ze ontdekken dat…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=wolven+van+Arazan",
+          "checkedAt": "2026-10-22T09:36:13.808631+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sprookjes",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=wolven+van+Arazan",
+          "checkedAt": "2026-10-22T09:36:13.808631+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=wolven+van+Arazan",
+          "checkedAt": "2026-10-22T09:36:13.808631+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "magie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=wolven+van+Arazan",
+            "evidence": "ddie gaan op onderzoek uit. Ze ontdekken dat tovenares Arazan een troep woeste reuzenwolven in haar macht heeft en bezi",
+            "checkedAt": "2026-10-22T09:36:13.808631+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=wolven+van+Arazan",
+            "evidence": "ijze Jager Will en zijn leerling Maddie gaan op onderzoek uit. Ze ontdekken dat tovenares Arazan een troep woeste reuzenwo",
+            "checkedAt": "2026-10-22T09:36:13.808631+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=wolven+van+Arazan",
+          "checkedAt": "2026-10-22T09:36:13.808631+00:00",
+          "matchedTitle": "De wolven van Arazan",
+          "matchedAuthor": "Flanagan, John",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "d317488b4984e6188d942c00fd660caf16a5372389008b921c684d43a18be0c1"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0398",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:13.999412+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De Amerikaanse schrijver (1977) debuteerde in 2002 met de bestseller 'Alles is verlicht'. Zijn al even boeiende tweede roman 'Extreem luid & ongelooflijk dichtbij' beschrijft hoe drie generaties van een Duitse…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Extreem+luid+%26+ongeloofelijk+dichtbij",
+          "checkedAt": "2026-10-22T09:36:13.999277+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dood en verdriet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Extreem+luid+%26+ongeloofelijk+dichtbij",
+          "checkedAt": "2026-10-22T09:36:13.999277+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Extreem+luid+%26+ongeloofelijk+dichtbij",
+            "evidence": "eschrijft hoe drie generaties van een Duitse familie betrokken raken bij twee van de gruwelijkste gebeurtenissen van ",
+            "checkedAt": "2026-10-22T09:36:13.999277+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "emotioneel",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Extreem+luid+%26+ongeloofelijk+dichtbij",
+            "evidence": "Dood en verdriet. Zijn al even boeiende tweede roman 'Extreem luid & ongelooflijk",
+            "checkedAt": "2026-10-22T09:36:13.999277+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Extreem+luid+%26+ongeloofelijk+dichtbij",
+          "checkedAt": "2026-10-22T09:36:13.999277+00:00",
+          "matchedTitle": "Extreem luid & ongeloofelijk dichtbij",
+          "matchedAuthor": "Foer, Jonathan Safran",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "15d8acc6bc234f89cdd5db2b37f754755f91b051cfafacca1f8e1772244a8f9b"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0399",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:15.270026+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In de zomer van 1941 ontsnappen een jongen en een meisje van Denemarken naar Engeland met een opgelapt vliegtuigje en voor de Britten vitale informatie over de Duitse radar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nachtwakers",
+          "checkedAt": "2026-10-22T09:36:15.269845+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Oorlogsroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nachtwakers",
+          "checkedAt": "2026-10-22T09:36:15.269845+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nachtwakers",
+            "evidence": "Oorlogsroman. In de zomer van 1941 ontsnappen een jongen en een meisje van De",
+            "checkedAt": "2026-10-22T09:36:15.269845+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nachtwakers",
+            "evidence": "Oorlogsroman. In de zomer van 1941 ontsnappen een jongen en een meisje van De",
+            "checkedAt": "2026-10-22T09:36:15.269845+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Nachtwakers",
+          "checkedAt": "2026-10-22T09:36:15.269845+00:00",
+          "matchedTitle": "Nachtwakers",
+          "matchedAuthor": "Follett, Ken",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "793ad2c07a495f34b97a72a8c4c22f04466359bcc68fcf37d4ae060f2084a70e"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0400",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:15.548346+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Vertaling van: The wordsmith. - Dublin : Little Island Books, ©2014 - Vertaald uit het Engels In de toekomstige maatschappij Ark mogen inwoners slechts vijfhonderd woorden gebruiken uit een streng bewaakte lijst.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=woordsmid",
+          "checkedAt": "2026-10-22T09:36:15.548170+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=woordsmid",
+          "checkedAt": "2026-10-22T09:36:15.548170+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=woordsmid",
+          "checkedAt": "2026-10-22T09:36:15.548170+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=woordsmid",
+            "evidence": " van de Lijst. Als haar leermeester Benjamin verdwijnt, is Letta vastbesloten de waarheid te achterhalen. Heeft hun lei",
+            "checkedAt": "2026-10-22T09:36:15.548170+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=woordsmid",
+          "checkedAt": "2026-10-22T09:36:15.548170+00:00",
+          "matchedTitle": "De woordsmid",
+          "matchedAuthor": "Forde, Patricia",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "88f764a11463cfdf1c631710bba4dd4d7f1d99d83779027233be47be3921d49c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0401",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:36:15.657048+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+ik+blijf",
+          "checkedAt": "2026-10-22T09:36:15.656909+00:00",
+          "matchedTitle": "Als ik blijf",
+          "matchedAuthor": "Forman, Gayle",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "1f3712e034f68181ebdc1d5dc09e84414bffec946c17143dd64c31251f8ae577"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    }
+  ]
+}

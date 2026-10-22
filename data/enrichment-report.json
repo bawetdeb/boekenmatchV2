@@ -1,0 +1,324 @@
+{
+  "sourceSha256": "1eee2053d104ac6e9362732e5e17f3b3893fb2186306ad58b0eb3dac79f0b167",
+  "ruleVersion": "evidence-tags-v5",
+  "sourceRecordCount": 1529,
+  "processed": 1529,
+  "fullyEnriched": 0,
+  "partiallyEnriched": 1435,
+  "notEnriched": 94,
+  "definitionFull": "Verified Excel edition plus ISBN, pages, description, language and supported reading/content assessments. No edition can be identified from title/author alone.",
+  "definitionPartial": "At least one additional source fact or supported assessment; other dimensions remain unknown.",
+  "matchedSourceRecords": 1494,
+  "onlineRecommendationReadyRows": 1108,
+  "recommendableExcelRowsIncludingLegacy": 1109,
+  "recommendableUniqueBooksIncludingLegacy": 1128,
+  "combinedDatabaseRecords": 1550,
+  "editionVerified": 0,
+  "factCoverage": {
+    "summary": 1398,
+    "subjects": 1318,
+    "language": 220,
+    "isbn": 0,
+    "pages": 0,
+    "coverUrl": 0,
+    "available": 0,
+    "auraId": 0
+  },
+  "providers": {
+    "Bogerman Aura": 1485,
+    "Open Library": 9
+  },
+  "recordsWithConflicts": 0,
+  "profiles": [
+    {
+      "profile": "Basis / voetbal / spanning / weinig motivatie",
+      "eligibleOnlineBooks": 224,
+      "topFive": [
+        {
+          "id": "b097",
+          "title": "Buitenspel",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b024",
+          "title": "Achtste-groepers huilen niet",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "excel-Sheet-0492",
+          "title": "Cool als Collina",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        },
+        {
+          "id": "excel-Sheet-1321",
+          "title": "Heerestraat & Rozenlaan",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        },
+        {
+          "id": "excel-Sheet-0630",
+          "title": "Tijdrovers",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        }
+      ],
+      "onlineOnlyTopFive": [
+        {
+          "id": "excel-Sheet-0114",
+          "title": "Groener gras"
+        },
+        {
+          "id": "excel-Sheet-0492",
+          "title": "Cool als Collina"
+        },
+        {
+          "id": "excel-Sheet-1321",
+          "title": "Heerestraat & Rozenlaan"
+        },
+        {
+          "id": "excel-Sheet-0557",
+          "title": "Buitenspel : einde van een droom"
+        },
+        {
+          "id": "excel-Sheet-0674",
+          "title": "Macho's en mietjes"
+        }
+      ]
+    },
+    {
+      "profile": "Kader / games / mysterie",
+      "eligibleOnlineBooks": 126,
+      "topFive": [
+        {
+          "id": "b007",
+          "title": "Erebos",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b002",
+          "title": "Password",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "excel-Sheet-0333",
+          "title": "Superhelden2.nl",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        },
+        {
+          "id": "b041",
+          "title": "Het leven van een loser: bekijk het maar!",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "excel-Sheet-0275",
+          "title": "Glitch game",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        }
+      ],
+      "onlineOnlyTopFive": [
+        {
+          "id": "excel-Sheet-0333",
+          "title": "Superhelden2.nl"
+        },
+        {
+          "id": "excel-Sheet-0425",
+          "title": "net"
+        },
+        {
+          "id": "excel-Sheet-0642",
+          "title": "Blikvanger"
+        },
+        {
+          "id": "excel-Sheet-0003",
+          "title": "geheim van de gouden azen"
+        },
+        {
+          "id": "excel-Sheet-0275",
+          "title": "Glitch game"
+        }
+      ]
+    },
+    {
+      "profile": "GT / oorlog / geschiedenis",
+      "eligibleOnlineBooks": 194,
+      "topFive": [
+        {
+          "id": "b019",
+          "title": "De jongen in de gestreepte pyjama",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b022",
+          "title": "De aanslag",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "excel-Sheet-0454",
+          "title": "ijzeren maagd",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        },
+        {
+          "id": "excel-Sheet-0127",
+          "title": "verwanten",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        },
+        {
+          "id": "excel-Sheet-0031",
+          "title": "Ik ben 15 jaar en wil niet sterven. Het beleg van Budapest door de Russen in 1944",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        }
+      ],
+      "onlineOnlyTopFive": [
+        {
+          "id": "excel-Sheet-0031",
+          "title": "Ik ben 15 jaar en wil niet sterven. Het beleg van Budapest door de Russen in 1944"
+        },
+        {
+          "id": "excel-Sheet-0219",
+          "title": "Familiegeheim"
+        },
+        {
+          "id": "excel-Sheet-0454",
+          "title": "ijzeren maagd"
+        },
+        {
+          "id": "excel-Sheet-0092",
+          "title": "Vriend of vijand"
+        },
+        {
+          "id": "excel-Sheet-0372",
+          "title": "dragers van het eikenblad"
+        }
+      ]
+    },
+    {
+      "profile": "Kader / liefde / school",
+      "eligibleOnlineBooks": 383,
+      "topFive": [
+        {
+          "id": "b031",
+          "title": "Radeloos",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b060",
+          "title": "Aan alle jongens van wie ik hield",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b037",
+          "title": "Hoe overleef ik mijn eerste zoen",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b064",
+          "title": "Eleanor & Park",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "excel-Sheet-0654",
+          "title": "Niet te filmen! : een roman",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        }
+      ],
+      "onlineOnlyTopFive": [
+        {
+          "id": "excel-Sheet-0042",
+          "title": "Hou me vast"
+        },
+        {
+          "id": "excel-Sheet-0819",
+          "title": "Schaduw van de tijd"
+        },
+        {
+          "id": "excel-Sheet-0943",
+          "title": "Hoe overleef ik mijn vriendje? (en hij mij!)"
+        },
+        {
+          "id": "excel-Sheet-0811",
+          "title": "Twilight"
+        },
+        {
+          "id": "excel-Sheet-0654",
+          "title": "Niet te filmen! : een roman"
+        }
+      ]
+    },
+    {
+      "profile": "Basis / humor / weinig motivatie",
+      "eligibleOnlineBooks": 144,
+      "topFive": [
+        {
+          "id": "b041",
+          "title": "Het leven van een loser: bekijk het maar!",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b049",
+          "title": "Sjakie en de chocoladefabriek",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "b060",
+          "title": "Aan alle jongens van wie ik hield",
+          "source": "aura",
+          "scoreKind": "legacy-editorial-percentage"
+        },
+        {
+          "id": "excel-Sheet-1479",
+          "title": "Vriendinnen door dik en dun",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        },
+        {
+          "id": "excel-Sheet-0150",
+          "title": "derde zomer van de spijkerbroek",
+          "source": "excel",
+          "scoreKind": "evidence-ranking-no-percentage"
+        }
+      ],
+      "onlineOnlyTopFive": [
+        {
+          "id": "excel-Sheet-0150",
+          "title": "derde zomer van de spijkerbroek"
+        },
+        {
+          "id": "excel-Sheet-1479",
+          "title": "Vriendinnen door dik en dun"
+        },
+        {
+          "id": "excel-Sheet-0130",
+          "title": "Iedereen krijgt klappen"
+        },
+        {
+          "id": "excel-Sheet-0123",
+          "title": "Sanne gaat solo"
+        },
+        {
+          "id": "excel-Sheet-0038",
+          "title": "schreeuw van Westerdam"
+        }
+      ]
+    }
+  ]
+}

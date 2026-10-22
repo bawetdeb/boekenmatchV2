@@ -1,0 +1,4116 @@
+{
+  "schemaVersion": 1,
+  "ruleVersion": "evidence-tags-v5",
+  "sourceSha256": "1eee2053d104ac6e9362732e5e17f3b3893fb2186306ad58b0eb3dac79f0b167",
+  "records": [
+    {
+      "id": "excel-Sheet-0552",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:44.085537+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gruwelijk+spel",
+          "checkedAt": "2026-10-22T09:37:44.085407+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gruwelijk+spel",
+          "checkedAt": "2026-10-22T09:37:44.085407+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gruwelijk+spel",
+            "evidence": "Thriller.",
+            "checkedAt": "2026-10-22T09:37:44.085407+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Gruwelijk+spel",
+          "checkedAt": "2026-10-22T09:37:44.085407+00:00",
+          "matchedTitle": "Gruwelijk spel",
+          "matchedAuthor": "Hildebrand, Mirjam",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0553",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:44.023121+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Emma (15, ik-figuur) mag een heel schooljaar naar Precursor, zodra ze heeft meegedaan aan de Cirkelceremonie. Maar dan breekt er een virus uit waardoor mensen hun Voorlopers-vaardigheden kwijtraken. Kan Emma met haar…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=kracht+van+velen",
+          "checkedAt": "2026-10-22T09:37:44.022972+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=kracht+van+velen",
+          "checkedAt": "2026-10-22T09:37:44.022972+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=kracht+van+velen",
+            "evidence": "e fiction. Emma (15, ik-figuur) mag een heel schooljaar naar Precursor, zodra ze heeft meegedaan aan de Cirkelceremonie.",
+            "checkedAt": "2026-10-22T09:37:44.022972+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=kracht+van+velen",
+            "evidence": "e fiction. Emma (15, ik-figuur) mag een heel schooljaar naar Precursor, zodra ze heeft meegedaan aan de Cirkelceremonie.",
+            "checkedAt": "2026-10-22T09:37:44.022972+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=kracht+van+velen",
+          "checkedAt": "2026-10-22T09:37:44.022972+00:00",
+          "matchedTitle": "De kracht van velen",
+          "matchedAuthor": "Hildebrand, Mirjam",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "4d78769589766b420dc2e5661de1559ed8358b16ce9d5052ecc75cb5d2310daa"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0554",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:44.335064+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Emma 'ziet' dingen als gedachten en emoties. Ze gaat met een meisje mee naar een school in Frankrijk waar jongeren met haar gaven worden opgeleid. Daar krijgt Emma beelden door van een ontvoerde jongen. Zou ze hem…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+          "checkedAt": "2026-10-22T09:37:44.334924+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dystopieen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+          "checkedAt": "2026-10-22T09:37:44.334924+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+            "evidence": "emoties. Ze gaat met een meisje mee naar een school in Frankrijk waar jongeren met haar gaven worden opgeleid. Daar ",
+            "checkedAt": "2026-10-22T09:37:44.334924+00:00"
+          },
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+            "evidence": "eleid. Daar krijgt Emma beelden door van een ontvoerde jongen. Zou ze hem kunnen redden?",
+            "checkedAt": "2026-10-22T09:37:44.334924+00:00"
+          },
+          {
+            "value": "dystopie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+            "evidence": "Dystopieen. Emma 'ziet' dingen als gedachten en emoties. Ze gaat met een me",
+            "checkedAt": "2026-10-22T09:37:44.334924+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+            "evidence": "emoties. Ze gaat met een meisje mee naar een school in Frankrijk waar jongeren met haar gaven worden opgeleid. Daar ",
+            "checkedAt": "2026-10-22T09:37:44.334924+00:00"
+          },
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+            "evidence": "eleid. Daar krijgt Emma beelden door van een ontvoerde jongen. Zou ze hem kunnen redden?",
+            "checkedAt": "2026-10-22T09:37:44.334924+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Voorlopers",
+          "checkedAt": "2026-10-22T09:37:44.334924+00:00",
+          "matchedTitle": "Voorlopers",
+          "matchedAuthor": "Hildebrand, Mirjam",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5544dc179e4e1e958764b4849aa50806220d74074bbc12f071e5af44648cbf6f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0555",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:45.391477+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De 14-jarige Turkse Elif is verliefd op haar Nederlandse klasgenoot Charles. De twee zoeken elkaar op tegen de zin in van Arif, de broer van Elif. Hij houdt er fundamentalistische ideeën op na en controleert zijn zus…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+          "checkedAt": "2026-10-22T09:37:45.391287+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Cultuurverschillen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+          "checkedAt": "2026-10-22T09:37:45.391287+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+            "evidence": "tuurverschillen. De 14-jarige Turkse Elif is verliefd op haar Nederlandse klasgenoot Charles. De twee zoeken elkaar op",
+            "checkedAt": "2026-10-22T09:37:45.391287+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+            "evidence": " Turkse Elif is verliefd op haar Nederlandse klasgenoot Charles. De twee zoeken elkaar op tegen de zin in van Arif, de b",
+            "checkedAt": "2026-10-22T09:37:45.391287+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+            "evidence": "tuurverschillen. De 14-jarige Turkse Elif is verliefd op haar Nederlandse klasgenoot Charles. De twee zoeken elkaar op",
+            "checkedAt": "2026-10-22T09:37:45.391287+00:00"
+          },
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+            "evidence": "over de islam en gaat met zijn vriend Willem op onderzoek uit. Al snel komen er problemen als Elif en Charles meer contact",
+            "checkedAt": "2026-10-22T09:37:45.391287+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+            "evidence": " Turkse Elif is verliefd op haar Nederlandse klasgenoot Charles. De twee zoeken elkaar op tegen de zin in van Arif, de b",
+            "checkedAt": "2026-10-22T09:37:45.391287+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Respect",
+          "checkedAt": "2026-10-22T09:37:45.391287+00:00",
+          "matchedTitle": "Respect",
+          "matchedAuthor": "Hilterman, Karin",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "156981d6280f5b294e8f0c0ed4e9856ad5f4f646fe267fd8f970e16a9a1aaf40"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0556",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:45.925463+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Een veertienjarige tweeling werkt als slaaf op een plantage. Hun oma en moeder zijn ook slavinnen. Hoe is het voor hen om slaaf te zijn? Verhaal in korte zinnen en gemakkelijke woorden. Jonge Jury 2016",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+slavin+geboren",
+          "checkedAt": "2026-10-22T09:37:45.925314+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+slavin+geboren",
+          "checkedAt": "2026-10-22T09:37:45.925314+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+slavin+geboren",
+            "evidence": "Historische roman. Een veertienjarige tweeling werkt als slaaf op een plantage. Hu",
+            "checkedAt": "2026-10-22T09:37:45.925314+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+slavin+geboren",
+          "checkedAt": "2026-10-22T09:37:45.925314+00:00",
+          "matchedTitle": "Als slavin geboren",
+          "matchedAuthor": "Hoefnagel, Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "a8fb32fd6b00f35f8deb6f728a969bda5422a518848f8c8740434e1b0dd389c3"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0557",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:45.931486+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "1e druk: Brussel : Lezen voor Iedereen ; Amsterdam : Eenvoudig Communiceren, 2009 Voor Pier is maar één ding belangrijk: voetbal. Hij wil graag profvoetballer worden. Maar dan wordt hij ernstig ziek. Hij heeft…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+          "checkedAt": "2026-10-22T09:37:45.930898+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sport",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+          "checkedAt": "2026-10-22T09:37:45.930898+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+          "checkedAt": "2026-10-22T09:37:45.930898+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "voetbal",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+            "evidence": "009 Voor Pier is maar één ding belangrijk: voetbal. Hij wil graag profvoetballer worden. Maar dan wordt hij ernstig",
+            "checkedAt": "2026-10-22T09:37:45.930898+00:00"
+          },
+          {
+            "value": "andere sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+            "evidence": "Sport. 1e druk: Brussel : Lezen voor Iedereen ; Amsterdam : Eenvoudig ",
+            "checkedAt": "2026-10-22T09:37:45.930898+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+            "evidence": "Sport. 1e druk: Brussel : Lezen voor Iedereen ; Amsterdam : Eenvoudig ",
+            "checkedAt": "2026-10-22T09:37:45.930898+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Buitenspel+%3A+einde+van+een+droom",
+          "checkedAt": "2026-10-22T09:37:45.930898+00:00",
+          "matchedTitle": "Buitenspel : einde van een droom",
+          "matchedAuthor": "Hoefnagel, Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "dfd517049a733e7b96f8e336500633992827e1ac80cc8b62a962132c9f007cda"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0558",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:47.441158+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Eerste deel uit de 'Reality Reeks'. De 13-jarige Roy is gek op computers. Hij leert zijn klasgenoten op school internetten, e-mailen en chatten. Wanneer hijzelf anoniem chat met een meisje dat een klasgenote blijkt…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+          "checkedAt": "2026-10-22T09:37:47.441015+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Incest",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+          "checkedAt": "2026-10-22T09:37:47.441015+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "computers",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+            "evidence": " 'Reality Reeks'. De 13-jarige Roy is gek op computers. Hij leert zijn klasgenoten op school internetten, e-mailen en c",
+            "checkedAt": "2026-10-22T09:37:47.441015+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+            "evidence": " op computers. Hij leert zijn klasgenoten op school internetten, e-mailen en chatten. Wanneer hijzelf anoniem chat m",
+            "checkedAt": "2026-10-22T09:37:47.441015+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+            "evidence": " op computers. Hij leert zijn klasgenoten op school internetten, e-mailen en chatten. Wanneer hijzelf anoniem chat m",
+            "checkedAt": "2026-10-22T09:37:47.441015+00:00"
+          },
+          {
+            "value": "technologie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+            "evidence": " 'Reality Reeks'. De 13-jarige Roy is gek op computers. Hij leert zijn klasgenoten op school internetten, e-mailen en c",
+            "checkedAt": "2026-10-22T09:37:47.441015+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Chatten+verborgen+verdriet",
+          "checkedAt": "2026-10-22T09:37:47.441015+00:00",
+          "matchedTitle": "Chatten verborgen verdriet",
+          "matchedAuthor": "Hoefnagel, Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "ab4e09c2bc4b5c65d45dc5d3aae4cd05cd8d47cfc6ecbaf5450bcd3be8a385d6"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0559",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:47.852277+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als dramadocent Johan een dodelijk ongeluk krijgt, is iedereen op de school van Roos in diepe rouw. Maar Roos vond Johan een nare docent. Vanwege haar overgewicht voelt ze zich op school onprettig en de…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Drama+niets+is+wat+het+lijkt",
+          "checkedAt": "2026-10-22T09:37:47.852149+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Dood en verdriet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Drama+niets+is+wat+het+lijkt",
+          "checkedAt": "2026-10-22T09:37:47.852149+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Drama+niets+is+wat+het+lijkt",
+            "evidence": "n dodelijk ongeluk krijgt, is iedereen op de school van Roos in diepe rouw. Maar Roos vond Johan een nare docent. Va",
+            "checkedAt": "2026-10-22T09:37:47.852149+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Drama+niets+is+wat+het+lijkt",
+            "evidence": "n dodelijk ongeluk krijgt, is iedereen op de school van Roos in diepe rouw. Maar Roos vond Johan een nare docent. Va",
+            "checkedAt": "2026-10-22T09:37:47.852149+00:00"
+          },
+          {
+            "value": "emotioneel",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Drama+niets+is+wat+het+lijkt",
+            "evidence": "Dood en verdriet. Als dramadocent Johan een dodelijk ongeluk krijgt, is iedereen ",
+            "checkedAt": "2026-10-22T09:37:47.852149+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Drama+niets+is+wat+het+lijkt",
+          "checkedAt": "2026-10-22T09:37:47.852149+00:00",
+          "matchedTitle": "Drama niets is wat het lijkt",
+          "matchedAuthor": "Hoefnagel, Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "eaa2a7609922b49182c4a04316d39e1ab9813d57a3e8d4588746c634fc13475c"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0560",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:47.730557+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het is mei 1940. Chris woont met zijn broertje en moeder vlak bij Schiphol. Als de oorlog uitbreekt, komt een militaire vlieger bij hen wonen. Als hij maar niet vraagt waar hun vader is... Verhaal in korte zinnen en…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=soldaat+in+huis",
+          "checkedAt": "2026-10-22T09:37:47.730410+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Oorlogsroman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=soldaat+in+huis",
+          "checkedAt": "2026-10-22T09:37:47.730410+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=soldaat+in+huis",
+          "checkedAt": "2026-10-22T09:37:47.730410+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=soldaat+in+huis",
+            "evidence": "Oorlogsroman. Het is mei 1940. Chris woont met zijn broertje en moeder vlak b",
+            "checkedAt": "2026-10-22T09:37:47.730410+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=soldaat+in+huis",
+            "evidence": "Oorlogsroman. Het is mei 1940. Chris woont met zijn broertje en moeder vlak b",
+            "checkedAt": "2026-10-22T09:37:47.730410+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=soldaat+in+huis",
+          "checkedAt": "2026-10-22T09:37:47.730410+00:00",
+          "matchedTitle": "Een soldaat in huis",
+          "matchedAuthor": "Hoefnagel, Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "33fb41f5c1702093a02db3322743936ae36a71469c208642643073bef6f1a06b"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0561",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:49.302014+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Jochem, de nieuwe spits van het eerste elftal, wordt gepest omdat hij op jongens valt. Als hij topscorer wordt, krijgt hij problemen met doping en geld. Zijn vrienden Daan en Noa proberen hem te helpen. Verhaal in…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+          "checkedAt": "2026-10-22T09:37:49.301867+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sport",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+          "checkedAt": "2026-10-22T09:37:49.301867+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+          "checkedAt": "2026-10-22T09:37:49.301867+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "andere sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+            "evidence": "Sport. Jochem, de nieuwe spits van het eerste elftal, wordt gepest omd",
+            "checkedAt": "2026-10-22T09:37:49.301867+00:00"
+          },
+          {
+            "value": "pesten",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+            "evidence": "de nieuwe spits van het eerste elftal, wordt gepest omdat hij op jongens valt. Als hij topscorer wordt, krijgt hij p",
+            "checkedAt": "2026-10-22T09:37:49.301867+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+            "evidence": "Sport. Jochem, de nieuwe spits van het eerste elftal, wordt gepest omd",
+            "checkedAt": "2026-10-22T09:37:49.301867+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Topscorer",
+          "checkedAt": "2026-10-22T09:37:49.301867+00:00",
+          "matchedTitle": "Topscorer",
+          "matchedAuthor": "Hoefnagel, Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "aa74d1277e55d6a786895f814c8e8c6aafd49063304ffb7d83fa0b93fa304e59"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0562",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:49.373190+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Elise, een meisje van 14, gaat met haar Nederlandse vader en Surinaamse moeder in Paramaribo wonen. Ze wordt verliefd op een jongen die erg populair is, maar er verschillende liefjes op na houdt. Dan is er nog Iwan,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname",
+          "checkedAt": "2026-10-22T09:37:49.373049+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Liefde",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname",
+          "checkedAt": "2026-10-22T09:37:49.373049+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname",
+            "evidence": "Liefde. Elise, een meisje van 14, gaat met haar Nederlandse vader en Su",
+            "checkedAt": "2026-10-22T09:37:49.373049+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname",
+            "evidence": "Liefde. Elise, een meisje van 14, gaat met haar Nederlandse vader en Su",
+            "checkedAt": "2026-10-22T09:37:49.373049+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname",
+          "checkedAt": "2026-10-22T09:37:49.373049+00:00",
+          "matchedTitle": "Dubbelliefde, verliefd in Suriname",
+          "matchedAuthor": "Hoefnagel,Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "c4cd09204e4368f562b3ceb3ead4d1f91a750dff55e33bc9b937852a93c1bfaa"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0563",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:49.566329+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Nardo is een eenling, in een tehuis ondergebracht, vastbesloten zich nergens mee te bemoeien om zo problemen te vermijden. Er is een bende die hem zoekt. Onverwachte bescherming krijgt hij van zijn voormalige…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hard+tegen+hard%2C+vechten+voor+je+leven",
+          "checkedAt": "2026-10-22T09:37:49.566214+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Criminaliteit",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hard+tegen+hard%2C+vechten+voor+je+leven",
+          "checkedAt": "2026-10-22T09:37:49.566214+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hard+tegen+hard%2C+vechten+voor+je+leven",
+            "evidence": "Criminaliteit. Nardo is een eenling, in een tehuis ondergebracht, vastbesloten",
+            "checkedAt": "2026-10-22T09:37:49.566214+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hard+tegen+hard%2C+vechten+voor+je+leven",
+            "evidence": "Criminaliteit. Nardo is een eenling, in een tehuis ondergebracht, vastbesloten",
+            "checkedAt": "2026-10-22T09:37:49.566214+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hard+tegen+hard%2C+vechten+voor+je+leven",
+          "checkedAt": "2026-10-22T09:37:49.566214+00:00",
+          "matchedTitle": "Hard tegen hard, vechten voor je leven",
+          "matchedAuthor": "Hoefnagel,Marian",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "a36e4f13b173cf75cb188e4a109527493579d4d658909134e38a61d46866aff4"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0564",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:50.196984+00:00",
+          "outcome": "no-confirmed-match"
+        },
+        {
+          "provider": "Open Library",
+          "checkedAt": "2026-10-22T09:48:00.748290+00:00",
+          "outcome": "no-confirmed-match"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": null,
+      "sources": [],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0565",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:50.160714+00:00",
+          "outcome": "no-confirmed-match"
+        },
+        {
+          "provider": "Open Library",
+          "checkedAt": "2026-10-22T09:48:01.984294+00:00",
+          "outcome": "no-confirmed-match"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": null,
+      "sources": [],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0566",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:51.188585+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Twan (ik-figuur) en tweelingzus Linde moeten met hun moeder en oma mee naar IJsland, waar oma’s oude vader woont. Omdat hij niet meer voor zichzelf kan zorgen, moet hij mee naar Nederland. Maar daar denkt de oude en…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+drie",
+          "checkedAt": "2026-10-22T09:37:51.188432+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Familie en gezin",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+drie",
+          "checkedAt": "2026-10-22T09:37:51.188432+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+drie",
+            "evidence": "Familie en gezin. Twan (ik-figuur) en tweelingzus Linde moeten met hun m",
+            "checkedAt": "2026-10-22T09:37:51.188432+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=regels+van+drie",
+          "checkedAt": "2026-10-22T09:37:51.188432+00:00",
+          "matchedTitle": "De regels van drie",
+          "matchedAuthor": "Hof, Marjolijn",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "917151c18b3231ecbea156f6c8cdd732448980f58b5afd7b122f40c3dcc0d1b2"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0567",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:51.935287+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Julia (ik-figuur) op haar vijftiende op de balletacademie komt, moet ze keihard werken en afzien. Vindt ze dit nog wel leuk? Vanaf ca. 15 jaar.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+niemand+kijkt",
+          "checkedAt": "2026-10-22T09:37:51.935146+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Sport",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+niemand+kijkt",
+          "checkedAt": "2026-10-22T09:37:51.935146+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "andere sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+niemand+kijkt",
+            "evidence": "Sport. Als Julia (ik-figuur) op haar vijftiende op de balletacademie k",
+            "checkedAt": "2026-10-22T09:37:51.935146+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "sport",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+niemand+kijkt",
+            "evidence": "Sport. Als Julia (ik-figuur) op haar vijftiende op de balletacademie k",
+            "checkedAt": "2026-10-22T09:37:51.935146+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Als+niemand+kijkt",
+          "checkedAt": "2026-10-22T09:37:51.935146+00:00",
+          "matchedTitle": "Als niemand kijkt",
+          "matchedAuthor": "Hof, Marjolijn; Kuijpers, Iris",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "802171aba8c57c6c0d36cf3f97ab127e3320ac49d6a4422532f94ed9cf2dea47"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0568",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:52.167356+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Matt (17), een intelligente, maar dyslectische jongen ontdekt nadat hij een oud, in leer gebonden boekje heeft gekocht, dat hij een stravagante is. Hij kan reizen door tijd en ruimte en komt terecht in Padavia…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+          "checkedAt": "2026-10-22T09:37:52.167224+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tijdreizen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+          "checkedAt": "2026-10-22T09:37:52.167224+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+          "checkedAt": "2026-10-22T09:37:52.167224+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+            "evidence": "nende avonturen. In zijn gewone leven is hij verliefd en raakt in de problemen als hij op iemand het ‘boze oog’ laat v",
+            "checkedAt": "2026-10-22T09:37:52.167224+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+            "evidence": "drukt worden en raakt betrokken bij allerlei spannende avonturen. In zijn gewone leven is hij verliefd en raakt in de p",
+            "checkedAt": "2026-10-22T09:37:52.167224+00:00"
+          },
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+            "evidence": "nende avonturen. In zijn gewone leven is hij verliefd en raakt in de problemen als hij op iemand het ‘boze oog’ laat v",
+            "checkedAt": "2026-10-22T09:37:52.167224+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+geheimen",
+          "checkedAt": "2026-10-22T09:37:52.167224+00:00",
+          "matchedTitle": "Stad van geheimen",
+          "matchedAuthor": "Hoffman, Mary",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "4b067fe0d1b2e97e9a907a2b6c8c4a063657c813709453d7e48a06ccc5e7fe3a"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0569",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:53.094986+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Silvano (16) wordt onterecht beschuldigd van moord op de man van zijn geheime geliefde. Hij neemt daarom zijn toevlucht in een klooster tot de ware schuldige gevonden wordt. Vlak na zijn komst wordt een gast van dat…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=valkeniersknoop",
+          "checkedAt": "2026-10-22T09:37:53.094870+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=valkeniersknoop",
+          "checkedAt": "2026-10-22T09:37:53.094870+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=valkeniersknoop",
+            "evidence": "Silvano (16) wordt onterecht beschuldigd van moord op de man van zijn geheime geliefde. Hij neemt daarom zijn toevl",
+            "checkedAt": "2026-10-22T09:37:53.094870+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=valkeniersknoop",
+            "evidence": "Thriller. Silvano (16) wordt onterecht beschuldigd van moord op de man va",
+            "checkedAt": "2026-10-22T09:37:53.094870+00:00"
+          },
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=valkeniersknoop",
+            "evidence": "Silvano (16) wordt onterecht beschuldigd van moord op de man van zijn geheime geliefde. Hij neemt daarom zijn toevl",
+            "checkedAt": "2026-10-22T09:37:53.094870+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=valkeniersknoop",
+          "checkedAt": "2026-10-22T09:37:53.094870+00:00",
+          "matchedTitle": "De valkeniersknoop",
+          "matchedAuthor": "Hoffman, Mary",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "0e09d90dff6b934b6b721767aea4f6b062573208b846ca66870d73321291f316"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0570",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:53.713896+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Isabel Evans (bijna 17) moet al lang opboksen tegen haar tien minuten oudere tweelingbroer Charlie. Het lijkt wel alsof hij in alles beter is, in ieder geval dat vinden anderen. Om de vergelijking uit de weg te gaan,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+schepen",
+          "checkedAt": "2026-10-22T09:37:53.713751+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tijdreizen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+schepen",
+          "checkedAt": "2026-10-22T09:37:53.713751+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+schepen",
+          "checkedAt": "2026-10-22T09:37:53.713751+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+schepen",
+            "evidence": "cht te komen en richt zij zich op haar grote liefde: de kunst. Door middel van een stuk mozaïek belandt (‘stravageer",
+            "checkedAt": "2026-10-22T09:37:53.713751+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+schepen",
+            "evidence": "cht te komen en richt zij zich op haar grote liefde: de kunst. Door middel van een stuk mozaïek belandt (‘stravageer",
+            "checkedAt": "2026-10-22T09:37:53.713751+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+schepen",
+          "checkedAt": "2026-10-22T09:37:53.713751+00:00",
+          "matchedTitle": "Stad van schepen",
+          "matchedAuthor": "Hoffman, Mary; Hoffman, Mary [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "6922243759746972fcf496b822edf76c14456a558fd0641b7f287844c2399164"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0571",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:53.688411+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Derde deel van de zesdelige reeks 'Stravaganza'. Opnieuw komt een jongere die het moeilijk heeft in de parallelle wereld Talia terecht. Deze keer is het de jongen Sky (17), die samen met de stravaganti…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+bloemen",
+          "checkedAt": "2026-10-22T09:37:53.688259+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tijdreizen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+bloemen",
+          "checkedAt": "2026-10-22T09:37:53.688259+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+bloemen",
+          "checkedAt": "2026-10-22T09:37:53.688259+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+bloemen",
+            "evidence": "rs) uit de vorige delen in de vete tussen de families Di Chimici en Nucci verzeild raakt. De vele personages en intrig",
+            "checkedAt": "2026-10-22T09:37:53.688259+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+bloemen",
+          "checkedAt": "2026-10-22T09:37:53.688259+00:00",
+          "matchedTitle": "Stad van bloemen",
+          "matchedAuthor": "Hoffman, Mary; Jorna, Annelies [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "83a0ffe7219d8aed8ae5a860081ed77dac143f2b5a4269daff92e810dae64093"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0572",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:54.761886+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Georgia een beeldje van een gevleugeld paard koopt, komt ze in een parallelle wereld terecht: in de stad Remora, waar de inwoners zich fanatiek voorbereiden op de jaarlijkse paardenrace (vgl. de Palio in Siena).…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+sterren",
+          "checkedAt": "2026-10-22T09:37:54.761546+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Tijdreizen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+sterren",
+          "checkedAt": "2026-10-22T09:37:54.761546+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        },
+        "language": {
+          "value": "nl",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+sterren",
+          "checkedAt": "2026-10-22T09:37:54.761546+00:00",
+          "confidence": "high",
+          "scope": "catalog-record"
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "paarden",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+sterren",
+            "evidence": ". Als Georgia een beeldje van een gevleugeld paard koopt, komt ze in een parallelle wereld terecht: in de stad Remo",
+            "checkedAt": "2026-10-22T09:37:54.761546+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Stad+van+sterren",
+          "checkedAt": "2026-10-22T09:37:54.761546+00:00",
+          "matchedTitle": "Stad van sterren",
+          "matchedAuthor": "Hoffman, Mary; Jorna, Annelies [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e611a9bc53a1ae4708f7ed8c02442e48ddd45a9c86da90362c8e7e85886447a8"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0573",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:55.417228+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Oorspr. titel: Troubadour / Hoffman, Mary .- Londen: Bloomsbury Publishing, 2009 Zuid Frankrijk in de 13e eeuw. Een jongen reist als troubadour van kasteel naar kasteel om te waarschuwen voor een invasie. Een meisje,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Troubadour",
+          "checkedAt": "2026-10-22T09:37:55.417087+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Troubadour",
+          "checkedAt": "2026-10-22T09:37:55.417087+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Troubadour",
+            "evidence": "or een invasie. Een meisje, een edelvrouw is verliefd op hem en wordt ook troubadour. Het gevaar komt steeds dichterbi",
+            "checkedAt": "2026-10-22T09:37:55.417087+00:00"
+          },
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Troubadour",
+            "evidence": "Historische roman. Oorspr. titel: Troubadour / Hoffman, Mary .- Londen: Bloomsbury",
+            "checkedAt": "2026-10-22T09:37:55.417087+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Troubadour",
+            "evidence": "or een invasie. Een meisje, een edelvrouw is verliefd op hem en wordt ook troubadour. Het gevaar komt steeds dichterbi",
+            "checkedAt": "2026-10-22T09:37:55.417087+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Troubadour",
+          "checkedAt": "2026-10-22T09:37:55.417087+00:00",
+          "matchedTitle": "Troubadour",
+          "matchedAuthor": "Hoffman, Mary; Jorna, Annelies [ vert. ]",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "b5a39f2a2021119ea7c8600e44fecc6d540a6b280ff92b719c23c7ef0fba098b"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0574",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:55.273052+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Tommie leeft onprettig. Zijn leerkracht en zijn familie raken wanhopig van hem. Hij komt in contact met Kwantum X, die zich als stem in zijn hoofd manifesteert. Die leert hem telekinetische gaven te gebruiken. Door…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tommie+pondsteen+waar+is+kwantum+X%3F",
+          "checkedAt": "2026-10-22T09:37:55.272901+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Anders zijn",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tommie+pondsteen+waar+is+kwantum+X%3F",
+          "checkedAt": "2026-10-22T09:37:55.272901+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tommie+pondsteen+waar+is+kwantum+X%3F",
+            "evidence": "mie leeft onprettig. Zijn leerkracht en zijn familie raken wanhopig van hem. Hij komt in contact met Kwantum X, die z",
+            "checkedAt": "2026-10-22T09:37:55.272901+00:00"
+          },
+          {
+            "value": "reizen",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tommie+pondsteen+waar+is+kwantum+X%3F",
+            "evidence": "Daar gaat hij met Martijn en Fernanda op een avontuurlijke reis naar het hoofdkwartier waar een belangrijke taak op hem wacht",
+            "checkedAt": "2026-10-22T09:37:55.272901+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Tommie+pondsteen+waar+is+kwantum+X%3F",
+          "checkedAt": "2026-10-22T09:37:55.272901+00:00",
+          "matchedTitle": "Tommie pondsteen waar is kwantum X?",
+          "matchedAuthor": "Hofman, Rogier",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "2284d144b5528372af28ebf731b21e730c50bba6878d3009a95cd1f89ae1afd4"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0575",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:56.531691+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "- ISBN 978-94-6349-134-1 niet in boek. Jules (17, ik-figuur) woont in een wereld waar je bloed geld is. Als ze haar vader ziet afglijden naar de dood, besluit ze bij zijn voormalige werkgevers te gaan werken, de…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Everless+%3A+het+meisje+en+de+alchemist",
+          "checkedAt": "2026-10-22T09:37:56.531573+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Science fiction",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Everless+%3A+het+meisje+en+de+alchemist",
+          "checkedAt": "2026-10-22T09:37:56.531573+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Everless+%3A+het+meisje+en+de+alchemist",
+            "evidence": "ormalige werkgevers te gaan werken, de rijke familie Gerling. Hun landgoed Everless blijkt een groot geheim te herber",
+            "checkedAt": "2026-10-22T09:37:56.531573+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Brede cataloguscategorie Science fiction niet als specifiek SF-genre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Everless+%3A+het+meisje+en+de+alchemist",
+          "checkedAt": "2026-10-22T09:37:56.531573+00:00",
+          "matchedTitle": "Everless : het meisje en de alchemist",
+          "matchedAuthor": "Holland, Sara",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e4dec32c41c798d4b217f410bcbb73a3ff5f9a41ad79820afb8d56393ed62002"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0576",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:56.868093+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Alex' moeder sterft, zet zijn stiefvader hem het huis uit. Alex wordt een straatkind. Hij sluit vriendschap met Robson, maar die wordt geadopteerd en dan is Alex weer alleen. Hij sluit zich aan bij een groep…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Engelen+van+het+asfalt",
+          "checkedAt": "2026-10-22T09:37:56.867980+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Amerika",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Engelen+van+het+asfalt",
+          "checkedAt": "2026-10-22T09:37:56.867980+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Engelen+van+het+asfalt",
+            "evidence": "is uit. Alex wordt een straatkind. Hij sluit vriendschap met Robson, maar die wordt geadopteerd en dan is Alex weer allee",
+            "checkedAt": "2026-10-22T09:37:56.867980+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Engelen+van+het+asfalt",
+            "evidence": "is uit. Alex wordt een straatkind. Hij sluit vriendschap met Robson, maar die wordt geadopteerd en dan is Alex weer allee",
+            "checkedAt": "2026-10-22T09:37:56.867980+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Engelen+van+het+asfalt",
+          "checkedAt": "2026-10-22T09:37:56.867980+00:00",
+          "matchedTitle": "Engelen van het asfalt",
+          "matchedAuthor": "Holtwijk, Ineke",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "a98b29df3bdb686b3297215a935e8180a9453ee63b8eb41df0d9c7fe1e3e42c2"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0577",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:57.093389+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het lijkt de Colombiaanse Ramiro van 13 jaar wel stoer lid te zijn van het Volksleger (vgl. FARC). De leer die men hem inprent, begrijpt hij maar half. Inbreuken op de gepredikte principes en geweld brengen hem tot…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ramiro+%3B+kindsoldaat",
+          "checkedAt": "2026-10-22T09:37:57.093270+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Politieke onderdrukking en verzet",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ramiro+%3B+kindsoldaat",
+          "checkedAt": "2026-10-22T09:37:57.093270+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ramiro+%3B+kindsoldaat",
+            "evidence": "s en geweld brengen hem tot twijfel. Als een ontvoerd meisje uit de rijke klasse goede kanten blijkt te hebben en als ",
+            "checkedAt": "2026-10-22T09:37:57.093270+00:00"
+          },
+          {
+            "value": "politiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ramiro+%3B+kindsoldaat",
+            "evidence": "Politieke onderdrukking en verzet. Het lijkt de Colombiaanse Ramiro van 13",
+            "checkedAt": "2026-10-22T09:37:57.093270+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ramiro+%3B+kindsoldaat",
+            "evidence": "s en geweld brengen hem tot twijfel. Als een ontvoerd meisje uit de rijke klasse goede kanten blijkt te hebben en als ",
+            "checkedAt": "2026-10-22T09:37:57.093270+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ramiro+%3B+kindsoldaat",
+          "checkedAt": "2026-10-22T09:37:57.093270+00:00",
+          "matchedTitle": "Ramiro ; kindsoldaat",
+          "matchedAuthor": "Holtwijk, Ineke",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "aa80484dd36fe3fbae67a0e94216aadd4e857ac96a59c57c1bdd450240b05d92"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0578",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:58.158403+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Zelfstandig te lezen zevende deel uit de serie Wereldavonturen over Pieter en zijn zus Marieke, over Jochem en Karlijn. Elk boek speelt zich in een ander deel van de wereld af, maar het begint altijd bij de vrienden…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hete+loempia%27s%2C+vreemde+weeshuizen+en+een+Thaise+tweeling",
+          "checkedAt": "2026-10-22T09:37:58.158260+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Azie",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hete+loempia%27s%2C+vreemde+weeshuizen+en+een+Thaise+tweeling",
+          "checkedAt": "2026-10-22T09:37:58.158260+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "games",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hete+loempia%27s%2C+vreemde+weeshuizen+en+een+Thaise+tweeling",
+            "evidence": "nd Jochem mee naar de wereldkampioenschappen gamen in Thailand. Hij organiseert meteen een Thaise markt op school o",
+            "checkedAt": "2026-10-22T09:37:58.158260+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hete+loempia%27s%2C+vreemde+weeshuizen+en+een+Thaise+tweeling",
+            "evidence": "et begint altijd bij de vrienden thuis of op school. Nu mag Pieter met zijn vriend Jochem mee naar de wereldkampioen",
+            "checkedAt": "2026-10-22T09:37:58.158260+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hete+loempia%27s%2C+vreemde+weeshuizen+en+een+Thaise+tweeling",
+            "evidence": "et begint altijd bij de vrienden thuis of op school. Nu mag Pieter met zijn vriend Jochem mee naar de wereldkampioen",
+            "checkedAt": "2026-10-22T09:37:58.158260+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hete+loempia%27s%2C+vreemde+weeshuizen+en+een+Thaise+tweeling",
+          "checkedAt": "2026-10-22T09:37:58.158260+00:00",
+          "matchedTitle": "Hete loempia's, vreemde weeshuizen en een Thaise tweeling",
+          "matchedAuthor": "Hoogenboom, Peter",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5182e5e52f66676bcf94b24c05f907b426ea8a04b75a1b26484c3ca306077e4f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0579",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:58.197192+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Op een warme zomeravond viert een groep jongeren een wild feest op het strand; in de duinen houdt men de feestvierders in de gaten.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blind+date",
+          "checkedAt": "2026-10-22T09:37:58.196941+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blind+date",
+          "checkedAt": "2026-10-22T09:37:58.196941+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blind+date",
+            "evidence": "Thriller. Op een warme zomeravond viert een groep jongeren een wild feest",
+            "checkedAt": "2026-10-22T09:37:58.196941+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blind+date",
+          "checkedAt": "2026-10-22T09:37:58.196941+00:00",
+          "matchedTitle": "Blind date",
+          "matchedAuthor": "Hoogstraaten, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "1999b6ef71f365508b583454083fc8c7ef252cba58f3468f25d07a41dbc3fb15"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0580",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:58.909584+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In dit boek gaat het verhaal uit het voorafgaande \"Blind date\"* verder. Het Turkse meisje Meryem werd daarin op een nachtelijk scholierenfeest in de duinen begluurd en met een mes gestoken. Nu vindt men - enkele…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hot+spot",
+          "checkedAt": "2026-10-22T09:37:58.909437+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hot+spot",
+          "checkedAt": "2026-10-22T09:37:58.909437+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hot+spot",
+            "evidence": "Thriller. In dit boek gaat het verhaal uit het voorafgaande \"Blind date\"*",
+            "checkedAt": "2026-10-22T09:37:58.909437+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hot+spot",
+          "checkedAt": "2026-10-22T09:37:58.909437+00:00",
+          "matchedTitle": "Hot spot",
+          "matchedAuthor": "Hoogstraaten, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3e8f43d2a692b45a3a0b2c49f0266fa22c946ef278918aa9c7e045cbe4054c4d"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0581",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:00.015116+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Twee vriendinnen komen samen met een vriend op het spoor van vermiste kinderen.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=IJzige+poppen",
+          "checkedAt": "2026-10-22T09:38:00.014963+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=IJzige+poppen",
+          "checkedAt": "2026-10-22T09:38:00.014963+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=IJzige+poppen",
+            "evidence": "Thriller. Twee vriendinnen komen samen met een vriend op het spoor van ve",
+            "checkedAt": "2026-10-22T09:38:00.014963+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=IJzige+poppen",
+          "checkedAt": "2026-10-22T09:38:00.014963+00:00",
+          "matchedTitle": "IJzige poppen",
+          "matchedAuthor": "Hoogstraaten, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "0baf2c04eedb99ce18ccab08fb9a130347efe02738f5014731d821c751db4163"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0582",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:37:59.603498+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Omstreeks het jaar 2050 sluiten Marco en Daphne zich aan bij het verzet tegen de dictatoriale wijze waarop Nedeland bestuurd wordt.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=In+verzet",
+          "checkedAt": "2026-10-22T09:37:59.603320+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Maatschappijkritiek",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=In+verzet",
+          "checkedAt": "2026-10-22T09:37:59.603320+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "politiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=In+verzet",
+            "evidence": "o en Daphne zich aan bij het verzet tegen de dictatoriale wijze waarop Nedeland bestuurd wordt.",
+            "checkedAt": "2026-10-22T09:37:59.603320+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=In+verzet",
+          "checkedAt": "2026-10-22T09:37:59.603320+00:00",
+          "matchedTitle": "In verzet",
+          "matchedAuthor": "Hoogstraaten, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "15e51aab9f443dba9aaaf560c8fc796029991cf447fa83c893cde25e0fe5f00d"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0583",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:00.349540+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Twee speurders hebben al snel door dat er verband zit in de zakenvan een verdwenen, een comateus en een vermoord meisje.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Loverboy",
+          "checkedAt": "2026-10-22T09:38:00.349315+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Mishandeling en geweld",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Loverboy",
+          "checkedAt": "2026-10-22T09:38:00.349315+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Loverboy",
+          "checkedAt": "2026-10-22T09:38:00.349315+00:00",
+          "matchedTitle": "Loverboy",
+          "matchedAuthor": "Hoogstraaten, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "782ec13f477fd6965020eb2ba703849b457b11f41c11987feb9639a5cc218682"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0584",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:01.262182+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Het leven van het middeleeuwse meisje Aya verandert voorgoed waarneer zij als eenvoudig boerenmeisje een baan krijgt op het kasteel van de heer van Pontieu. Hierdoor krijgt Aya een satansketting in haar bezit.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Satansketting",
+          "checkedAt": "2026-10-22T09:38:01.262037+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Satansketting",
+          "checkedAt": "2026-10-22T09:38:01.262037+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Satansketting",
+            "evidence": "Historische roman. Het leven van het middeleeuwse meisje Aya verandert voorgoed wa",
+            "checkedAt": "2026-10-22T09:38:01.262037+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Satansketting",
+          "checkedAt": "2026-10-22T09:38:01.262037+00:00",
+          "matchedTitle": "De Satansketting",
+          "matchedAuthor": "Hoogstraaten, Theo",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "6016cd4336b985687c33eb2dbe1a08b195b12aa7bc75457a971738a6d0fc4106"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0585",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:01.608499+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Kerntitel Jonge Jury 2013 Drie jongens Drie meisjes Een feest Een ruzie Eén auto",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=%28ff%29+out+%21",
+          "checkedAt": "2026-10-22T09:38:01.608364+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=%28ff%29+out+%21",
+          "checkedAt": "2026-10-22T09:38:01.608364+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=%28ff%29+out+%21",
+            "evidence": "Thriller. Kerntitel Jonge Jury 2013 Drie jongens Drie meisjes Een feest E",
+            "checkedAt": "2026-10-22T09:38:01.608364+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=%28ff%29+out+%21",
+          "checkedAt": "2026-10-22T09:38:01.608364+00:00",
+          "matchedTitle": "(ff) out !",
+          "matchedAuthor": "Hoogstraaten, Theo ; Hoogstraaten, Marianne",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "6dc807d8f54adb81f8569a33df0634de3c98c7f7ac0eca3a997764f099aacbe2"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0586",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:02.040448+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Cindy (15) is na een zuipwedstrijd zo dronken dat ze haar roes in de keet moet uitslapen. Kort daarna brandt de keet volledig uit en is Cindy spoorloos verdwenen",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Webcam+girls",
+          "checkedAt": "2026-10-22T09:38:02.040244+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Webcam+girls",
+          "checkedAt": "2026-10-22T09:38:02.040244+00:00",
+          "matchedTitle": "Webcam girls",
+          "matchedAuthor": "Hoogstraaten, Theo ; Hoogstraaten, Marianne",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "6dd074d63f400dc98ea87b5000247b5423313759d3f64344e1d31adccc38814a"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0587",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:02.998193+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De 14-jarige Alex Rider wordt ontvoerd uit het ziekenhuis door een bende eco-terroristen, die het eigenlijk op miljardairszoon Paul Drevin hebben gemunt. Pauls vader is hem zo dankbaar dat hij Alex aanbiedt om te…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ark+angel",
+          "checkedAt": "2026-10-22T09:38:02.998049+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Thriller",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ark+angel",
+          "checkedAt": "2026-10-22T09:38:02.998049+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ark+angel",
+            "evidence": "Thriller. De 14-jarige Alex Rider wordt ontvoerd uit het ziekenhuis door een bende eco-terroristen, die het eigen",
+            "checkedAt": "2026-10-22T09:38:02.998049+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "spanning",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ark+angel",
+            "evidence": "Thriller. De 14-jarige Alex Rider wordt ontvoerd uit het ziekenhuis door ",
+            "checkedAt": "2026-10-22T09:38:02.998049+00:00"
+          },
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ark+angel",
+            "evidence": "Thriller. De 14-jarige Alex Rider wordt ontvoerd uit het ziekenhuis door een bende eco-terroristen, die het eigen",
+            "checkedAt": "2026-10-22T09:38:02.998049+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ark+angel",
+          "checkedAt": "2026-10-22T09:38:02.998049+00:00",
+          "matchedTitle": "Ark angel",
+          "matchedAuthor": "Horowitz, Anthony",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "693cbccbc01b5b28ac37c1c4b5650d01193baaa2c545a4ba5b5753564792c90d"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0588",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:03.241948+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Alex Rider (14) voert voor de Britse geheime dienst MI6 spionageopdrachten uit. Hij komt in aanraking met een misdaadorganisatie uit het Verre Oosten, die het meedogenloos gemunt heeft op zijn leven. Daarom is het…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Skeleton+key",
+          "checkedAt": "2026-10-22T09:38:03.241577+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Detective",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Skeleton+key",
+          "checkedAt": "2026-10-22T09:38:03.241577+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "criminaliteit",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Skeleton+key",
+            "evidence": "Detective. Alex Rider (14) voert voor de Britse geheime dienst MI6 spionag",
+            "checkedAt": "2026-10-22T09:38:03.241577+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "mysterie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Skeleton+key",
+            "evidence": "Detective. Alex Rider (14) voert voor de Britse geheime dienst MI6 spionag",
+            "checkedAt": "2026-10-22T09:38:03.241577+00:00"
+          },
+          {
+            "value": "misdaad",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Skeleton+key",
+            "evidence": "Detective. Alex Rider (14) voert voor de Britse geheime dienst MI6 spionag",
+            "checkedAt": "2026-10-22T09:38:03.241577+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Skeleton+key",
+          "checkedAt": "2026-10-22T09:38:03.241577+00:00",
+          "matchedTitle": "Skeleton key",
+          "matchedAuthor": "Horowitz, Anthony",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "8fbd46a4abed6b3c3346c5fccd8ae728f9b900cba5b4cb5c29602c6ea122fd64"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0589",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:03.832104+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Femke is in het begin van haar puberteit. Ze heeft anorexia; de eetstoornis is bekend bij haar ouders en huisarts. In dit boek doet zij verslag van haar beleving tijdens de periode dat zij in verschillende…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+allerliefste+vijand",
+          "checkedAt": "2026-10-22T09:38:03.831961+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Ziek(te)",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+allerliefste+vijand",
+          "checkedAt": "2026-10-22T09:38:03.831961+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "volwassen worden",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+allerliefste+vijand",
+            "evidence": "Ziek(te). Femke is in het begin van haar puberteit. Ze heeft anorexia; de eetstoornis is bekend bij haar ouders en ",
+            "checkedAt": "2026-10-22T09:38:03.831961+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Mijn+allerliefste+vijand",
+          "checkedAt": "2026-10-22T09:38:03.831961+00:00",
+          "matchedTitle": "Mijn allerliefste vijand",
+          "matchedAuthor": "Horst, Milou van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "52a29ea6ad27f61a56bd0f794e5fa68028bd6abc0eb7b952faa7b317eea57652"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0590",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:04.649521+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Bundeling van: Mijn allerliefste vijand en: Zwaartekracht. - Oorspronkelijke uitgave: 2008, 2009. Femke (ik-figuur) vertelt over haar strijd vanaf haar tiende jaar tegen de eetstoornis anorexia nervosa. Gebaseerd op…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vechten+tot+je+een+ons+weegt",
+          "checkedAt": "2026-10-22T09:38:04.649364+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vechten+tot+je+een+ons+weegt",
+          "checkedAt": "2026-10-22T09:38:04.649364+00:00",
+          "matchedTitle": "Vechten tot je een ons weegt",
+          "matchedAuthor": "Horst, Milou van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "cffa5a3d8485c0f1d460da66f158c04911f1abf42a42cfeeab68d855faa8306f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0591",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:04.659609+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De 15-jarige Liona (ik-figuur) krijgt van haar ouders te horen dat ze gaan emigreren naar Oostenrijk. Liona is razend dat deze beslissing is genomen zonder met haar te overleggen en ze gooit haar hoofd in de wind.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ver+weg",
+          "checkedAt": "2026-10-22T09:38:04.659377+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Familie en gezin",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ver+weg",
+          "checkedAt": "2026-10-22T09:38:04.659377+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "familie",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ver+weg",
+            "evidence": "Familie en gezin. De 15-jarige Liona (ik-figuur) krijgt van haar ouders ",
+            "checkedAt": "2026-10-22T09:38:04.659377+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Ver+weg",
+          "checkedAt": "2026-10-22T09:38:04.659377+00:00",
+          "matchedTitle": "Ver weg",
+          "matchedAuthor": "Horst, Milou van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5ae29337e867ebeb9115bbfedaea163195a07b6b40bd37e2ee370b8677657616"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0592",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:05.392701+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Aangrijpend verhaal over twee vriendinnen, Lieke en Demi, die elkaar langzaam kwijtraken door de borderline-stoornis van Lieke. Het verhaal begint als Lieke vermist wordt, en thuis een afscheidsbriefje heeft…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Verloren",
+          "checkedAt": "2026-10-22T09:38:05.392319+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Vriendschap",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Verloren",
+          "checkedAt": "2026-10-22T09:38:05.392319+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Verloren",
+            "evidence": "Vriendschap. Aangrijpend verhaal over twee vriendinnen, Lieke en Demi, die e",
+            "checkedAt": "2026-10-22T09:38:05.392319+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "vriendschap",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Verloren",
+            "evidence": "Vriendschap. Aangrijpend verhaal over twee vriendinnen, Lieke en Demi, die e",
+            "checkedAt": "2026-10-22T09:38:05.392319+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Verloren",
+          "checkedAt": "2026-10-22T09:38:05.392319+00:00",
+          "matchedTitle": "Verloren",
+          "matchedAuthor": "Horst, Milou van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3e87a99e6e37b7e740f126300df4fe78d5e87a46d741d6e8314033e67e27100b"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0593",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:06.016030+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Na 'Mijn allerliefste vijand' (2008, genomineerd voor de Prijs van de Jonge Jury 2010) en 'Zwaartekracht' (2009)* is dit het laatste deel van de Femke-trilogie. Hoofdpersoon Femke is een flink eind op weg in haar…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vrijheid",
+          "checkedAt": "2026-10-22T09:38:06.015793+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Ziek(te)",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vrijheid",
+          "checkedAt": "2026-10-22T09:38:06.015793+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "paarden",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vrijheid",
+            "evidence": "en. Een kennis wijst haar op het bestaan van paardentherapie.",
+            "checkedAt": "2026-10-22T09:38:06.015793+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vrijheid",
+          "checkedAt": "2026-10-22T09:38:06.015793+00:00",
+          "matchedTitle": "Vrijheid",
+          "matchedAuthor": "Horst, Milou van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "7d44eabeec90a2e84b86b151713d930f8359e6f2933983f5b1f6e42880a068fb"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0594",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:06.455215+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Als Femke uit de anorexiakliniek is ontslagen begint de 'strijd' pas echt. Naar de brugklas gaan, weer contact leren maken met leeftijdgenootjes en het doorgaande gevecht tegen de vijand: eten, wegen, afvallen,…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zwaartekracht",
+          "checkedAt": "2026-10-22T09:38:06.455078+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Ziek(te)",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zwaartekracht",
+          "checkedAt": "2026-10-22T09:38:06.455078+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zwaartekracht",
+            "evidence": "tslagen begint de 'strijd' pas echt. Naar de brugklas gaan, weer contact leren maken met leeftijdgenootjes en het door",
+            "checkedAt": "2026-10-22T09:38:06.455078+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zwaartekracht",
+            "evidence": "tslagen begint de 'strijd' pas echt. Naar de brugklas gaan, weer contact leren maken met leeftijdgenootjes en het door",
+            "checkedAt": "2026-10-22T09:38:06.455078+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zwaartekracht",
+          "checkedAt": "2026-10-22T09:38:06.455078+00:00",
+          "matchedTitle": "Zwaartekracht",
+          "matchedAuthor": "Horst, Milou van der",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "8ef65d077b857d91341af4f2ff003c9186a096c6199f9ffcfa0d7de1b59d242d"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0595",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:06.964275+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "unresolved",
+      "facts": {},
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+vloek+%3A+Verdeel+en+heers",
+          "checkedAt": "2026-10-22T09:38:06.964131+00:00",
+          "matchedTitle": "De Veleda vloek : Verdeel en heers",
+          "matchedAuthor": "Houtman Chris",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "summary",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0596",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:07.603587+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Ondertitel op omslag : Het wonderbaarlijke leven van de Pilgrim's-dochter Elizabeth Blossom, de Leidse stammoeder van president Obama. - Op omslag: 1620-2020 Mayflower 400â?¢, Leiden. Amerika, 1712. Prudence wil het…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=geheim+van+de+goudenregen",
+          "checkedAt": "2026-10-22T09:38:07.603392+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=geheim+van+de+goudenregen",
+          "checkedAt": "2026-10-22T09:38:07.603392+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=geheim+van+de+goudenregen",
+            "evidence": "Historische roman. Amerika, 1712. Prudence wil het levensverhaal van haar oma schr",
+            "checkedAt": "2026-10-22T09:38:07.603392+00:00"
+          },
+          {
+            "value": "waargebeurde verhalen",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=geheim+van+de+goudenregen",
+            "evidence": " blijkt dat oma geheimen verbergt. Gebaseerd op ware gebeurtenissen. Vanaf ca. 13 jaar.",
+            "checkedAt": "2026-10-22T09:38:07.603392+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "waargebeurd",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=geheim+van+de+goudenregen",
+            "evidence": " blijkt dat oma geheimen verbergt. Gebaseerd op ware gebeurtenissen. Vanaf ca. 13 jaar.",
+            "checkedAt": "2026-10-22T09:38:07.603392+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=geheim+van+de+goudenregen",
+          "checkedAt": "2026-10-22T09:38:07.603392+00:00",
+          "matchedTitle": "Het geheim van de goudenregen",
+          "matchedAuthor": "Houtman, Chris",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "af17d239117e8936115074a4f76cfe6f3c93fad5051d2d0a5d38a95ea69a771e"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0597",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:07.999210+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Ondertitel op omslag : Het wonderbaarlijke leven van de Pilgrim's-dochter Elizabeth Blossom, de Leidse stammoeder van president Obama. - Op omslag: 1620-2020 Mayflower 400â?¢, Leiden. Amerika, 1712. Prudence wil het…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+voorspelling",
+          "checkedAt": "2026-10-22T09:38:07.998948+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+voorspelling",
+          "checkedAt": "2026-10-22T09:38:07.998948+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+voorspelling",
+            "evidence": "Historische roman. Amerika, 1712. Prudence wil het levensverhaal van haar oma schr",
+            "checkedAt": "2026-10-22T09:38:07.998948+00:00"
+          },
+          {
+            "value": "waargebeurde verhalen",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+voorspelling",
+            "evidence": " blijkt dat oma geheimen verbergt. Gebaseerd op ware gebeurtenissen. Vanaf ca. 13 jaar.",
+            "checkedAt": "2026-10-22T09:38:07.998948+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "waargebeurd",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+voorspelling",
+            "evidence": " blijkt dat oma geheimen verbergt. Gebaseerd op ware gebeurtenissen. Vanaf ca. 13 jaar.",
+            "checkedAt": "2026-10-22T09:38:07.998948+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Veleda+voorspelling",
+          "checkedAt": "2026-10-22T09:38:07.998948+00:00",
+          "matchedTitle": "De Veleda voorspelling",
+          "matchedAuthor": "Houtman, Chris",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "af17d239117e8936115074a4f76cfe6f3c93fad5051d2d0a5d38a95ea69a771e"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0598",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:08.759881+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Vuur- en waterdemonen, Schokkers genaamd, strijden over de toekomst van de aarde. Zij moeten de evolutionaire catastrofes of schokken op de juiste manier bijsturen, maar door hun onderlinge onenigheid over het plan…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verbond+van+de+bliksems",
+          "checkedAt": "2026-10-22T09:38:08.759715+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Fantasy",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verbond+van+de+bliksems",
+          "checkedAt": "2026-10-22T09:38:08.759715+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verbond+van+de+bliksems",
+            "evidence": "ijstijd of opwarming van de aarde, voeren ze oorlog tegen elkaar. Vanuit verschillende vertelperspectieven komen lan",
+            "checkedAt": "2026-10-22T09:38:08.759715+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "oorlog",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verbond+van+de+bliksems",
+            "evidence": "ijstijd of opwarming van de aarde, voeren ze oorlog tegen elkaar. Vanuit verschillende vertelperspectieven komen lan",
+            "checkedAt": "2026-10-22T09:38:08.759715+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Cataloguscategorie Fantasy niet als specifiek fantasygenre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=verbond+van+de+bliksems",
+          "checkedAt": "2026-10-22T09:38:08.759715+00:00",
+          "matchedTitle": "Het verbond van de bliksems",
+          "matchedAuthor": "Hoving, Isabel",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3a10ca53d30124f7f6416ff53a96e386a76fe74f06da495ca9f06824982fa85f"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0599",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:09.227123+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "In dit tweede deel van de serie 'Het boek van het vuur'* gaat de strijd tussen de vuur- en waterdemonen, Schokkers genaamd, door. De vuurdemon Dem Azèl gaat samen met zijn getrouwen, waaronder twee jongeren, de…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vulkaan+van+Wageningen+-+Het+boek+van+vuur+2",
+          "checkedAt": "2026-10-22T09:38:09.226961+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Fantasy",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vulkaan+van+Wageningen+-+Het+boek+van+vuur+2",
+          "checkedAt": "2026-10-22T09:38:09.226961+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [
+          "Cataloguscategorie Fantasy niet als specifiek fantasygenre overgenomen zonder steun in de beschrijving."
+        ],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vulkaan+van+Wageningen+-+Het+boek+van+vuur+2",
+          "checkedAt": "2026-10-22T09:38:09.226961+00:00",
+          "matchedTitle": "De vulkaan van Wageningen - Het boek van vuur 2",
+          "matchedAuthor": "Hoving, Isabel",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "3e8f0b404dd442a74dae128c9f0b6029aaa06d0ebfbd52d2e5ab7a7978b30581"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": false,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0600",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:09.563293+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "Ole (13) hoort voor het eerst over zijn opa als die overlijdt. Waarom heeft Ole's vader nooit over hem verteld? Dan gaan ze zelfs in opa's huis wonen, vlakbij de Belgische grens, waar vroeger veel gesmokkeld werd.…",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Pungelhuis",
+          "checkedAt": "2026-10-22T09:38:09.562960+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Historische roman",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Pungelhuis",
+          "checkedAt": "2026-10-22T09:38:09.562960+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "geschiedenis",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Pungelhuis",
+            "evidence": "Historische roman. Ole (13) hoort voor het eerst over zijn opa als die overlijdt. ",
+            "checkedAt": "2026-10-22T09:38:09.562960+00:00"
+          }
+        ],
+        "storyTags": [],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Pungelhuis",
+          "checkedAt": "2026-10-22T09:38:09.562960+00:00",
+          "matchedTitle": "Het Pungelhuis",
+          "matchedAuthor": "Huizing, Annet",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "5e1ace0a66133a8f85220cb32c38875e045ad59dea31b4c29f6b44605d1a87ae"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    },
+    {
+      "id": "excel-Sheet-0601",
+      "attempts": [
+        {
+          "provider": "Bogerman Aura",
+          "checkedAt": "2026-10-22T09:38:10.206421+00:00",
+          "outcome": "matched"
+        }
+      ],
+      "status": "partial",
+      "facts": {
+        "summary": {
+          "value": "De 16-jarige Karin wordt gepest op haar nieuwe school om haar stadse accent. Dan ontmoet ze Joey die van haar niet alleen een fotomodel belooft te maken, maar ook een relatie wil.",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+          "checkedAt": "2026-10-22T09:38:10.206137+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": true
+        },
+        "subjects": {
+          "value": "Liefde",
+          "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+          "checkedAt": "2026-10-22T09:38:10.206137+00:00",
+          "confidence": "high",
+          "scope": "work",
+          "excerpt": false
+        }
+      },
+      "assessments": {
+        "interests": [
+          {
+            "value": "verliefdheid",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+            "evidence": "Liefde. De 16-jarige Karin wordt gepest op haar nieuwe school om haar s",
+            "checkedAt": "2026-10-22T09:38:10.206137+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+            "evidence": " 16-jarige Karin wordt gepest op haar nieuwe school om haar stadse accent. Dan ontmoet ze Joey die van haar niet all",
+            "checkedAt": "2026-10-22T09:38:10.206137+00:00"
+          },
+          {
+            "value": "pesten",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+            "evidence": "Liefde. De 16-jarige Karin wordt gepest op haar nieuwe school om haar stadse accent. Dan ontmoet ze Joey",
+            "checkedAt": "2026-10-22T09:38:10.206137+00:00"
+          }
+        ],
+        "storyTags": [
+          {
+            "value": "romantiek",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+            "evidence": "Liefde. De 16-jarige Karin wordt gepest op haar nieuwe school om haar s",
+            "checkedAt": "2026-10-22T09:38:10.206137+00:00"
+          },
+          {
+            "value": "school",
+            "confidence": "medium",
+            "kind": "inference",
+            "method": "evidence-tags-v5",
+            "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+            "evidence": " 16-jarige Karin wordt gepest op haar nieuwe school om haar stadse accent. Dan ontmoet ze Joey die van haar niet all",
+            "checkedAt": "2026-10-22T09:38:10.206137+00:00"
+          }
+        ],
+        "themeIntensities": null,
+        "readingDifficulty": null,
+        "schoolLevels": null,
+        "sensitiveTopicsComplete": false,
+        "notes": [],
+        "explanation": "Automatische inschatting op basis van expliciete termen in de bronbeschrijving; geen inhoudslezing of intensiteitsmeting."
+      },
+      "sources": [
+        {
+          "provider": "Bogerman Aura",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=4+Love",
+          "checkedAt": "2026-10-22T09:38:10.206137+00:00",
+          "matchedTitle": "4 Love",
+          "matchedAuthor": "Huizing, Gonneke",
+          "identityConfidence": "high",
+          "identityScope": "work",
+          "editionVerified": false,
+          "descriptionSha256": "0f19aa71ea919bf8042365e62a9fe9905e45d7d095004f1e59bab7583885e0b9"
+        }
+      ],
+      "conflicts": [],
+      "recommendationReady": true,
+      "editionVerified": false,
+      "missingFields": [
+        "isbn",
+        "pages",
+        "coverUrl",
+        "language",
+        "readingDifficulty",
+        "schoolLevels",
+        "available",
+        "auraId"
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@ window.coverService = {
     return (
       "data:image/svg+xml;charset=utf-8," +
       encodeURIComponent(
-        `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#612c8d"/><stop offset="1" stop-color="#d9233f"/></linearGradient></defs><rect width="320" height="460" rx="12" fill="url(#g)"/><circle cx="270" cy="70" r="90" fill="#f4c84a" opacity=".35"/><text x="25" y="200" fill="white" font-size="23" font-family="sans-serif"><tspan x="25">${title.slice(0, 23)}</tspan><tspan x="25" dy="30">${title.slice(23, 46)}</tspan></text><text x="25" y="365" fill="white" font-size="17" font-family="sans-serif">${author}</text><text x="25" y="420" fill="#f4c84a" font-size="14">BOEKENMATCH · TESTCOLLECTIE</text></svg>`,
+        `<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#612c8d"/><stop offset="1" stop-color="#d9233f"/></linearGradient></defs><rect width="320" height="460" rx="12" fill="url(#g)"/><circle cx="270" cy="70" r="90" fill="#f4c84a" opacity=".35"/><text x="25" y="200" fill="white" font-size="23" font-family="sans-serif"><tspan x="25">${title.slice(0, 23)}</tspan><tspan x="25" dy="30">${title.slice(23, 46)}</tspan></text><text x="25" y="365" fill="white" font-size="17" font-family="sans-serif">${author}</text><text x="25" y="420" fill="#f4c84a" font-size="14">BOEKENMATCH</text></svg>`,
       )
     );
   },
@@ -48,6 +48,8 @@ window.coverService = {
       } catch {}
       return url;
     };
+    // Work-level matches cannot establish an edition-specific cover.
+    if (book.matchMode === "evidence") return this.fallback(book);
     if (book.coverUrl && (await load(book.coverUrl)))
       return save(book.coverUrl);
     if (cache[key] && (await load(cache[key]))) return cache[key];

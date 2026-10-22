@@ -1,0 +1,415 @@
+{
+  "sampleSize": 20,
+  "selection": "Elke 80e Excelregel, plus de laatste regel; aanvullend SF/fantasy en auteurscontext onderzocht.",
+  "ruleVersion": "evidence-tags-v5",
+  "records": [
+    {
+      "id": "excel-Sheet-0002",
+      "title": "Slagveld",
+      "author": "50 cent",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Slagveld",
+          "matchedAuthor": "50 cent",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Slagveld",
+          "checkedAt": "2026-10-22T09:31:56.115853+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "school"
+      ],
+      "inferredStoryTags": [
+        "school"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0082",
+      "title": "Lopen voor je leven",
+      "author": "Beerten, Els",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Lopen voor je leven",
+          "matchedAuthor": "Beerten, Els",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Lopen+voor+je+leven",
+          "checkedAt": "2026-10-22T09:33:10.502939+00:00"
+        }
+      ],
+      "inferredInterests": [],
+      "inferredStoryTags": [],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0162",
+      "title": "dodenpad",
+      "author": "Brooks, Kevin ; Buddingh Wiebe  [ vert.]",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Het dodenpad",
+          "matchedAuthor": "Brooks, Kevin ; Buddingh Wiebe [ vert.]",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dodenpad",
+          "checkedAt": "2026-10-22T09:33:57.715861+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "criminaliteit"
+      ],
+      "inferredStoryTags": [
+        "misdaad"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0242",
+      "title": "Spotgaai",
+      "author": "Collins, Suzanne; Postema, Maria",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Spotgaai",
+          "matchedAuthor": "Collins, Suzanne; Postema, Maria",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Spotgaai",
+          "checkedAt": "2026-10-22T09:34:43.676834+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "politiek"
+      ],
+      "inferredStoryTags": [],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0322",
+      "title": "overwintering op Nova Zembla",
+      "author": "Dijkzeul, Lieneke",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "De overwintering op Nova Zembla",
+          "matchedAuthor": "Dijkzeul, Lieneke",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=overwintering+op+Nova+Zembla",
+          "checkedAt": "2026-10-22T09:35:30.448148+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "geschiedenis"
+      ],
+      "inferredStoryTags": [],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0402",
+      "title": "Zijn jaar",
+      "author": "Forman, Gayle",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Zijn jaar",
+          "matchedAuthor": "Forman, Gayle",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zijn+jaar",
+          "checkedAt": "2026-10-22T09:36:17.469169+00:00"
+        }
+      ],
+      "inferredInterests": [],
+      "inferredStoryTags": [
+        "emotioneel"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0482",
+      "title": "Will Grayson",
+      "author": "Green, John; Levithan, David; Eekelen-Benders, van Aleid [vert]",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Will Grayson",
+          "matchedAuthor": "Green, John; Levithan, David; Eekelen-Benders, van Aleid [vert]",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Will+Grayson",
+          "checkedAt": "2026-10-22T09:37:02.323137+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "vriendschap"
+      ],
+      "inferredStoryTags": [
+        "vriendschap"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0562",
+      "title": "Dubbelliefde, verliefd in Suriname",
+      "author": "Hoefnagel,Marian",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Dubbelliefde, verliefd in Suriname",
+          "matchedAuthor": "Hoefnagel,Marian",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname",
+          "checkedAt": "2026-10-22T09:37:49.373049+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "verliefdheid"
+      ],
+      "inferredStoryTags": [
+        "romantiek"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0642",
+      "title": "Blikvanger",
+      "author": "Kammeijer, Victor",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Blikvanger",
+          "matchedAuthor": "Kammeijer, Victor",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blikvanger",
+          "checkedAt": "2026-10-22T09:38:33.698797+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "games",
+        "vriendschap",
+        "dieren"
+      ],
+      "inferredStoryTags": [
+        "vriendschap"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0722",
+      "title": "Hanna's reis",
+      "author": "Letterie, Martine",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Hanna's reis",
+          "matchedAuthor": "Letterie, Martine",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis",
+          "checkedAt": "2026-10-22T09:39:22.929820+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "oorlog",
+        "geschiedenis"
+      ],
+      "inferredStoryTags": [
+        "oorlog"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0802",
+      "title": "Uitgelaten",
+      "author": "Mellink, Jennefer",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Uitgelaten",
+          "matchedAuthor": "Mellink, Jennefer",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Uitgelaten",
+          "checkedAt": "2026-10-22T09:40:12.123296+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "vriendschap",
+        "honden"
+      ],
+      "inferredStoryTags": [
+        "spanning",
+        "mysterie",
+        "vriendschap"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0882",
+      "title": "Cherub, Zonder Genade : missie 7",
+      "author": "Muchamore, Robert ; Gladdines, Tim [ vert. ]",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Cherub, Zonder Genade : missie 7",
+          "matchedAuthor": "Muchamore, Robert ; Gladdines, Tim [ vert. ]",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Cherub%2C+Zonder+Genade+%3A+missie+7",
+          "checkedAt": "2026-10-22T09:40:58.858086+00:00"
+        }
+      ],
+      "inferredInterests": [],
+      "inferredStoryTags": [
+        "spanning"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-0962",
+      "title": "vuur",
+      "author": "Patterson, James",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Het vuur",
+          "matchedAuthor": "Patterson, James",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vuur",
+          "checkedAt": "2026-10-22T09:41:45.737803+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "magie"
+      ],
+      "inferredStoryTags": [],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1042",
+      "title": "zee van Monsters : Percy Jackson en de Olympiers",
+      "author": "Riordan Rick; Noordenbos, Marce",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "De zee van Monsters : Percy Jackson en de Olympiers",
+          "matchedAuthor": "Riordan Rick; Noordenbos, Marce",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=zee+van+Monsters+%3A+Percy+Jackson+en+de+Olympiers",
+          "checkedAt": "2026-10-22T09:42:30.979434+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "monsters"
+      ],
+      "inferredStoryTags": [],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1122",
+      "title": "Neem een kip",
+      "author": "Sassen, Erna",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Neem een kip",
+          "matchedAuthor": "Sassen, Erna",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Neem+een+kip",
+          "checkedAt": "2026-10-22T09:43:17.445927+00:00"
+        }
+      ],
+      "inferredInterests": [],
+      "inferredStoryTags": [
+        "psychologie"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1202",
+      "title": "Rotmoevie",
+      "author": "Smet, Marian de",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Rotmoevie",
+          "matchedAuthor": "Smet, Marian de",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Rotmoevie",
+          "checkedAt": "2026-10-22T09:44:05.930989+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "reizen"
+      ],
+      "inferredStoryTags": [],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1282",
+      "title": "Meedogenloos",
+      "author": "Tardio, Natasza",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Meedogenloos",
+          "matchedAuthor": "Tardio, Natasza",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Meedogenloos",
+          "checkedAt": "2026-10-22T09:44:50.315212+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "criminaliteit"
+      ],
+      "inferredStoryTags": [
+        "spanning",
+        "misdaad"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1362",
+      "title": "Souvenir",
+      "author": "Vermeer, Suzanne",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Souvenir",
+          "matchedAuthor": "Vermeer, Suzanne",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Souvenir",
+          "checkedAt": "2026-10-22T09:45:38.107995+00:00"
+        }
+      ],
+      "inferredInterests": [],
+      "inferredStoryTags": [
+        "mysterie"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1442",
+      "title": "Wreed",
+      "author": "Wallis de Vries, Mel",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Wreed",
+          "matchedAuthor": "Wallis de Vries, Mel",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wreed",
+          "checkedAt": "2026-10-22T09:46:23.045216+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "verliefdheid"
+      ],
+      "inferredStoryTags": [
+        "spanning",
+        "romantiek",
+        "emotioneel"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    },
+    {
+      "id": "excel-Sheet-1530",
+      "title": "Vlam",
+      "author": "Zwigtman, Floortje",
+      "matchedSourceIdentity": [
+        {
+          "provider": "Bogerman Aura",
+          "matchedTitle": "Vlam",
+          "matchedAuthor": "Zwigtman, Floortje",
+          "url": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlam",
+          "checkedAt": "2026-10-22T09:47:18.702633+00:00"
+        }
+      ],
+      "inferredInterests": [
+        "verliefdheid",
+        "politiek"
+      ],
+      "inferredStoryTags": [
+        "romantiek"
+      ],
+      "reviewScope": "Titel/auteur en onderbouwing in bronbeschrijving door Codex beoordeeld; geen integrale boeklezing, editie- of onderwijsniveaubeoordeling."
+    }
+  ]
+}

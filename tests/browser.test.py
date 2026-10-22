@@ -77,8 +77,12 @@ with sync_playwright() as p:
     assert page.locator('.match-explanation li').count() > 0
     assert page.locator('.story-summary').is_visible()
     assert 'Beschikbaarheid' in page.locator('dialog').inner_text()
-    assert 'laatste controle' in page.locator('dialog').inner_text()
-    assert page.locator('dialog a').get_attribute('href').startswith('https://bogerman.auralibrary.nl/')
+    detail_text = page.locator('dialog').inner_text()
+    assert 'laatste controle' in detail_text or 'Onbekend — niet vermeld in Excel' in detail_text
+    if 'Inhoudelijke aanwijzingen' in page.locator('dialog .match').inner_text():
+        assert '%' not in page.locator('dialog .match').inner_text()
+        assert 'leesniveau' in detail_text.lower()
+    assert page.locator('dialog a.primary, dialog a.secondary').get_attribute('href').startswith('https://bogerman.auralibrary.nl/')
     page.keyboard.press('Escape')
     assert not page.locator('dialog').is_visible()
     page.locator('[data-feedback="1"]').first.click()
@@ -105,21 +109,26 @@ with sync_playwright() as p:
     page.locator('#start').click()
     for _ in range(5):
         page.locator('#next').click()
-    page.locator('[data-value="games"]').click()
-    page.locator('#primary').select_option(label='games')
+    page.locator('[data-value="school"]').click()
+    page.locator('#primary').select_option(label='school')
     page.locator('#next').click()
     page.locator('#next').click()
     page.evaluate('''() => {
       appState.profile.level = 'gt';
       const recommend = matchingEngine.recommend.bind(matchingEngine);
       matchingEngine.recommend = (books, profile, limit, options) =>
-        recommend(books.filter(b => b.catalogSource === 'excel' && b.recommendationReady), profile, limit, options);
+        recommend(books.filter(b => b.matchMode === 'evidence' && b.recommendationReady), profile, limit, options);
     }''')
     page.locator('#next').click()
     assert page.locator('.book-card').count() > 0
     page.locator('[data-book]').first.click()
     assert 'Onbekend — niet vermeld in Excel' in page.locator('dialog').inner_text()
-    assert 'ze komen niet uit Excel' in page.locator('.story-summary').inner_text()
+    assert 'automatische inschattingen' in page.locator('.story-summary').inner_text()
+    assert '%' not in page.locator('dialog .match').inner_text()
+    assert 'geen matchpercentage' in page.locator('.match-explanation').inner_text()
+    page.locator('dialog .source-details summary').click()
+    assert page.locator('dialog .source-details a').count() > 0
+    assert 'middelmatige zekerheid' in page.locator('dialog .source-details').inner_text()
     assert not errors, errors
     print('PASS: 8 steps, school years 1–4, progress/back, 12-interest and 5-theme limits, neutral choices, sliders, removed preferences neutral, modal, feedback, unseen alternatives, responsive sizes, reduced motion, session reload; no JavaScript errors')
     browser.close()
