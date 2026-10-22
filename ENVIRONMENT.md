@@ -54,9 +54,27 @@ boekkenmerken zijn `null` en staan in `missingFields`; er zijn geen ISBN's,
 samenvattingen, interesses, beschikbaarheid of andere boekgegevens verzonnen.
 De oorspronkelijke bronwaarden blijven ook bij lege velden bewaard.
 
-Deze basisdatabase is geïmporteerd, maar nog niet geschikt voor de matching-engine:
-alle records hebben `metadataStatus: needs-review` en `recommendationReady: false`.
-Daarom blijven de bestaande aanbevelingen expliciet op de meegeleverde Aura-snapshot
-met redactionele leeskenmerken draaien. De 1.529 importregels worden pas aanbevolen
-na gecontroleerde verrijking en aansluiting op de repositorylaag. Dit voorkomt dat
-ontbrekende informatie wordt vervangen door fictieve kenmerken of beschikbaarheid.
+De app laadt deze basisdatabase nu via `bookRepository.getBooks({ includeUnreviewed:
+true })`. Op het startscherm opent “Bekijk de boekendatabase” een doorzoekbare
+catalogus met titel, auteur, catalogusniveau, bronrij en ontbrekende informatie.
+Er zijn zoek- en niveaufilters en een knop om meer resultaten te tonen.
+
+Alle 1.529 bronregels blijven behouden. Alleen unieke overeenkomsten op volledige
+titel en auteur worden gekoppeld (auteurwoorden mogen in achternaam-eerstnotatie
+staan). Er wordt niet op ongeveer gelijke titels gekoppeld en C/D wordt niet
+omgezet naar een schoolniveau. Van de bronregels zijn er 24 aan bestaande
+Aura-boeken gekoppeld. Nog 2 regels hebben een overeenkomst met bestaande
+redactionele leeskenmerken uit `data/books.js`; die boeken kunnen nu ook worden
+aanbevolen. Hun beschikbaarheid, locatie en editie blijven onbekend. De modal
+vermeldt expliciet dat leeskenmerken redactioneel zijn en niet uit Excel komen.
+
+De gecombineerde database heeft 1.550 records: 45 bestaande Aura-boeken en 1.505
+extra Excelregels. De overige 1.503 Excelregels zijn doorzoekbaar maar worden
+niet gescoord, omdat matchkenmerken ontbreken. De oorspronkelijke JSON-bron blijft
+ongewijzigd; verrijking gebeurt bij het laden, met brongegevens in `excelSources`
+en bij redactionele koppelingen `metadataSource`. Originele ontbrekende velden
+blijven zichtbaar. Er worden geen nieuwe boekgegevens gegenereerd.
+
+Gevalideerd na aansluiting: 28 JavaScript-tests, 9 Python-tests en de volledige
+browsertest, inclusief zoeken, paginering, ontbrekende niveaus en responsiviteit
+van de catalogus. Live verrijking via externe diensten is niet uitgevoerd.

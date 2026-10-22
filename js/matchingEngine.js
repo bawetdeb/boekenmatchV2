@@ -11,6 +11,7 @@ window.matchingEngine = {
     return Math.max(min, Math.min(max, n));
   },
   eligible(b, p, options = {}) {
+    if (b.recommendationReady === false) return false;
     const levels = ["basis", "kader", "gt"],
       target = levels.indexOf(p.level);
     return (

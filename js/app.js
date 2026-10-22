@@ -1,6 +1,6 @@
 (async function () {
   const app = document.getElementById("app"),
-    books = await bookRepository.getBooks(),
+    books = await bookRepository.getBooks({ includeUnreviewed: true }),
     state = appState,
     p = state.profile;
   const esc = (s) =>
@@ -24,7 +24,7 @@
       }).format(new Date(bookRepository.status.checkedAt))
     : "";
   const collectionNote = isAura
-    ? `${books.length} bevestigde titels uit de Bogerman-catalogus. Beschikbaarheid gecontroleerd op ${checkedDate}. Leeskenmerken en pagina-aantallen zijn redactionele indicaties. Controleer de actuele status in Aura.`
+    ? `${bookRepository.status.verifiedCount} bevestigde titels uit de Bogerman-catalogus. Beschikbaarheid gecontroleerd op ${checkedDate}. Leeskenmerken en pagina-aantallen zijn redactionele indicaties. Controleer de actuele status in Aura. De database bevat ${bookRepository.status.excelCount} Excelregels; ${bookRepository.status.enrichedExcelCount} extra regels gebruiken bestaande redactionele leeskenmerken, met onbekende beschikbaarheid; ${bookRepository.status.pendingExcelCount} daarvan wachten nog op gecontroleerde matchgegevens.`
     : `Fase 1 · ${books.length} testtitels. Niveau, pagina’s en beschikbaarheid zijn illustratief en nog niet gecontroleerd in Aura.`;
   const { groups, questions } = quizConfig;
   let current = [],
@@ -46,6 +46,32 @@
       state.shown.clear();
       quiz();
     };
+    const browse = document.createElement("button");
+    browse.id = "browse-catalog";
+    browse.className = "secondary";
+    browse.textContent = `Bekijk de boekendatabase (${bookRepository.status.excelCount} Excelregels)`;
+    browse.onclick = catalog;
+    document.querySelector(".hero > div").append(browse);
+  }
+  function catalog() {
+    resultVersion++;
+    frame(`<main class="quiz"><h1>De boekendatabase</h1><p>${bookRepository.status.excelCount} regels uit de aangeleverde Excel. ${bookRepository.status.linkedExcelCount} regels zijn op titel en volledige auteur gekoppeld aan bestaande Aura-boeken. ${bookRepository.status.enrichedExcelCount} extra regels hebben bestaande redactionele leeskenmerken, zonder bevestigde beschikbaarheid. Overige titels zijn doorzoekbaar; ontbrekende kenmerken worden niet ingevuld.</p><label for="catalog-search">Zoek op titel of auteur</label><input id="catalog-search" type="search" placeholder="Bijvoorbeeld Slagveld of Mirjam Mous"><label for="catalog-level">Catalogusniveau uit Excel</label><select id="catalog-level"><option value="">Alle niveaus</option><option value="C">C</option><option value="D">D</option><option value="unknown">Onbekend</option></select><p id="catalog-count" role="status"></p><div id="catalog-records"></div><button id="catalog-more" class="secondary">Toon meer boeken</button><button id="catalog-back" class="primary">Terug naar de startpagina</button></main>`);
+    const rows = books.flatMap((book) => (book.excelSources || []).map((source) => ({ book, source })));
+    let limit = 30;
+    function render() {
+      const query = document.getElementById("catalog-search").value.trim().toLocaleLowerCase("nl");
+      const level = document.getElementById("catalog-level").value;
+      const filtered = rows.filter(({ source }) =>
+        `${source.title} ${source.author}`.toLocaleLowerCase("nl").includes(query) &&
+        (!level || (level === "unknown" ? !source.catalogLevel : source.catalogLevel?.split(/[ /-]/)[0] === level)));
+      document.getElementById("catalog-count").textContent = `${filtered.length} Excelregels gevonden · ${Math.min(limit, filtered.length)} getoond`;
+      document.getElementById("catalog-records").innerHTML = filtered.slice(0, limit).map(({ book, source }) => `<article class="catalog-record"><h2>${esc(source.title)}</h2><p>${esc(source.author)}</p><dl><dt>Catalogusniveau</dt><dd>${esc(source.catalogLevel || "Onbekend")}</dd><dt>Beschikbaarheid</dt><dd>${book.catalogSource === "aura" ? `${book.available ? "Aanwezig" : "Niet aanwezig"} bij Aura-controle op ${esc(checkedDate)}` : "Onbekend — niet vermeld in Excel"}</dd><dt>Matchgegevens</dt><dd>${book.catalogSource === "aura" ? "Bestaande redactionele leeskenmerken; bronkoppeling op titel en auteur, editie niet bevestigd" : book.recommendationReady ? "Bestaande redactionele leeskenmerken; beschikbaarheid en editie niet bevestigd" : "Nog te controleren — nog niet gebruikt voor aanbevelingen"}</dd><dt>Bron</dt><dd>${esc(source.source.sheet)}, rij ${source.source.row}</dd><dt>Ontbrekend in Excel</dt><dd>${esc(source.missingFields.join(", "))}</dd></dl></article>`).join("");
+      document.getElementById("catalog-more").hidden = limit >= filtered.length;
+    }
+    for (const id of ["catalog-search", "catalog-level"]) document.getElementById(id).oninput = () => { limit = 30; render(); };
+    document.getElementById("catalog-more").onclick = () => { limit += 30; render(); };
+    document.getElementById("catalog-back").onclick = welcome;
+    render();
   }
   const choices = (q, options) =>
     `<div class="choices">${options
@@ -237,14 +263,14 @@
         return null;
       }
     })();
-    d.innerHTML = `<button id="close" class="close" aria-label="Sluiten">✕</button><div class="modal-content"><img src="${esc(document.querySelector(`[data-cover="${b.id}"]`).src)}" alt="Omslag ${esc(b.title)}"><div><span class="match">${b.matchScore}% match</span><h2 id="modal-title">${esc(b.title)}</h2><p class="author">${esc(b.author)}</p><section class="match-explanation" aria-labelledby="match-why"><span class="eyebrow">GEMAAKT VOOR JOUW LEESPROFIEL</span><h3 id="match-why">Waarom dit boek bij jou past</h3><ul>${b.matchReasons.map((r) => `<li><span aria-hidden="true">✓</span> ${esc(r)}</li>`).join("")}</ul><p>Gebaseerd op jouw antwoorden · ${b.matchScore}% inhoudelijke overeenkomst</p></section><section class="story-summary"><h3>Waar gaat het over?</h3><p>${esc(b.teaser || b.summary)}</p></section><dl><dt>Niveau</dt><dd>${b.levels.join(" / ")}</dd><dt>Pagina’s (indicatie)</dt><dd>${b.pages}</dd><dt>Thema’s</dt><dd>${Object.entries(
+    d.innerHTML = `<button id="close" class="close" aria-label="Sluiten">✕</button><div class="modal-content"><img src="${esc(document.querySelector(`[data-cover="${b.id}"]`).src)}" alt="Omslag ${esc(b.title)}"><div><span class="match">${b.matchScore}% match</span><h2 id="modal-title">${esc(b.title)}</h2><p class="author">${esc(b.author)}</p><section class="match-explanation" aria-labelledby="match-why"><span class="eyebrow">GEMAAKT VOOR JOUW LEESPROFIEL</span><h3 id="match-why">Waarom dit boek bij jou past</h3><ul>${b.matchReasons.map((r) => `<li><span aria-hidden="true">✓</span> ${esc(r)}</li>`).join("")}</ul><p>Gebaseerd op jouw antwoorden · ${b.matchScore}% inhoudelijke overeenkomst</p></section><section class="story-summary"><h3>Waar gaat het over?</h3><p>${esc(b.teaser || b.summary)}</p>${b.catalogSource === "excel" ? '<p class="small">Samenvatting en leeskenmerken zijn bestaande redactionele indicaties uit de oorspronkelijke app; ze komen niet uit Excel. Editie en beschikbaarheid zijn niet bevestigd.</p>' : ""}</section><dl><dt>Niveau</dt><dd>${b.levels.join(" / ")}</dd><dt>Pagina’s (indicatie)</dt><dd>${b.pages ?? "Onbekend"}</dd><dt>Thema’s</dt><dd>${Object.entries(
       b.themes,
     )
       .filter(([, v]) => v >= 3)
       .map(([k]) => k)
       .join(
         ", ",
-      )}</dd><dt>Locatie</dt><dd>${esc(b.location)}</dd><dt>Beschikbaarheid</dt><dd>${isAura ? `${b.available ? "Aanwezig bij laatste controle" : "Niet aanwezig bij laatste controle"} · ${esc(checkedDate)}` : `${b.available ? "Beschikbaar in de testcollectie" : "Niet beschikbaar"} · Aura nog niet gekoppeld`}</dd></dl>${safeAura ? `<a class="primary" href="${esc(safeAura)}" target="_blank" rel="noopener">Bekijk in Aura ↗</a>` : `<a class="secondary" href="https://bogerman.auralibrary.nl/auraicx.aspx" target="_blank" rel="noopener">Open de schoolcatalogus ↗</a><p class="small">Zoek daar op titel of auteur. ${isAura ? "Deze titel is bevestigd in jullie catalogus, maar heeft geen betrouwbare directe recordlink." : "Dit testboek is nog niet bevestigd in jullie catalogus."}</p>`}</div></div>`;
+      )}</dd><dt>Locatie</dt><dd>${esc(b.location || "Onbekend")}</dd><dt>Beschikbaarheid</dt><dd>${b.catalogSource === "aura" ? `${b.available ? "Aanwezig bij laatste controle" : "Niet aanwezig bij laatste controle"} · ${esc(checkedDate)}` : "Onbekend — niet vermeld in Excel en niet bevestigd in Aura"}</dd></dl>${safeAura ? `<a class="primary" href="${esc(safeAura)}" target="_blank" rel="noopener">Bekijk in Aura ↗</a>` : `<a class="secondary" href="https://bogerman.auralibrary.nl/auraicx.aspx" target="_blank" rel="noopener">Open de schoolcatalogus ↗</a><p class="small">Zoek daar op titel of auteur. ${b.catalogSource === "aura" ? "Deze titel is bevestigd in jullie catalogus, maar heeft geen betrouwbare directe recordlink." : "Deze titel komt uit Excel; zoek op titel of auteur en controleer de actuele beschikbaarheid."}</p>`}</div></div>`;
     d.setAttribute("aria-labelledby", "modal-title");
     d.showModal();
     document.getElementById("close").onclick = () => d.close();
@@ -254,4 +280,8 @@
     d.onclose = () => trigger.focus();
   }
   welcome();
-})();
+})().catch(() => {
+  const app = document.getElementById("app");
+  app.textContent = "De boekendatabase kon niet worden geladen. Vernieuw de pagina of probeer het later opnieuw.";
+  app.setAttribute("role", "alert");
+});

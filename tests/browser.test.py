@@ -7,6 +7,22 @@ with sync_playwright() as p:
     page.on('pageerror', lambda e: errors.append(str(e)))
     page.route('https://**/*', lambda route: route.abort())
     page.goto('http://127.0.0.1:8000')
+    page.locator('#browse-catalog').click()
+    assert '1529' in page.locator('#catalog-count').inner_text()
+    assert page.locator('.catalog-record').count() == 30
+    page.locator('#catalog-more').click()
+    assert page.locator('.catalog-record').count() == 60
+    page.locator('#catalog-search').fill('Slagveld')
+    assert page.locator('.catalog-record').count() > 0
+    assert '50 cent' in page.locator('#catalog-records').inner_text()
+    assert 'Onbekend' in page.locator('#catalog-records').inner_text()
+    page.locator('#catalog-search').fill('')
+    page.locator('#catalog-level').select_option('unknown')
+    assert page.locator('.catalog-record').count() == 4
+    for width in [390, 768, 1280]:
+        page.set_viewport_size({'width': width, 'height': 900})
+        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+    page.locator('#catalog-back').click()
     page.locator('#start').click()
     total = page.evaluate('quizConfig.questions.length')
     assert total == 8
@@ -85,6 +101,25 @@ with sync_playwright() as p:
     assert page.evaluate('getComputedStyle(document.querySelector(".question")).animationName') == 'none'
     page.reload()
     assert page.evaluate('Object.keys(appState.feedback).length') == 1
+    # Exercise an actual added Excel book through the engine and detail UI.
+    page.locator('#start').click()
+    for _ in range(5):
+        page.locator('#next').click()
+    page.locator('[data-value="games"]').click()
+    page.locator('#primary').select_option(label='games')
+    page.locator('#next').click()
+    page.locator('#next').click()
+    page.evaluate('''() => {
+      appState.profile.level = 'gt';
+      const recommend = matchingEngine.recommend.bind(matchingEngine);
+      matchingEngine.recommend = (books, profile, limit, options) =>
+        recommend(books.filter(b => b.catalogSource === 'excel' && b.recommendationReady), profile, limit, options);
+    }''')
+    page.locator('#next').click()
+    assert page.locator('.book-card').count() > 0
+    page.locator('[data-book]').first.click()
+    assert 'Onbekend — niet vermeld in Excel' in page.locator('dialog').inner_text()
+    assert 'ze komen niet uit Excel' in page.locator('.story-summary').inner_text()
     assert not errors, errors
     print('PASS: 8 steps, school years 1–4, progress/back, 12-interest and 5-theme limits, neutral choices, sliders, removed preferences neutral, modal, feedback, unseen alternatives, responsive sizes, reduced motion, session reload; no JavaScript errors')
     browser.close()

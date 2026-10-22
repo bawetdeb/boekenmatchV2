@@ -28,6 +28,18 @@ Open de app via je lokale webserver in een gewone ontwikkelomgeving. In de cloud
 
 ## Bestanden en verantwoordelijkheden
 
+### Excelcatalogus in BoekenMatchV2
+
+Op het startscherm kun je nu de boekendatabase openen en alle 1.529 Excelregels
+doorzoeken op titel, auteur en catalogusniveau. De oorspronkelijke waarden en
+ontbrekende gegevens blijven zichtbaar. Er zijn 24 koppelingen met bestaande
+Aura-records en 2 aanvullende koppelingen met bestaande redactionele leeskenmerken.
+Deze twee extra boeken kunnen worden aanbevolen, met onbekende beschikbaarheid.
+De andere 1.503 regels wachten op matchgegevens; er zijn geen gegevens verzonnen.
+Zie [ENVIRONMENT.md](ENVIRONMENT.md) voor bronnen, beperkingen en importinstructies.
+
+### Projectbestanden
+
 | Bestand                   | Functie                                                   |
 | ------------------------- | --------------------------------------------------------- |
 | `index.html`              | Nederlandstalige pagina en modulevolgorde                 |
