@@ -40,6 +40,14 @@ Excelgegevens blijven behouden. Zie [ENRICHMENT.md](ENRICHMENT.md) voor tellinge
 bronbeperkingen, steekproef, matching en onderhoud; [ENVIRONMENT.md](ENVIRONMENT.md)
 bevat de startinstructies.
 
+### Omslagen uit de catalogus
+
+Boeken kunnen nu een lokaal opgeslagen catalogusomslag tonen, ook bij gedeeltelijke
+matchgegevens. Titel en auteur worden gecontroleerd; de app vermeldt dat een andere
+druk kan afwijken en toont gevonden varianten in de detailweergave. Onzekere of
+ontbrekende omslagen behouden een neutraal alternatief. Zie [COVERS.md](COVERS.md)
+en `data/cover-report.json` voor bronvermelding, tellingen en onderhoud.
+
 ### Projectbestanden
 
 | Bestand                   | Functie                                                   |

@@ -1,0 +1,140 @@
+{
+  "reviewer": "Codex",
+  "scope": "Visuele controle van gedrukte titel en auteur; editie van het fysieke Excel-exemplaar blijft onbekend.",
+  "sampleSize": 19,
+  "records": [
+    {
+      "id": "excel-Sheet-0002",
+      "title": "Slagveld",
+      "author": "50 cent",
+      "sha256": "d64cd33fc8ba4f4bc42167d4bf140e4587fd2c1a9f146728ef58365f6432a876",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Slagveld"
+    },
+    {
+      "id": "excel-Sheet-0162",
+      "title": "dodenpad",
+      "author": "Brooks, Kevin ; Buddingh Wiebe  [ vert.]",
+      "sha256": "574b6b8f86f5512404051c72c79fd3a97010ff06044fa511defa46734637465d",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=dodenpad"
+    },
+    {
+      "id": "excel-Sheet-0242",
+      "title": "Spotgaai",
+      "author": "Collins, Suzanne; Postema, Maria",
+      "sha256": "2c975685cfcbbe8f4d5951002763d9dff3b3da95846f70ce08d164ab39ff5553",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Spotgaai"
+    },
+    {
+      "id": "excel-Sheet-0322",
+      "title": "overwintering op Nova Zembla",
+      "author": "Dijkzeul, Lieneke",
+      "sha256": "1232a9f754fc3917381077f63aadfdd5cdc4802b93dbbb951a4572471733a258",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=overwintering+op+Nova+Zembla"
+    },
+    {
+      "id": "excel-Sheet-0402",
+      "title": "Zijn jaar",
+      "author": "Forman, Gayle",
+      "sha256": "ee876f76ee229d49945e3631e2c4a7a69c917c8f59451ab12f215d54eceed805",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zijn+jaar"
+    },
+    {
+      "id": "excel-Sheet-0482",
+      "title": "Will Grayson",
+      "author": "Green, John; Levithan, David; Eekelen-Benders, van Aleid [vert]",
+      "sha256": "fa579762f386088e9a6ed01ec23a6573b6d5c2eecb0184055162c702da9e8a3d",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Will+Grayson"
+    },
+    {
+      "id": "excel-Sheet-0562",
+      "title": "Dubbelliefde, verliefd in Suriname",
+      "author": "Hoefnagel,Marian",
+      "sha256": "94d23d09af5ff8a738cfe510f68ae5e95ff012037cfa1d2d9ee4fe61ad910d0d",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Dubbelliefde%2C+verliefd+in+Suriname"
+    },
+    {
+      "id": "excel-Sheet-0642",
+      "title": "Blikvanger",
+      "author": "Kammeijer, Victor",
+      "sha256": "5c7aebf11d011820bc3ea84d34c5112358fe788841ba39fafee08ba8801bec17",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blikvanger"
+    },
+    {
+      "id": "excel-Sheet-0722",
+      "title": "Hanna's reis",
+      "author": "Letterie, Martine",
+      "sha256": "aa8c50d7f60300d243b95ba3c9508b15517f07b364f6e47bdb138f914a938b41",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Hanna%27s+reis"
+    },
+    {
+      "id": "excel-Sheet-0802",
+      "title": "Uitgelaten",
+      "author": "Mellink, Jennefer",
+      "sha256": "2eb6733b3fab651aac83f8e6263dd1166f9a155eb0ae787425fd54a8207195ac",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Uitgelaten"
+    },
+    {
+      "id": "excel-Sheet-0882",
+      "title": "Cherub, Zonder Genade : missie 7",
+      "author": "Muchamore, Robert ; Gladdines, Tim [ vert. ]",
+      "sha256": "f6bcce3b826aff80e4f279007929d1bd244e08eac52f1ada99bb55f72a3ec398",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Cherub%2C+Zonder+Genade+%3A+missie+7"
+    },
+    {
+      "id": "excel-Sheet-0962",
+      "title": "vuur",
+      "author": "Patterson, James",
+      "sha256": "8eaca3077d3e984d4e42397a831e905c061e2ce2b3e35bb4410f27681ccd93b9",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=vuur"
+    },
+    {
+      "id": "excel-Sheet-1042",
+      "title": "zee van Monsters : Percy Jackson en de Olympiers",
+      "author": "Riordan Rick; Noordenbos, Marce",
+      "sha256": "fc8aedad23a3c67fbe7efd3521a3912954cfc8f098b7184697da01de343ae1f7",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=zee+van+Monsters+%3A+Percy+Jackson+en+de+Olympiers"
+    },
+    {
+      "id": "excel-Sheet-1122",
+      "title": "Neem een kip",
+      "author": "Sassen, Erna",
+      "sha256": "503e89c14c49659eee2f5a0c1412456f6dfb3179f1a957e7f4ee40ee5159dc52",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Neem+een+kip"
+    },
+    {
+      "id": "excel-Sheet-1202",
+      "title": "Rotmoevie",
+      "author": "Smet, Marian de",
+      "sha256": "31f9b3438bf038645af6139d7d2e39df10f6661a532b99883f05c2ee87285821",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Rotmoevie"
+    },
+    {
+      "id": "excel-Sheet-1282",
+      "title": "Meedogenloos",
+      "author": "Tardio, Natasza",
+      "sha256": "331efd0633c6b091d13d573d263db9ce02698e3b310172c9988cb57b906d8017",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Meedogenloos"
+    },
+    {
+      "id": "excel-Sheet-1362",
+      "title": "Souvenir",
+      "author": "Vermeer, Suzanne",
+      "sha256": "f98a96ae3014fb73d8f79de194f27d7d6c2b1d7f3049b3500d7dd222027be68e",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Souvenir"
+    },
+    {
+      "id": "excel-Sheet-1442",
+      "title": "Wreed",
+      "author": "Wallis de Vries, Mel",
+      "sha256": "77526ff759caf125c533e4a22440578595be1cbb4acc27a9a71b4a2577ff2929",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Wreed"
+    },
+    {
+      "id": "excel-Sheet-1530",
+      "title": "Vlam",
+      "author": "Zwigtman, Floortje",
+      "sha256": "1e23c771bf6c8514cac3fbe1cce8fac73c76f038822b261745cecf708455230e",
+      "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Vlam"
+    }
+  ]
+}

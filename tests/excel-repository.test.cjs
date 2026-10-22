@@ -4,7 +4,7 @@ const vm = require('node:vm');
 const fs = require('node:fs');
 function context(catalog = JSON.parse(fs.readFileSync('data/library-catalog.json', 'utf8'))) {
   const online = JSON.parse(fs.readFileSync('data/enriched-catalog.json', 'utf8'));
-  const c = { structuredClone, URL, fetch: async (url) => ({ ok: true, json: async () => structuredClone(url.includes('enriched-catalog') ? online : catalog) }) };
+  const c = { structuredClone, URL, fetch: async (url) => ({ ok: true, json: async () => structuredClone(url.includes('cover-catalog') ? {schemaVersion: 1, sourceSha256: catalog.sourceSha256, records: {}} : url.includes('enriched-catalog') ? online : catalog) }) };
   c.window = c;
   vm.createContext(c);
   for (const file of ['data/books.js', 'data/aura-catalog.js', 'js/bookRepository.js', 'js/diversification.js', 'js/matchingEngine.js'])
@@ -60,7 +60,7 @@ test('similar titles, different authors and ambiguous matches are never merged',
     { id: 'one', title: known.title, author: 'Een andere auteur', source: {}, available: null },
     { id: 'two', title: known.title + ' vervolg', author: known.author, source: {}, available: null },
   ];
-  c.fetch = async (url) => ({ ok: true, json: async () => url.includes('enriched-catalog') ?
+  c.fetch = async (url) => ({ ok: true, json: async () => url.includes('cover-catalog') ? {schemaVersion: 1, records: {}} : url.includes('enriched-catalog') ?
     { schemaVersion: 1, recordCount: 0, records: [] } : { source: 'excel', recordCount: 2, records } });
   const books = await c.bookRepository.getBooks({ includeUnreviewed: true });
   assert.equal(c.bookRepository.status.linkedExcelCount, 0);
@@ -71,4 +71,30 @@ test('failed or malformed Excel import fails visibly instead of hiding missing d
   await assert.rejects(c.bookRepository.getBooks({ includeUnreviewed: true }), /Ongeldige Excel/);
   c.fetch = async () => ({ ok: false });
   await assert.rejects(c.bookRepository.getBooks({ includeUnreviewed: true }), /niet worden geladen/);
+});
+
+test('local covers require matching title and author and never attach to another book', async () => {
+  const c = context();
+  const source = JSON.parse(fs.readFileSync('data/library-catalog.json', 'utf8'));
+  const online = JSON.parse(fs.readFileSync('data/enriched-catalog.json', 'utf8'));
+  const first = source.records[0];
+  const cover = {url: 'assets/covers/' + 'a'.repeat(64) + '.jpg', sha256: 'a'.repeat(64),
+    matchedTitle: first.title, matchedAuthor: first.author, identityConfidence: 'high', checkedAt: '2026-10-22T12:00:00Z'};
+  c.fetch = async (url) => ({ok: true, json: async () => url.includes('cover-catalog') ?
+    {schemaVersion: 1, sourceSha256: source.sourceSha256, records: {[first.id]: {covers: [cover]}}} :
+    url.includes('enriched-catalog') ? online : source});
+  let books = await c.bookRepository.getBooks({includeUnreviewed: true});
+  assert.equal(books.find((b) => b.id === first.id).catalogCover.sha256, cover.sha256);
+  cover.matchedAuthor = 'Een andere auteur';
+  books = await c.bookRepository.getBooks({includeUnreviewed: true});
+  assert.equal(books.find((b) => b.id === first.id).catalogCover, undefined);
+});
+
+test('an unavailable cover catalog does not prevent the quiz from loading its books', async () => {
+  const c = context();
+  const original = c.fetch;
+  c.fetch = async (url) => url.includes('cover-catalog') ? {ok: false} : original(url);
+  const books = await c.bookRepository.getBooks({includeUnreviewed: true});
+  assert.ok(books.length > 1500);
+  assert.equal(c.bookRepository.status.coverCatalogState, 'unavailable');
 });

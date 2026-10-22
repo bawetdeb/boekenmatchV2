@@ -1,0 +1,130 @@
+{
+  "approved": [
+    {
+      "bookId": "excel-Sheet-1377",
+      "workKey": "blauwwater|simonevandervlugt",
+      "title": "Blauw water",
+      "author": "Vlugt, Simone van der",
+      "cover": {
+        "url": "assets/covers/42d061d316ddb6479791b58bf1e36dc1a9918e8724a4b2ea4aff02eb54aa451e.jpg",
+        "sourceImageUrl": "https://bogerman.auralibrary.nl/koppelingen/afbeeldingen/2011-07-0713.20.10.jpg.ashx?height=360&borderWidth=0&borderColor=Silver&paddingWidth=0",
+        "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Blauw+water",
+        "checkedAt": "2026-10-22T12:04:36.499218+00:00",
+        "sha256": "42d061d316ddb6479791b58bf1e36dc1a9918e8724a4b2ea4aff02eb54aa451e",
+        "width": 228,
+        "height": 360,
+        "matchedTitle": "Blauw water",
+        "matchedAuthor": "Vlugt, Simone van der",
+        "identityConfidence": "high",
+        "editionVerified": false,
+        "scope": "school-catalog-cover"
+      },
+      "reviewedAt": "2026-10-22T12:04:36.501033+00:00",
+      "review": "Codex: gedrukte titel en auteur visueel gecontroleerd; bronrecord opnieuw bevestigd. Alleen dit werk mag deze afbeelding gebruiken."
+    },
+    {
+      "bookId": "excel-Sheet-1052",
+      "workKey": "bliksemdiefpercyjacksonendeolympiers|rickriordan",
+      "title": "bliksemdief : Percy Jackson en de Olympiers",
+      "author": "Riordan, Rick ; Noordenbos, Marce [ vert. ]",
+      "cover": {
+        "url": "assets/covers/f9aa7ddd7c57c9bb77eaa0da110d53fb19b7422d4e124e5f3715812733c3ee4b.jpg",
+        "sourceImageUrl": "https://bogerman.auralibrary.nl/koppelingen/afbeeldingen/9789089680938.jpg.ashx?height=360&borderWidth=0&borderColor=Silver&paddingWidth=0",
+        "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=bliksemdief+%3A+Percy+Jackson+en+de+Olympiers",
+        "checkedAt": "2026-10-22T12:04:36.714385+00:00",
+        "sha256": "f9aa7ddd7c57c9bb77eaa0da110d53fb19b7422d4e124e5f3715812733c3ee4b",
+        "width": 231,
+        "height": 360,
+        "matchedTitle": "De  bliksemdief : Percy Jackson en de Olympiers",
+        "matchedAuthor": "Riordan, Rick ; Noordenbos, Marce [ vert. ]",
+        "identityConfidence": "high",
+        "editionVerified": false,
+        "scope": "school-catalog-cover"
+      },
+      "reviewedAt": "2026-10-22T12:04:36.714769+00:00",
+      "review": "Codex: gedrukte titel en auteur visueel gecontroleerd; bronrecord opnieuw bevestigd. Alleen dit werk mag deze afbeelding gebruiken."
+    },
+    {
+      "bookId": "excel-Sheet-1114",
+      "workKey": "zwartezwaan|gideonsamson",
+      "title": "Zwarte zwaan",
+      "author": "Samson, Gideon",
+      "cover": {
+        "url": "assets/covers/2b4c8c1435c3860662107b828d1ae2de5d04314c6307bb060c4a5941af8bfdd7.jpg",
+        "sourceImageUrl": "https://bogerman.auralibrary.nl/koppelingen/afbeeldingen/zwartezwaan.jpg.ashx?height=360&borderWidth=0&borderColor=Silver&paddingWidth=0",
+        "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Zwarte+zwaan",
+        "checkedAt": "2026-10-22T12:04:36.513967+00:00",
+        "sha256": "2b4c8c1435c3860662107b828d1ae2de5d04314c6307bb060c4a5941af8bfdd7",
+        "width": 184,
+        "height": 274,
+        "matchedTitle": "Zwarte zwaan",
+        "matchedAuthor": "Samson, Gideon",
+        "identityConfidence": "high",
+        "editionVerified": false,
+        "scope": "school-catalog-cover"
+      },
+      "reviewedAt": "2026-10-22T12:04:36.514251+00:00",
+      "review": "Codex: gedrukte titel en auteur visueel gecontroleerd; bronrecord opnieuw bevestigd. Alleen dit werk mag deze afbeelding gebruiken."
+    },
+    {
+      "bookId": "excel-Sheet-1159",
+      "workKey": "antsydoestime|nealshusterman",
+      "title": "Antsy does time",
+      "author": "Shusterman, Neal; Meeder, Lydia [vert.]",
+      "cover": {
+        "url": "assets/covers/583e81fdaf34e66543ae3bdc63cc8d123be02aab699b26a888be6bace0aa8560.jpg",
+        "sourceImageUrl": "https://bogerman.auralibrary.nl/koppelingen/afbeeldingen/antsydoestime.jpg.ashx?height=360&borderWidth=0&borderColor=Silver&paddingWidth=0",
+        "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Antsy+does+time",
+        "checkedAt": "2026-10-22T12:04:38.908335+00:00",
+        "sha256": "583e81fdaf34e66543ae3bdc63cc8d123be02aab699b26a888be6bace0aa8560",
+        "width": 225,
+        "height": 225,
+        "matchedTitle": "Antsy does time",
+        "matchedAuthor": "Shusterman, Neal; Meeder, Lydia [vert.]",
+        "identityConfidence": "high",
+        "editionVerified": false,
+        "scope": "school-catalog-cover"
+      },
+      "reviewedAt": "2026-10-22T12:04:38.910657+00:00",
+      "review": "Codex: gedrukte titel en auteur visueel gecontroleerd; bronrecord opnieuw bevestigd. Alleen dit werk mag deze afbeelding gebruiken."
+    },
+    {
+      "bookId": "excel-Sheet-1180",
+      "workKey": "kapot|carryslee",
+      "title": "Kapot",
+      "author": "Slee, Carry",
+      "cover": {
+        "url": "assets/covers/85c45fe5195075e3cd12e6d26538752134c3e7b762caef5112740921b940442c.jpg",
+        "sourceImageUrl": "https://bogerman.auralibrary.nl/koppelingen/afbeeldingen/kapot.jpg.ashx?height=360&borderWidth=0&borderColor=Silver&paddingWidth=0",
+        "sourceUrl": "https://bogerman.auralibrary.nl/auraiczoekenx.aspx?field=title&zoekterm=Kapot",
+        "checkedAt": "2026-10-22T12:04:38.661783+00:00",
+        "sha256": "85c45fe5195075e3cd12e6d26538752134c3e7b762caef5112740921b940442c",
+        "width": 182,
+        "height": 278,
+        "matchedTitle": "Kapot",
+        "matchedAuthor": "Slee, Carry",
+        "identityConfidence": "high",
+        "editionVerified": false,
+        "scope": "school-catalog-cover"
+      },
+      "reviewedAt": "2026-10-22T12:04:38.662908+00:00",
+      "review": "Codex: gedrukte titel en auteur visueel gecontroleerd; bronrecord opnieuw bevestigd. Alleen dit werk mag deze afbeelding gebruiken."
+    }
+  ],
+  "rejected": [
+    {
+      "workKey": "blauwwater|simonevandervlugt",
+      "sha256": "8ace4740a54d0d3ed7e7292947f8218404f4b48cf0b4be03b53c12db47bfab08",
+      "reviewedAt": "2026-10-22T12:04:38.921113+00:00",
+      "reason": "Open Library-afbeelding toont Duitse titel Rettungslos; Excel noemt Blauw water. Vervangen door visueel bevestigde Nederlandstalige schoolomslag."
+    }
+  ],
+  "quarantinedImageHashes": [
+    "f9aa7ddd7c57c9bb77eaa0da110d53fb19b7422d4e124e5f3715812733c3ee4b",
+    "2b4c8c1435c3860662107b828d1ae2de5d04314c6307bb060c4a5941af8bfdd7",
+    "42d061d316ddb6479791b58bf1e36dc1a9918e8724a4b2ea4aff02eb54aa451e",
+    "583e81fdaf34e66543ae3bdc63cc8d123be02aab699b26a888be6bace0aa8560",
+    "92581669ca641528e5481b81032fa05a7f3545b40de187ef58ddf79b7bbcf4f5",
+    "85c45fe5195075e3cd12e6d26538752134c3e7b762caef5112740921b940442c"
+  ]
+}

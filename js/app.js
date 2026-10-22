@@ -197,7 +197,7 @@
       `<main class="results"><span class="eyebrow">JOUW SMAAK, VERTAALD NAAR VERHALEN</span><h1>${current.length === 5 ? "Vijf verhalen." : current.length ? `${current.length} verhalen.` : "Geen matches."}<br><em>${current.length ? "Helemaal jouw smaak." : "Pas je antwoorden aan."}</em></h1><p>Een startpunt om iets nieuws te ontdekken. Bij voldoende gegevens tonen we een geschat matchpercentage. Bij beperkte gegevens tonen we inhoudelijke aanwijzingen, zonder percentage.</p><p class="notice">${esc(collectionNote)}</p>${!current.length ? '<p role="status">Geen beschikbare matches gevonden bij jouw leesprofiel. Pas je antwoorden aan of bekijk de schoolcatalogus.</p>' : ""}<div class="book-grid">${current
         .map(
           (b, i) =>
-            `<article class="book-card ${i === 0 ? "featured" : ""}"><button class="book-open" data-book="${b.id}" aria-label="Bekijk ${esc(b.title)}"><div class="cover-wrap"><img data-cover="${b.id}" src="${coverService.fallback(b)}" alt="Omslag ${esc(b.title)}"><span class="rank">${String(i + 1).padStart(2, "0")}</span></div><div class="book-text">${i === 0 ? '<span class="top-pick">✦ JOUW BESTE MATCH</span>' : ""}<span class="match">${b.matchMode === "evidence" ? "Inhoudelijke aanwijzingen" : `${b.matchScore}% match`}</span><h2>${esc(b.title)}</h2><p class="author">${esc(b.author)}</p><div class="tags">${b.interests
+            `<article class="book-card ${i === 0 ? "featured" : ""}"><button class="book-open" data-book="${b.id}" aria-label="Bekijk ${esc(b.title)}"><div class="cover-wrap"><img data-cover="${b.id}" src="${coverService.fallback(b)}" alt="Omslag ${esc(b.title)}"><span class="rank">${String(i + 1).padStart(2, "0")}</span><small class="cover-note" data-cover-note="${b.id}">Omslag wordt geladen</small></div><div class="book-text">${i === 0 ? '<span class="top-pick">✦ JOUW BESTE MATCH</span>' : ""}<span class="match">${b.matchMode === "evidence" ? "Inhoudelijke aanwijzingen" : `${b.matchScore}% match`}</span><h2>${esc(b.title)}</h2><p class="author">${esc(b.author)}</p><div class="tags">${b.interests
               .slice(0, 3)
               .map((t) => `<span>${esc(t)}</span>`)
               .join(
@@ -224,10 +224,13 @@
     bindFeedback();
     current.forEach((b) =>
       coverService.findCover(b).then((url) => {
-        if (version === resultVersion)
-          document
-            .querySelectorAll(`[data-cover="${b.id}"]`)
-            .forEach((img) => (img.src = url));
+        if (version === resultVersion) {
+          if (b.coverVariantSelected && b.catalogCover) url = b.catalogCover.url;
+          document.querySelectorAll(`[data-cover="${b.id}"]`).forEach((img) => (img.src = url));
+          document.querySelectorAll(`[data-cover-note="${b.id}"]`).forEach((note) => {
+            note.textContent = url.startsWith("data:") ? "Geen bevestigde omslag" : coverLabel(b);
+          });
+        }
       }),
     );
   }
@@ -261,7 +264,21 @@
     });
     const inferred = [...(b.enrichment.assessments?.interests || []), ...(b.enrichment.assessments?.storyTags || [])];
     const unique = [...new Map(inferred.map((r) => [r.value, r])).values()];
-    return `<details class="source-details"><summary>Bronnen en onderbouwing</summary><ul>${links.join("")}</ul><p>Brongegevens: ${esc(Object.keys(b.enrichment.facts || {}).join(", ") || "geen aanvullende gegevens")}. ISBN, paginatal en omslag zijn niet overgenomen zonder editiecontrole.</p><p>Afgeleide beoordelingen: automatische inschattingen met middelmatige zekerheid. Geen meting van intensiteit of leesniveau.</p>${b.enrichment.assessments?.notes?.length ? `<p>${esc(b.enrichment.assessments.notes.join(" "))}</p>` : ""}<ul>${unique.map((item) => `<li><strong>${esc(item.value)}</strong>: “${esc(item.evidence)}”</li>`).join("")}</ul>${b.enrichment.conflicts?.length ? `<p>Tegenstrijdige gegevens: ${esc(b.enrichment.conflicts.map((c) => c.field).join(", "))}. Deze waarden zijn niet ingevuld.</p>` : ""}</details>`;
+    return `<details class="source-details"><summary>Bronnen en onderbouwing</summary><ul>${links.join("")}</ul><p>Brongegevens: ${esc(Object.keys(b.enrichment.facts || {}).join(", ") || "geen aanvullende gegevens")}. ISBN en paginatal zijn niet overgenomen zonder editiecontrole. Een omslag uit een bevestigd catalogusrecord wordt apart als voorbeeld getoond; de druk kan afwijken.</p><p>Afgeleide beoordelingen: automatische inschattingen met middelmatige zekerheid. Geen meting van intensiteit of leesniveau.</p>${b.enrichment.assessments?.notes?.length ? `<p>${esc(b.enrichment.assessments.notes.join(" "))}</p>` : ""}<ul>${unique.map((item) => `<li><strong>${esc(item.value)}</strong>: “${esc(item.evidence)}”</li>`).join("")}</ul>${b.enrichment.conflicts?.length ? `<p>Tegenstrijdige gegevens: ${esc(b.enrichment.conflicts.map((c) => c.field).join(", "))}. Deze waarden zijn niet ingevuld.</p>` : ""}</details>`;
+  }
+  function coverLabel(b) {
+    return b.catalogCover?.scope === "school-catalog-cover"
+      ? "Schoolcatalogus · druk kan afwijken"
+      : "Voorbeeldomslag · druk kan afwijken";
+  }
+  function coverSource(b) {
+    if (!b.catalogCover) return "";
+    try {
+      const url = new URL(b.catalogCover.sourceUrl);
+      if (url.protocol !== "https:" || !["bogerman.auralibrary.nl", "openlibrary.org"].includes(url.hostname)) return "";
+      const date = new Intl.DateTimeFormat("nl-NL", {dateStyle: "medium", timeZone: "Europe/Amsterdam"}).format(new Date(b.catalogCover.checkedAt));
+      return `<p class="small cover-source"><a href="${esc(url.href)}" target="_blank" rel="noopener">Bron van de omslag</a> · gecontroleerd ${esc(date)}. Titel en auteur komen overeen; andere drukken kunnen een andere omslag hebben.</p>`;
+    } catch { return ""; }
   }
   function modal(b, trigger) {
     const d = document.getElementById("details");
@@ -276,15 +293,35 @@
         return null;
       }
     })();
-    d.innerHTML = `<button id="close" class="close" aria-label="Sluiten">✕</button><div class="modal-content"><img src="${esc(document.querySelector(`[data-cover="${b.id}"]`).src)}" alt="Omslag ${esc(b.title)}"><div><span class="match">${b.matchMode === "evidence" ? "Inhoudelijke aanwijzingen" : `${b.matchScore}% match`}</span><h2 id="modal-title">${esc(b.title)}</h2><p class="author">${esc(b.author)}</p><section class="match-explanation" aria-labelledby="match-why"><span class="eyebrow">GEMAAKT VOOR JOUW LEESPROFIEL</span><h3 id="match-why">Waarom dit boek bij jou past</h3><ul>${b.matchReasons.map((r) => `<li><span aria-hidden="true">✓</span> ${esc(r)}</li>`).join("")}</ul><p>Gebaseerd op jouw antwoorden · ${b.matchMode === "evidence" ? "beperkte gegevens, geen matchpercentage" : `${b.matchScore}% inhoudelijke overeenkomst`}</p></section><section class="story-summary"><h3>Waar gaat het over?</h3><p>${esc(b.teaser || b.summary || "Geen beschrijving beschikbaar")}</p>${b.matchMode === "evidence" ? '<p class="small">Kort bronfragment. Interesses en verhaalthema’s zijn automatische inschattingen op basis van deze bron; intensiteit, leesniveau en geschiktheid zijn niet bevestigd.</p>' : b.catalogSource === "excel" ? '<p class="small">Samenvatting en leeskenmerken zijn bestaande redactionele indicaties uit de oorspronkelijke app; ze komen niet uit Excel. Editie en beschikbaarheid zijn niet bevestigd.</p>' : ""}</section><dl><dt>Niveau</dt><dd>${esc(b.levels?.join(" / ") || "Onbekend — catalogusniveau C/D is geen schoolniveau")}</dd><dt>Pagina’s (indicatie)</dt><dd>${b.pages ?? "Onbekend"}</dd><dt>Thema’s</dt><dd>${b.matchMode === "evidence" ? esc((b.storyTags || []).join(", ") || "Onbekend") : Object.entries(
+    d.innerHTML = `<button id="close" class="close" aria-label="Sluiten">✕</button><div class="modal-content"><figure><img data-cover="${b.id}" src="${esc(document.querySelector(`[data-cover="${b.id}"]`).src)}" alt="Omslag ${esc(b.title)}"><figcaption class="cover-note" data-cover-note="${b.id}">${document.querySelector(`[data-cover="${b.id}"]`).src.startsWith("data:") ? "Geen bevestigde omslag" : esc(coverLabel(b))}</figcaption></figure><div><span class="match">${b.matchMode === "evidence" ? "Inhoudelijke aanwijzingen" : `${b.matchScore}% match`}</span><h2 id="modal-title">${esc(b.title)}</h2><p class="author">${esc(b.author)}</p><section class="match-explanation" aria-labelledby="match-why"><span class="eyebrow">GEMAAKT VOOR JOUW LEESPROFIEL</span><h3 id="match-why">Waarom dit boek bij jou past</h3><ul>${b.matchReasons.map((r) => `<li><span aria-hidden="true">✓</span> ${esc(r)}</li>`).join("")}</ul><p>Gebaseerd op jouw antwoorden · ${b.matchMode === "evidence" ? "beperkte gegevens, geen matchpercentage" : `${b.matchScore}% inhoudelijke overeenkomst`}</p></section><section class="story-summary"><h3>Waar gaat het over?</h3><p>${esc(b.teaser || b.summary || "Geen beschrijving beschikbaar")}</p>${b.matchMode === "evidence" ? '<p class="small">Kort bronfragment. Interesses en verhaalthema’s zijn automatische inschattingen op basis van deze bron; intensiteit, leesniveau en geschiktheid zijn niet bevestigd.</p>' : b.catalogSource === "excel" ? '<p class="small">Samenvatting en leeskenmerken zijn bestaande redactionele indicaties uit de oorspronkelijke app; ze komen niet uit Excel. Editie en beschikbaarheid zijn niet bevestigd.</p>' : ""}</section><dl><dt>Niveau</dt><dd>${esc(b.levels?.join(" / ") || "Onbekend — catalogusniveau C/D is geen schoolniveau")}</dd><dt>Pagina’s (indicatie)</dt><dd>${b.pages ?? "Onbekend"}</dd><dt>Thema’s</dt><dd>${b.matchMode === "evidence" ? esc((b.storyTags || []).join(", ") || "Onbekend") : Object.entries(
       b.themes,
     )
       .filter(([, v]) => v >= 3)
       .map(([k]) => k)
       .join(
         ", ",
-      )}</dd><dt>Locatie</dt><dd>${esc(b.location || "Onbekend")}</dd><dt>Beschikbaarheid</dt><dd>${b.catalogSource === "aura" ? `${b.available ? "Aanwezig bij laatste controle" : "Niet aanwezig bij laatste controle"} · ${esc(checkedDate)}` : "Onbekend — niet vermeld in Excel en niet bevestigd in Aura"}</dd></dl>${sourceDetails(b)}${safeAura ? `<a class="primary" href="${esc(safeAura)}" target="_blank" rel="noopener">Bekijk in Aura ↗</a>` : `<a class="secondary" href="https://bogerman.auralibrary.nl/auraicx.aspx" target="_blank" rel="noopener">Open de schoolcatalogus ↗</a><p class="small">Zoek daar op titel of auteur. ${b.catalogSource === "aura" ? "Deze titel is bevestigd in jullie catalogus, maar heeft geen betrouwbare directe recordlink." : "Deze titel komt uit Excel; zoek op titel of auteur en controleer de actuele beschikbaarheid."}</p>`}</div></div>`;
+      )}</dd><dt>Locatie</dt><dd>${esc(b.location || "Onbekend")}</dd><dt>Beschikbaarheid</dt><dd>${b.catalogSource === "aura" ? `${b.available ? "Aanwezig bij laatste controle" : "Niet aanwezig bij laatste controle"} · ${esc(checkedDate)}` : "Onbekend — niet vermeld in Excel en niet bevestigd in Aura"}</dd></dl>${coverSource(b)}${sourceDetails(b)}${safeAura ? `<a class="primary" href="${esc(safeAura)}" target="_blank" rel="noopener">Bekijk in Aura ↗</a>` : `<a class="secondary" href="https://bogerman.auralibrary.nl/auraicx.aspx" target="_blank" rel="noopener">Open de schoolcatalogus ↗</a><p class="small">Zoek daar op titel of auteur. ${b.catalogSource === "aura" ? "Deze titel is bevestigd in jullie catalogus, maar heeft geen betrouwbare directe recordlink." : "Deze titel komt uit Excel; zoek op titel of auteur en controleer de actuele beschikbaarheid."}</p>`}</div></div>`;
     d.setAttribute("aria-labelledby", "modal-title");
+    if (b.catalogCoverVariants?.length > 1) {
+      const variants = document.createElement("div");
+      variants.className = "cover-variants";
+      variants.setAttribute("aria-label", "Omslagvarianten uit de catalogus");
+      variants.innerHTML = `<p class="small">Ook gevonden in de catalogus:</p>` + b.catalogCoverVariants.map((cover, index) =>
+        `<button type="button" data-cover-variant="${index}" aria-label="Toon omslagvariant ${index + 1}" aria-pressed="${cover.sha256 === b.catalogCover.sha256}"><img src="${esc(cover.url)}" alt="Omslagvariant ${index + 1} van ${esc(b.title)}"></button>`).join("");
+      d.querySelector("figure").append(variants);
+      variants.querySelectorAll("[data-cover-variant]").forEach((button) => {
+        button.onclick = () => {
+          const cover = b.catalogCoverVariants[Number(button.dataset.coverVariant)];
+          b.catalogCover = cover;
+          b.coverVariantSelected = true;
+          document.querySelectorAll(`[data-cover="${b.id}"]`).forEach((img) => (img.src = cover.url));
+          document.querySelectorAll(`[data-cover-note="${b.id}"]`).forEach((note) => (note.textContent = coverLabel(b)));
+          variants.querySelectorAll("button").forEach((option) => option.setAttribute("aria-pressed", String(option === button)));
+          const source = d.querySelector(".cover-source");
+          if (source) source.outerHTML = coverSource(b);
+        };
+      });
+    }
     d.showModal();
     document.getElementById("close").onclick = () => d.close();
     d.onclick = (e) => {

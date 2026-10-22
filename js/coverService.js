@@ -12,7 +12,7 @@ window.coverService = {
   },
   memory: new Map(),
   async findCover(book) {
-    const key = book.title + "|" + book.author + "|" + (book.isbn || "");
+    const key = book.title + "|" + book.author + "|" + (book.isbn || "") + (book.catalogCover ? "|" + book.catalogCover.sha256 : "") + (book.coverCatalogChecked ? "|catalog-only" : "");
     if (this.memory.has(key)) return this.memory.get(key);
     const operation = this.resolve(book, key);
     this.memory.set(key, operation);
@@ -48,8 +48,13 @@ window.coverService = {
       } catch {}
       return url;
     };
-    // Work-level matches cannot establish an edition-specific cover.
-    if (book.matchMode === "evidence") return this.fallback(book);
+    // Locally validated catalog images are linked by title/author. The UI
+    // explicitly distinguishes this from verification of the pupil's edition.
+    const catalogCover = book.catalogCover;
+    if (catalogCover && (await load(catalogCover.url)))
+      return save(catalogCover.url);
+    // Work-level metadata alone cannot establish an edition-specific cover.
+    if (book.coverCatalogChecked || book.matchMode === "evidence") return this.fallback(book);
     if (book.coverUrl && (await load(book.coverUrl)))
       return save(book.coverUrl);
     if (cache[key] && (await load(cache[key]))) return cache[key];

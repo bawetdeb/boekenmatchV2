@@ -95,6 +95,39 @@ window.bookRepository = {
     this.status.verifiedCount = verified.length;
     this.status.onlineMatchedCount = snapshot.records.filter((r) => r.sources?.length).length;
     this.status.onlineReadyCount = snapshot.records.filter((r) => r.recommendationReady).length;
+    // The app never replaces a missing/rejected catalog cover with an unrelated
+    // live search result. Cover absence must not make the quiz unavailable.
+    books.forEach((book) => { book.coverCatalogChecked = true; });
+    let coverCatalog;
+    this.status.localCoverCount = 0;
+    try {
+      const coverResponse = await fetch("data/cover-catalog.json");
+      if (!coverResponse.ok) throw new Error("Omslagcatalogus niet beschikbaar");
+      coverCatalog = await coverResponse.json();
+    } catch {
+      this.status.coverCatalogState = "unavailable";
+      return books;
+    }
+    if (coverCatalog.schemaVersion !== 1 || coverCatalog.sourceSha256 !== catalog.sourceSha256 ||
+        !coverCatalog.records || typeof coverCatalog.records !== "object" || Array.isArray(coverCatalog.records))
+      { this.status.coverCatalogState = "invalid"; return books; }
+    this.status.coverCatalogState = "available";
+    const identity = (b) => normalize(b.title.replace(/^(de|het|een)\s+/i, "")) + "|" + normalize(b.author.split(";")[0]).split(/\s+/).sort().join(" ");
+    for (const book of books) {
+      const candidates = [book.id, ...(book.excelSources || []).map((r) => r.id)]
+        .flatMap((id) => coverCatalog.records[id]?.covers || []);
+      const valid = candidates.filter((cover) =>
+        /^assets\/covers\/[a-f0-9]{64}\.(jpg|png|webp)$/.test(cover.url) &&
+        cover.sha256 === cover.url.split("/").pop().split(".")[0] &&
+        cover.identityConfidence === "high" && Number.isFinite(Date.parse(cover.checkedAt)) &&
+        typeof cover.matchedTitle === "string" && typeof cover.matchedAuthor === "string" &&
+        identity({ title: cover.matchedTitle, author: cover.matchedAuthor }) === identity(book));
+      if (valid.length) {
+        book.catalogCoverVariants = [...new Map(valid.map((cover) => [cover.sha256, structuredClone(cover)])).values()];
+        book.catalogCover = structuredClone(book.catalogCoverVariants[0]);
+      }
+    }
+    this.status.localCoverCount = books.filter((b) => b.catalogCover).length;
     return books;
   },
   async getVerifiedBooks() {

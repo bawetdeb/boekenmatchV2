@@ -93,8 +93,9 @@ Deze boeken tonen **Inhoudelijke aanwijzingen**, zonder matchpercentage. Een
 interne, begrensde sorteerscore gebruikt uitsluitend positieve aanwijzingen,
 expliciet ongewenste aanwezige thema's en lokale feedback. Dit is een rangschikking,
 geen gevalideerde voorspelling van leesplezier. De modal toont bronfragment,
-bronverwijzingen, onderbouwing en onbekende informatie. Ook een omslag wordt niet
-via een onbevestigde editie opgehaald; er verschijnt een lokale fallback.
+bronverwijzingen, onderbouwing en onbekende informatie. Omslagen worden inmiddels apart gekoppeld aan bevestigde titel/auteur-records,
+met zichtbare waarschuwing dat de druk kan afwijken; zie [COVERS.md](COVERS.md).
+Onzekere koppelingen behouden een lokale fallback.
 
 Als iemand expliciet gevoelige onderwerpen uitsluit, worden nieuwe boeken met een
 onvolledige classificatie conservatief uitgesloten. Een expliciet taalfilter vereist

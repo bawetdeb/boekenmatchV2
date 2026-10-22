@@ -148,3 +148,34 @@ test("cache distinguishes two editions of the same title and author", async () =
     2,
   );
 });
+
+test("validated local catalog cover works for partially enriched books without external searches", async () => {
+  const url = 'assets/covers/' + 'a'.repeat(64) + '.jpg';
+  const c = setup([], [url]);
+  const book = {...b, matchMode: 'evidence', catalogCover: {url, sha256: 'a'.repeat(64)}};
+  assert.equal(await c.coverService.findCover(book), url);
+  assert.equal(c.fetched.length, 0);
+});
+
+test("missing local image falls back without guessing a different edition", async () => {
+  const c = setup([], []);
+  const book = {...b, matchMode: 'evidence', catalogCover: {url: 'assets/covers/missing.jpg', sha256: 'b'.repeat(64)}};
+  assert.ok((await c.coverService.findCover(book)).startsWith('data:image/svg+xml'));
+  assert.equal(c.fetched.length, 0);
+});
+
+test("changed catalog image invalidates the in-memory cover cache", async () => {
+  const first = 'assets/covers/' + 'a'.repeat(64) + '.jpg';
+  const second = 'assets/covers/' + 'b'.repeat(64) + '.jpg';
+  const c = setup([], [first, second]);
+  assert.equal(await c.coverService.findCover({...b, catalogCover: {url: first, sha256: 'a'.repeat(64)}}), first);
+  assert.equal(await c.coverService.findCover({...b, catalogCover: {url: second, sha256: 'b'.repeat(64)}}), second);
+});
+
+test("a rejected catalog cover is not silently replaced by an old or live guessed cover", async () => {
+  const c = setup([], [b.coverUrl]);
+  const book = {...b, coverCatalogChecked: true};
+  assert.ok((await c.coverService.findCover(book)).startsWith('data:image/svg+xml'));
+  assert.equal(c.fetched.length, 0);
+  assert.equal(c.loaded.length, 0);
+});

@@ -1,0 +1,168 @@
+{
+  "excelRows": 1529,
+  "searchedWorks": 1540,
+  "excelRowsWithCovers": 1468,
+  "recordsWithCovers": 1512,
+  "recordsWithMultipleCovers": 20,
+  "allAppBooksWithLocalCover": 1488,
+  "recommendableBooks": 1128,
+  "recommendableBooksWithLocalCover": 1113,
+  "recommendableExcelRowsWithLocalCover": 1095,
+  "localImageCount": 1496,
+  "quarantinedImageHashesReviewed": 6,
+  "visuallyApprovedWorks": 5,
+  "visuallyRejectedSourceImages": 1,
+  "editionNote": "Covers are attached to matched title/author catalog records; the physical Excel edition remains unverified. Open Library covers are illustrative.",
+  "profiles": [
+    {
+      "profile": "Basis / voetbal / spanning / weinig motivatie",
+      "books": [
+        {
+          "id": "b097",
+          "title": "Buitenspel",
+          "localCover": "assets/covers/e0a5ef730b4701b12c01269c045b2a8671d071c748a78a8a3dd75d33ba1036be.jpg"
+        },
+        {
+          "id": "b024",
+          "title": "Achtste-groepers huilen niet",
+          "localCover": "assets/covers/29dd5a75977c1963a130215cce10ef5b94ddb40de233e685d578a66b69676f85.jpg"
+        },
+        {
+          "id": "excel-Sheet-0492",
+          "title": "Cool als Collina",
+          "localCover": "assets/covers/1c2a9364df09c63c6cfe207408570bbd76cb8417b299bcaabadc00968399e28e.jpg"
+        },
+        {
+          "id": "excel-Sheet-1321",
+          "title": "Heerestraat & Rozenlaan",
+          "localCover": "assets/covers/e5a1ef21b8b2845648817efbbcfef9a5a93d79d9a64be228551b85c8dd4ffb87.jpg"
+        },
+        {
+          "id": "excel-Sheet-0630",
+          "title": "Tijdrovers",
+          "localCover": "assets/covers/7f4841bf60aa58b900fe4467038951801286865c34373f9f641dff8794f27a6f.jpg"
+        }
+      ]
+    },
+    {
+      "profile": "Kader / games / mysterie",
+      "books": [
+        {
+          "id": "b007",
+          "title": "Erebos",
+          "localCover": "assets/covers/3f5c64a12eadd6d2fc97ee3dc8c519019bd0bb503fc74298ae4d251b5d29662e.jpg"
+        },
+        {
+          "id": "b002",
+          "title": "Password",
+          "localCover": "assets/covers/744e891d1d017105dfd520cd7a052e19db9148872f8e3e2d3b0797badee4deed.jpg"
+        },
+        {
+          "id": "excel-Sheet-0333",
+          "title": "Superhelden2.nl",
+          "localCover": "assets/covers/19f5bb7734b5a0a64b751e2cfce3a375e46674834962f5936f3e171c8b7074e5.jpg"
+        },
+        {
+          "id": "b041",
+          "title": "Het leven van een loser: bekijk het maar!",
+          "localCover": "assets/covers/9c5b092a8dcbef5d5985a58a4e641c57ca5413f64840a913983a879326f7b998.jpg"
+        },
+        {
+          "id": "excel-Sheet-0275",
+          "title": "Glitch game",
+          "localCover": "assets/covers/722c30268d893f7fddca7b7b1662429a61a1fa204357acdde8efe4de935ade58.jpg"
+        }
+      ]
+    },
+    {
+      "profile": "GT / oorlog / geschiedenis",
+      "books": [
+        {
+          "id": "b019",
+          "title": "De jongen in de gestreepte pyjama",
+          "localCover": "assets/covers/e50f66e7864849648f84e9837074745d9229e503010f2243219703b5c9d8cb99.jpg"
+        },
+        {
+          "id": "b022",
+          "title": "De aanslag",
+          "localCover": "assets/covers/99491558d4893d522c2e59dbfe743b98fd36a2eac22f15d1e27cf14ec34b2987.jpg"
+        },
+        {
+          "id": "excel-Sheet-0454",
+          "title": "ijzeren maagd",
+          "localCover": "assets/covers/4c72f9e2dcb227bcaf86911349753a32845cf8695edc4e76a52bd7898767f6f5.jpg"
+        },
+        {
+          "id": "excel-Sheet-0127",
+          "title": "verwanten",
+          "localCover": "assets/covers/d5206f2916341ecf496ea445e82c69fb3630e8079c937b9b7401fbdb29db64f4.jpg"
+        },
+        {
+          "id": "excel-Sheet-0031",
+          "title": "Ik ben 15 jaar en wil niet sterven. Het beleg van Budapest door de Russen in 1944",
+          "localCover": "assets/covers/53d122dd7c45f63ffbb010ddf27ed0d6a3c9e58d4d3482f32b414c8a67737fad.jpg"
+        }
+      ]
+    },
+    {
+      "profile": "Kader / liefde / school",
+      "books": [
+        {
+          "id": "b031",
+          "title": "Radeloos",
+          "localCover": "assets/covers/55aaa36e2fabff8aae0364e7fa3df36369719a4a49e8efd7694552cc1d7f9fac.jpg"
+        },
+        {
+          "id": "b060",
+          "title": "Aan alle jongens van wie ik hield",
+          "localCover": "assets/covers/dc16fa546a16c0c505b3ac6eac8842f9c05868350c4ec51589cc0d1a8bb32a60.jpg"
+        },
+        {
+          "id": "b037",
+          "title": "Hoe overleef ik mijn eerste zoen",
+          "localCover": "assets/covers/3b9df1a395a1270cf850323a745b2b5e02312e3cd7edae51fad5164b411a9a63.jpg"
+        },
+        {
+          "id": "b064",
+          "title": "Eleanor & Park",
+          "localCover": "assets/covers/58629037a38a7f97cb8892fedf45b6beb856af93d8d752520d02ac9a2c5aebe8.jpg"
+        },
+        {
+          "id": "excel-Sheet-0654",
+          "title": "Niet te filmen! : een roman",
+          "localCover": "assets/covers/c2ce9dcc66b738c796af8cc277580e7e70f3013fde2060a52769f344a32bae09.jpg"
+        }
+      ]
+    },
+    {
+      "profile": "Basis / humor / weinig motivatie",
+      "books": [
+        {
+          "id": "b041",
+          "title": "Het leven van een loser: bekijk het maar!",
+          "localCover": "assets/covers/9c5b092a8dcbef5d5985a58a4e641c57ca5413f64840a913983a879326f7b998.jpg"
+        },
+        {
+          "id": "b049",
+          "title": "Sjakie en de chocoladefabriek",
+          "localCover": "assets/covers/74ec52b4994e311c39a71b3c58da4c6d7b964b3a385b13fe3218dabbf5fe0e43.jpg"
+        },
+        {
+          "id": "b060",
+          "title": "Aan alle jongens van wie ik hield",
+          "localCover": "assets/covers/dc16fa546a16c0c505b3ac6eac8842f9c05868350c4ec51589cc0d1a8bb32a60.jpg"
+        },
+        {
+          "id": "excel-Sheet-1479",
+          "title": "Vriendinnen door dik en dun",
+          "localCover": "assets/covers/c5be02f74d897ac3f6fafc60b3ff2060e66b7722e50aadba0a70ec09c464cc33.jpg"
+        },
+        {
+          "id": "excel-Sheet-0150",
+          "title": "derde zomer van de spijkerbroek",
+          "localCover": "assets/covers/a0d3f85f7f54826a87c0c61f18f9d5622640058940bfe7b01ec6f033bf0c1892.jpg"
+        }
+      ]
+    }
+  ]
+}

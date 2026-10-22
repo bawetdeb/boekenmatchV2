@@ -117,7 +117,7 @@ with sync_playwright() as p:
       appState.profile.level = 'gt';
       const recommend = matchingEngine.recommend.bind(matchingEngine);
       matchingEngine.recommend = (books, profile, limit, options) =>
-        recommend(books.filter(b => b.matchMode === 'evidence' && b.recommendationReady), profile, limit, options);
+        recommend(books.filter(b => b.matchMode === 'evidence' && b.recommendationReady && b.catalogCover), profile, limit, options);
     }''')
     page.locator('#next').click()
     assert page.locator('.book-card').count() > 0
@@ -129,6 +129,11 @@ with sync_playwright() as p:
     page.locator('dialog .source-details summary').click()
     assert page.locator('dialog .source-details a').count() > 0
     assert 'middelmatige zekerheid' in page.locator('dialog .source-details').inner_text()
+    page.wait_for_function('''() => {
+      const image = document.querySelector('dialog img[data-cover]');
+      return image.complete && image.naturalWidth > 70 && image.src.includes('/assets/covers/');
+    }''')
+    assert 'druk kan afwijken' in page.locator('dialog figcaption').inner_text()
     assert not errors, errors
     print('PASS: 8 steps, school years 1–4, progress/back, 12-interest and 5-theme limits, neutral choices, sliders, removed preferences neutral, modal, feedback, unseen alternatives, responsive sizes, reduced motion, session reload; no JavaScript errors')
     browser.close()

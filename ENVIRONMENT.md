@@ -70,3 +70,14 @@ rapport opnieuw worden gegenereerd en de bestaande tests opnieuw worden gedraaid
 Gevalideerd na verrijking: 31 JavaScript-tests, 18 Python-tests en de volledige
 browsertest, inclusief zoeken, paginering, onbekende niveaus, bronvermelding,
 feedback, nieuwe boeken zonder percentage en drie schermbreedtes.
+
+
+## Lokale catalogusomslagen
+
+`data/cover-catalog.json` koppelt gecontroleerde afbeeldingen aan titel en auteur;
+`assets/covers` bevat de lokale bestanden. De quiz heeft daarvoor geen externe
+API nodig. Andere drukken kunnen afwijken; gevonden varianten staan in de modal.
+`COVERS.md` beschrijft de controles en `node scripts/cover_report.cjs` reproduceert
+de dekking. De bestaande installatie via `requirements-dev.txt` installeert nu
+ook Pillow voor afbeeldingvalidatie. Verzamel omslagen niet bij elke app-start.
+Aanvullende browsercontrole: `/workspace/boekenmatch-tools/bin/python tests/covers.browser.test.py`.

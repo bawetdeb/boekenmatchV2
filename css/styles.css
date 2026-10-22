@@ -412,7 +412,7 @@ nav {
 .cover-wrap img {
   width: 100%;
   aspect-ratio: 320/460;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 10px 20px #23123620;
 }
@@ -917,3 +917,10 @@ h1 em {
 .source-details { margin: 16px 0; overflow-wrap: anywhere; }
 .source-details summary { cursor: pointer; font-weight: 700; }
 .source-details li { margin: 8px 0; }
+.cover-note { display: block; margin-top: 8px; color: var(--muted); font-size: 11px; line-height: 1.4; text-align: center; }
+.modal-content figure { margin: 0; min-width: 0; }
+.modal-content figure img { width: 100%; height: auto; }
+.cover-variants { margin-top: 16px; }
+.cover-variants button { padding: 4px; margin: 4px; border: 2px solid transparent; border-radius: 6px; background: #f3f1f8; }
+.cover-variants button[aria-pressed="true"] { border-color: #77459c; }
+.modal-content .cover-variants img { width: 48px; height: 72px; object-fit: contain; position: static; border-radius: 2px; }
